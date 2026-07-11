@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kejuu Universe - Divisi Jerman 🇩🇪</title>
+
+    <meta name="description" content="Belajar bahasa Jerman mudah: Pahami Satzbau, Grammatik, dan tabel kasus (Nominativ, Akkusativ, Dativ) di Kejuu.">
+    <link rel="canonical" href="https://kejuu.web.id/source/menu/deutsch/de.html">
+    <link rel="preconnect" href="https://unpkg.com" crossorigin>
+    <link rel="dns-prefetch" href="https://unpkg.com">
+   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4600838552332740"
+     crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="de.css">
+</head>
+<body>
+    
+    <div class="top-bar">
+        <a href="../../../index.html" class="back-btn" style="display: flex; align-items: center; gap: 8px; text-decoration: none;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M9 10h6c2.21 0 4 1.79 4 4s-1.79 4-4 4h-3v2h3c3.31 0 6-2.69 6-6s-2.69-6-6-6H9V4L3 9l6 5z"></path>
+            </svg>
+            home
+        </a>
+    </div>
+
+    <div class="container">
+        <div class="de-intro">
+            <h1>🇩🇪 Divisi Jerman</h1>
+            <p>Abt. Satzbau & Grammatik-Fälle (Classic Blueprint)</p>
+        </div>
+
+        <div class="de-focus-nav">
+            <button class="focus-btn active" onclick="switchTab('quiz')">🎯 Arena Latihan</button>
+            <button class="focus-btn" onclick="switchTab('museum')">🏛️ Museum Gramatikal</button>
+            <button class="focus-btn" onclick="switchTab('tabel')">📊 Tabel Kasus</button>
+        </div>
+
+        <section id="tab-quiz" class="de-panel active">
+            <div class="panel-header">
+                <h2>Mesin Satzbau ⚙️</h2>
+                <p>Ketuk kata untuk mengisi slot kasus yang tepat.</p>
+            </div>
+            
+            <div class="time-trainer-box" style="margin-bottom: 30px;">
+                <span class="time-label">Misi Terjemahan:</span>
+                <div id="mission-text" class="time-sentence">Memuat misi...</div>
+            </div>
+
+            <div class="batch-container">
+                <div class="sentence-slots" id="sentence-slots"></div>
+                <div class="word-bank" id="word-bank" style="margin-top: 20px;"></div>
+            </div>
+        </section>
+
+        <section id="tab-museum" class="de-panel">
+            <div class="panel-header">
+                <h2>Koleksi Kasus 📚</h2>
+                <p>Kartu flip akan terbuka setelah kamu menyelesaikan misinya.</p>
+            </div>
+            <div id="accordion-container" class="batch-container"></div>
+        </section>
+
+        <section id="tab-tabel" class="de-panel">
+            
+            <div class="panel-header">
+                <h2>Tabel Sakti Jerman 📊</h2>
+                <p>Contekan sakti perubahan kata ganti orang & kepemilikan berdasarkan Kasus.</p>
+            </div>
+            
+            <div class="table-wrapper" style="margin-bottom: 40px;">
+                <h3 style="color:#a78bfa; margin-bottom: 12px; font-size: 1.1rem;">  A. Personalpronomen (Subjek & Objek)</h3>
+                <table class="blueprint-table">
+                    <thead>
+                        <tr>
+                            <th>Arti</th>
+                            <th>Nominativ<br><span class="th-sub">(Subjek)</span></th>
+                            <th>Akkusativ<br><span class="th-sub">(Objek Langsung)</span></th>
+                            <th>Dativ<br><span class="th-sub">(Objek Tak Langsung)</span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Saya</td><td class="td-nom">ich</td><td class="td-akk">mich</td><td class="td-dat">mir</td></tr>
+                        <tr><td>Kamu</td><td class="td-nom">du</td><td class="td-akk">dich</td><td class="td-dat">dir</td></tr>
+                        <tr><td>Dia (Laki)</td><td class="td-nom">er</td><td class="td-akk">ihn</td><td class="td-dat">ihm</td></tr>
+                        <tr><td>Dia (Pr)</td><td class="td-nom">sie</td><td class="td-akk">sie</td><td class="td-dat">ihr</td></tr>
+                        <tr><td>Itu (Netral)</td><td class="td-nom">es</td><td class="td-akk">es</td><td class="td-dat">ihm</td></tr>
+                        <tr><td>Kami / Kita</td><td class="td-nom">wir</td><td class="td-akk">uns</td><td class="td-dat">uns</td></tr>
+                        <tr><td>Kalian</td><td class="td-nom">ihr</td><td class="td-akk">euch</td><td class="td-dat">euch</td></tr>
+                        <tr><td>Mereka</td><td class="td-nom">sie</td><td class="td-akk">sie</td><td class="td-dat">ihnen</td></tr>
+                        <tr><td>Anda (Sopan)</td><td class="td-nom">Sie</td><td class="td-akk">Sie</td><td class="td-dat">Ihnen</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="table-wrapper" style="margin-bottom: 30px;">
+                <h3 style="color:#00c6ff; margin-bottom: 12px; font-size: 1.1rem;">  B. Possessivpronomen (Akar Kata)</h3>
+                <table class="blueprint-table">
+                    <thead>
+                        <tr>
+                            <th>Subjek (Pronomen)</th>
+                            <th>Kepemilikan (Akar Kata)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>ich <span style="color:#aaa; font-size:0.85rem;">(Saya)</span></td><td style="color:#00d26a; font-weight:bold;">mein <span style="color:#aaa; font-weight:normal; font-size:0.85rem;">(milikku)</span></td></tr>
+                        <tr><td>du <span style="color:#aaa; font-size:0.85rem;">(Kamu)</span></td><td style="color:#00d26a; font-weight:bold;">dein <span style="color:#aaa; font-weight:normal; font-size:0.85rem;">(milikmu)</span></td></tr>
+                        <tr><td>er / es <span style="color:#aaa; font-size:0.85rem;">(Dia Lk/Netral)</span></td><td style="color:#00d26a; font-weight:bold;">sein <span style="color:#aaa; font-weight:normal; font-size:0.85rem;">(miliknya)</span></td></tr>
+                        <tr><td>sie <span style="color:#aaa; font-size:0.85rem;">(Dia Pr / Mereka)</span></td><td style="color:#00d26a; font-weight:bold;">ihr <span style="color:#aaa; font-weight:normal; font-size:0.85rem;">(miliknya/mereka)</span></td></tr>
+                        <tr><td>wir <span style="color:#aaa; font-size:0.85rem;">(Kita)</span></td><td style="color:#00d26a; font-weight:bold;">unser <span style="color:#aaa; font-weight:normal; font-size:0.85rem;">(milik kita)</span></td></tr>
+                        <tr><td>ihr <span style="color:#aaa; font-size:0.85rem;">(Kalian)</span></td><td style="color:#00d26a; font-weight:bold;">euer <span style="color:#aaa; font-weight:normal; font-size:0.85rem;">(milik kalian)</span></td></tr>
+                        <tr><td>Sie <span style="color:#aaa; font-size:0.85rem;">(Anda)</span></td><td style="color:#00d26a; font-weight:bold;">Ihr <span style="color:#aaa; font-weight:normal; font-size:0.85rem;">(milik Anda)</span></td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="table-wrapper">
+                <h3 style="color:#ff9f43; margin-bottom: 12px; font-size: 1.1rem;">  C. Akhiran Berdasarkan Kasus (Contoh: mein)</h3>
+                <table class="blueprint-table">
+                    <thead>
+                        <tr>
+                            <th>Kasus</th>
+                            <th>Maskulin<br><span class="th-sub">(der)</span></th>
+                            <th>Feminin<br><span class="th-sub">(die)</span></th>
+                            <th>Neutral<br><span class="th-sub">(das)</span></th>
+                            <th>Plural<br><span class="th-sub">(die)</span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><b>Nominativ</b><br><span style="font-size:0.75rem; color:#aaa;">(Subjek)</span></td>
+                            <td class="td-nom">mein</td>
+                            <td class="td-nom">mein<b style="color:#ff4757;">e</b></td>
+                            <td class="td-nom">mein</td>
+                            <td class="td-nom">mein<b style="color:#ff4757;">e</b></td>
+                        </tr>
+                        <tr>
+                            <td><b>Akkusativ</b><br><span style="font-size:0.75rem; color:#aaa;">(Objek Langsung)</span></td>
+                            <td class="td-akk">mein<b style="color:#ff4757;">en</b></td>
+                            <td class="td-akk">mein<b style="color:#ff4757;">e</b></td>
+                            <td class="td-akk">mein</td>
+                            <td class="td-akk">mein<b style="color:#ff4757;">e</b></td>
+                        </tr>
+                        <tr>
+                            <td><b>Dativ</b><br><span style="font-size:0.75rem; color:#aaa;">(Objek Tak Langsung)</span></td>
+                            <td class="td-dat">mein<b style="color:#ff4757;">em</b></td>
+                            <td class="td-dat">mein<b style="color:#ff4757;">er</b></td>
+                            <td class="td-dat">mein<b style="color:#ff4757;">em</b></td>
+                            <td class="td-dat">mein<b style="color:#ff4757;">en</b></td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div style="background: rgba(255, 71, 87, 0.1); border-left: 3px solid #ff4757; padding: 10px; border-radius: 8px; margin-top: 15px;">
+                    <p style="color:#aaa; font-size:0.85rem; font-style:italic; margin: 0;">💡 <b>Tips:</b> Akhiran merah (<b style="color:#ff4757;">-e, -en, -em, -er</b>) berlaku buat semua akar kata kepemilikan. (Contoh: dein jadi dein<b style="color:#ff4757;">em</b>).</p>
+                </div>
+            </div>
+            
+        </section>
+
+    </div> <script src="de.js" defer></script>
+</body>
+</html>

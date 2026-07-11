@@ -1,0 +1,162 @@
+/* --- HEADER UTAMA --- */
+.main-header {
+    width: 100%;
+    height: 70px;
+    background: rgba(0, 128, 128, 0.4);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    transition: top 0.3s ease-in-out;
+}
+
+.header-content {
+    height: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.6rem;
+    font-weight: 900;
+    text-decoration: none;
+    letter-spacing: 1px;
+    background: linear-gradient(25deg, #40E0D0, #b794f4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0px 0px 8px rgba(255, 59, 59, 0.4));
+}
+
+/* --- NAV TOGGLE (ANIMASI SILANG X) --- */
+.menu-toggle {
+    width: 30px;
+    height: 22px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 10002;
+    transition: transform 1.1 ease;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: white;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out; /* Durasi animasi silang */
+}
+
+/* LOGIKA ANIMASI SILANG (X) PAS AKTIF */
+.menu-toggle.is-active span:nth-child(1) {
+    transform: translateY(9.5px) rotate(45deg);
+}
+
+.menu-toggle.is-active span:nth-child(2) {
+    opacity: 0; /* Garis tengah hilang */
+}
+
+.menu-toggle.is-active span:nth-child(3) {
+    transform: translateY(-9.5px) rotate(-45deg);
+}
+
+
+.dropdown-container {
+    position: absolute;
+    top: 70px; 
+    right: 20px; 
+    background: rgba(30, 30, 30, 0.75); 
+    backdrop-filter: blur(12px); 
+    -webkit-backdrop-filter: blur(12px); 
+    border: 1px solid rgba(255, 255, 255, 0.1); 
+    border-radius: 16px;
+    padding: 10px 0;
+    min-width: 160px;
+    
+    /* ANIMASI NGUMPET */
+    opacity: 0;
+    transform: translateY(-15px); 
+    visibility: hidden;
+    transition: all 0.3s cubic-bezier(0.2, 0, 0.2, 1); 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); 
+}
+
+/* KONDISI MUNCUL (Bisa trigger .active atau .show dari JS) */
+.dropdown-container.active,
+.dropdown-container.show {
+    opacity: 1;
+    transform: translateY(0); 
+    visibility: visible;
+}
+
+
+.dropdown-container a {
+    display: block;
+    padding: 12px 20px; 
+    color: ivory;
+    text-decoration: none;
+    font-size: 0.95rem; 
+    font-weight: 600;
+    text-transform: capitalize; 
+    text-align: left; 
+    transition: background 0.2s, color 0.2s;
+    text-align: center;
+}
+
+
+.dropdown-container a:hover, 
+.dropdown-container a:active {
+    background: rgba(255, 255, 255, 0.1); 
+    color: #b794f4;
+}
+
+/* =========================================
+   TOMBOL MODE FOKUS & LOGIKA HEADER
+   ========================================= */
+.btn-focus {
+    background: transparent;
+    border: none;
+    color: lavender;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    padding: 5px 10px;
+}
+
+.btn-focus:hover {
+    color: #00c6ff;
+    transform: scale(1.1);
+}
+
+/* Animasi Tombol Nyala Saat Fokus Aktif */
+.btn-focus.is-active {
+    color: #00d26a;
+    animation: pulseFocus 2s infinite;
+}
+
+@keyframes pulseFocus {
+    0%, 100% { filter: drop-shadow(0 0 5px rgba(0, 210, 106, 0.4)); transform: scale(1.3); }
+    50% { filter: drop-shadow(0 0 15px rgba(0, 210, 106, 0.8)); transform: scale(1.5); }
+}
+
+/* SAAT MODE FOKUS AKTIF: Header berubah drastis! */
+body.focus-mode-active .main-header {
+    background: transparent !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    border-bottom: none;
+    box-shadow: none;
+}
+
+/* Redupkan logo & Hilangkan tombol menu agar tidak mengganggu */
+body.focus-mode-active .logo { opacity: 0.3; transition: 0.5s; }
+body.focus-mode-active .menu-toggle { opacity: 0; pointer-events: none; transition: 0.3s; }

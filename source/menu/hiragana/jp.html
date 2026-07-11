@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Studio Kana</title>
+  <meta name="description" content="Belajar hiragana, katakana, partikel dasar, kuis, kamus JLPT, dan latihan menulis dalam satu studio belajar.">
+   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4600838552332740"
+     crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Noto+Serif+JP:wght@500;700;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="huruf.css">
+  <link rel="stylesheet" href="sketch.css">
+  <link rel="stylesheet" href="asisten.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+  <div class="page-shell">
+    <div class="page-noise"></div>
+
+    <header class="main-header" data-siluman="true">
+      <div class="header-content">
+        <a href="#" class="logo">Kejuu<span>Kana</span></a>
+
+        <div class="header-actions">
+          <button id="btn-focus" class="btn-focus" type="button" title="Aktifkan mode fokus">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M16 5h-3V2h-2v3H8l4 4zm-5 17h2v-3h3l-4-4-4 4h3zM3 11h3v2H3zm5 0h3v2H8zm5 0h3v2h-3zm5 0h3v2h-3z"></path>
+            </svg>
+            <span>Focus</span>
+          </button>
+          <button id="heroQuizBtn" class="accent-btn header-quiz-btn" type="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M11 18h2v-2h-2zm1-16C6.48 2 2 5.58 2 10c0 2.38 1.31 4.47 3.3 5.93L4 22l5.43-2.71c.82.19 1.68.29 2.57.29 5.52 0 10-3.58 10-8s-4.48-8-10-8zm0 14c-.73 0-1.44-.08-2.11-.23l-.61-.14-2.89 1.45.69-3.11-.47-.33C5.63 12.96 5 11.54 5 10c0-2.76 3.14-5 7-5s7 2.24 7 5-3.14 5-7 5zm0-9c-1.93 0-3.5 1.57-3.5 3.5h2c0-.83.67-1.5 1.5-1.5S13.5 8.67 13.5 9.5c0 .52-.27 1-.73 1.27-.79.47-1.27 1.23-1.27 2.23V14h2v-.5c0-.31.16-.59.42-.74A3.48 3.48 0 0 0 15.5 9.5C15.5 8.12 14.38 7 13 7z"></path>
+            </svg>
+            <span>Buka Kuis</span>
+          </button>
+          <button class="menu-toggle" id="navBtn" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="navMenu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="dropdown-container" id="navMenu">
+        <button class="menu-item" type="button" data-tab-jump="hiragana">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4H20v15H6.5A2.5 2.5 0 0 0 4 21.5zm2.5-.5A1.5 1.5 0 0 0 5 7.5v10A3.48 3.48 0 0 1 6.5 17H18V6zM8 8h7v2H8zm0 4h8v2H8z"></path></svg>
+          <span>Hiragana</span>
+        </button>
+        <button class="menu-item" type="button" data-tab-jump="partikel">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v4H4zm0 6h10v4H4zm0 6h16v4H4z"></path></svg>
+          <span>Partikel</span>
+        </button>
+        <button class="menu-item" type="button" data-tab-jump="katakana">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h14v2H5zm2 4h10v2H7zm-2 4h14v2H5zm4 4h6v2H9z"></path></svg>
+          <span>Katakana</span>
+        </button>
+        <button class="menu-item" type="button" data-tab-jump="sketch">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="m3 17.25 9.81-9.82 3.76 3.76L6.75 21H3zm14.71-9.04-3.75-3.75 1.83-1.83a1 1 0 0 1 1.41 0l2.34 2.34a1 1 0 0 1 0 1.41z"></path></svg>
+          <span>Sketch</span>
+        </button>
+        <button class="menu-item" type="button" data-tab-jump="kosakata">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 2a8 8 0 1 0 5.29 14l4.35 4.35 1.41-1.41-4.35-4.35A8 8 0 0 0 10 2m0 2a6 6 0 1 1 0 12 6 6 0 0 1 0-12"></path></svg>
+          <span>Kamus</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="main-stage">
+      <section class="hero-panel">
+        <div class="hero-copy">
+          <p class="eyebrow">Belajar Jepang interaktif</p>
+          <h1>Hiragana, Katakana, partikel, dan kamus dalam satu studio belajar.</h1>
+          <p class="hero-text">
+            Navigasi utama dibuat sederhana: 4 menu utama di kapsul bawah. Swipe ke atas untuk menu tambahan (Kuis, Asisten, Sketch).
+          </p>
+
+          <div class="hero-pills">
+            <button class="quick-pill" type="button" data-tab-jump="hiragana">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4H20v15H6.5A2.5 2.5 0 0 0 4 21.5zm2.5-.5A1.5 1.5 0 0 0 5 7.5v10A3.48 3.48 0 0 1 6.5 17H18V6z"></path></svg>
+              <span>Mulai dari Hiragana</span>
+            </button>
+            <button class="quick-pill" type="button" data-tab-jump="katakana">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h14v2H5zm2 4h10v2H7zm-2 4h14v2H5zm4 4h6v2H9z"></path></svg>
+              <span>Bandingkan Katakana</span>
+            </button>
+            <button class="quick-pill" type="button" data-tab-jump="kosakata">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 2a8 8 0 1 0 5.29 14l4.35 4.35 1.41-1.41-4.35-4.35A8 8 0 0 0 10 2"></path></svg>
+              <span>Buka Kamus</span>
+            </button>
+            <button id="heroQuizGhostBtn" class="ghost-btn hero-secondary-btn" type="button">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M11 18h2v-2h-2zm1-16C6.48 2 2 5.58 2 10c0 2.38 1.31 4.47 3.3 5.93L4 22l5.43-2.71c.82.19 1.68.29 2.57.29 5.52 0 10-3.58 10-8s-4.48-8-10-8z"></path></svg>
+              <span>Main Kuis</span>
+            </button>
+          </div>
+        </div>
+
+        <aside class="hero-aside">
+          <div class="hero-card">
+            <span class="hero-card-label">Gaya antarmuka</span>
+            <strong>Native-like, cepat, dan halus</strong>
+            <p>Swipe, snap, dan animasi dibuat lebih “rasa mobile” untuk PWA.</p>
+          </div>
+          <div class="hero-metrics">
+            <div class="metric">
+              <span>Kana</span>
+              <strong>100+</strong>
+            </div>
+            <div class="metric">
+              <span>Partikel</span>
+              <strong>Dasar</strong>
+            </div>
+            <div class="metric">
+              <span>Kamus</span>
+              <strong>N5-N3</strong>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <!-- 4 menu utama -->
+      <nav class="section-nav" aria-label="Navigasi materi">
+        <button class="tab-btn active" type="button" data-tab="hiragana"><span>あ</span> Hiragana</button>
+        <button class="tab-btn" type="button" data-tab="partikel"><span>助</span> Partikel</button>
+        <button class="tab-btn" type="button" data-tab="katakana"><span>ア</span> Katakana</button>
+        <button class="tab-btn" type="button" data-tab="kosakata">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 2a8 8 0 1 0 5.29 14l4.35 4.35 1.41-1.41-4.35-4.35A8 8 0 0 0 10 2"></path></svg>
+          Kamus
+        </button>
+      </nav>
+
+      <div class="container-grid">
+        <!-- SECTION: hiragana / partikel / katakana / sketch / kosakata
+             Section HTML diambil dari versi sebelumnya agar logic `huruf.js` tetap kompatibel. -->
+
+        <!-- Hiragana -->
+        <section id="hiragana" class="content-section active">
+          <div class="section-heading">
+            <p class="section-kicker">Pondasi baca</p>
+            <h2>Hiragana</h2>
+            <p>Grid tetap konsisten supaya mata cepat mengenali pola baris dan bunyi.</p>
+          </div>
+
+          <div class="study-stack">
+            <div class="study-block">
+              <div class="subsection-head">
+                <span>A</span>
+                <h3>Hiragana Seion</h3>
+              </div>
+              <div class="huruf-grid" id="grid-h-seion"></div>
+            </div>
+
+            <div class="study-block">
+              <div class="subsection-head">
+                <span>B</span>
+                <h3>Dakuten</h3>
+              </div>
+              <div class="huruf-grid" id="grid-h-dakuten"></div>
+            </div>
+
+            <div class="study-block">
+              <div class="subsection-head">
+                <span>C</span>
+                <h3>Handakuten</h3>
+              </div>
+              <div class="huruf-grid" id="grid-h-handakuten"></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Partikel -->
+        <section id="partikel" class="content-section">
+          <div class="section-heading">
+            <p class="section-kicker">Pola kalimat</p>
+            <h2>Partikel dan frasa dasar</h2>
+            <p>Kartu penjelasan dan tabel dipisah jelas supaya gampang dibaca saat belajar cepat.</p>
+          </div>
+
+          <div class="study-stack">
+            <div class="study-block">
+              <div class="subsection-head">
+                <span>A</span>
+                <h3>Partikel dasar</h3>
+              </div>
+              <div class="partikel-container" id="container-partikel"></div>
+            </div>
+
+            <div class="study-block">
+              <div class="subsection-head">
+                <span>B</span>
+                <h3>Kata hubung</h3>
+              </div>
+              <div class="table-shell"><table class="jp-table" id="tbl-hubung"></table></div>
+            </div>
+
+            <div class="study-block">
+              <div class="subsection-head">
+                <span>C</span>
+                <h3>Penunjuk waktu</h3>
+              </div>
+              <div class="table-shell"><table class="jp-table" id="tbl-waktu"></table></div>
+            </div>
+
+            <div class="study-block">
+              <div class="subsection-head">
+                <span>D</span>
+                <h3>Frekuensi</h3>
+              </div>
+              <div class="table-shell"><table class="jp-table" id="tbl-frekuensi"></table></div>
+            </div>
+
+            <div class="study-block">
+              <div class="subsection-head">
+                <span>E</span>
+                <h3>Nama bulan</h3>
+              </div>
+              <div class="table-shell"><table class="jp-table" id="tbl-bulan"></table></div>
+            </div>
+
+            <div class="study-block">
+              <div class="subsection-head">
+                <span>F</span>
+                <h3>Warna dasar</h3>
+              </div>
+              <div class="table-shell"><table class="jp-table" id="tbl-warna"></table></div>
+            </div>
+
+            <div class="study-block">
+              <div class="subsection-head">
+                <span>G</span>
+                <h3>Ungkapan sehari-hari</h3>
+              </div>
+              <div class="table-shell"><table class="jp-table" id="tbl-ungkapan"></table></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Katakana -->
+        <section id="katakana" class="content-section">
+          <div class="section-heading">
+            <p class="section-kicker">Pola visual sejajar</p>
+            <h2>Katakana</h2>
+            <p>Posisi grid sengaja dijaga tetap senada dengan Hiragana supaya perpindahan latihan terasa natural.</p>
+          </div>
+
+          <div class="study-stack">
+            <div class="study-block">
+              <div class="subsection-head">
+                <span>A</span>
+                <h3>Katakana Seion</h3>
+              </div>
+              <div class="huruf-grid" id="grid-k-seion"></div>
+            </div>
+
+            <div class="study-block">
+              <div class="subsection-head">
+                <span>B</span>
+                <h3>Dakuten</h3>
+              </div>
+              <div class="huruf-grid" id="grid-k-dakuten"></div>
+            </div>
+
+            <div class="study-block">
+              <div class="subsection-head">
+                <span>C</span>
+                <h3>Handakuten</h3>
+              </div>
+              <div class="huruf-grid" id="grid-k-handakuten"></div>
+            </div>
+
+            <div class="study-block">
+              <div class="subsection-head">
+                <span>D</span>
+                <h3>Yoon</h3>
+              </div>
+              <div class="huruf-grid grid-3" id="grid-yoon"></div>
+            </div>
+
+            <div class="study-block">
+              <div class="subsection-head">
+                <span>E</span>
+                <h3>Huruf khusus</h3>
+              </div>
+              <div class="huruf-grid grid-khusus" id="grid-khusus"></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Sketch (dibuka dari bottom sheet / menu) -->
+        <section id="sketch" class="content-section">
+          <div class="section-heading">
+            <p class="section-kicker">Latihan tulis</p>
+            <h2>Sketch kana ke JSON</h2>
+            <p>Pilih script, ganti target huruf, lalu gambar stroke bebas.</p>
+          </div>
+
+          <div class="study-stack">
+            <div class="study-block sketch-stage">
+              <div class="subsection-head">
+                <span>A</span>
+                <h3>Target latihan</h3>
+              </div>
+
+              <div class="sketch-header">
+                <div class="sketch-script-tabs" role="tablist" aria-label="Pilih script kana">
+                  <button class="sketch-script-tab active" type="button" data-sketch-script="hiragana"><span>あ</span> Hiragana</button>
+                  <button class="sketch-script-tab" type="button" data-sketch-script="katakana"><span>ア</span> Katakana</button>
+                </div>
+
+                <label class="sketch-select-wrap">
+                  <span>Kategori</span>
+                  <select id="sketchCategory">
+                    <option value="all">Semua</option>
+                    <option value="seion">Seion</option>
+                    <option value="dakuten">Dakuten</option>
+                    <option value="handakuten">Handakuten</option>
+                    <option value="yoon">Yoon</option>
+                    <option value="khusus">Khusus</option>
+                  </select>
+                </label>
+              </div>
+
+              <div class="sketch-practice-grid">
+                <div class="sketch-target-card">
+                  <p class="sketch-kicker">Target aktif</p>
+                  <div id="sketchTargetKana" class="sketch-target-kana">あ</div>
+                  <div id="sketchTargetRomaji" class="sketch-target-romaji">a</div>
+                  <p id="sketchTargetMeta" class="sketch-target-meta">Hiragana • Seion</p>
+                  <div class="sketch-target-actions">
+                    <button id="nextKana" class="accent-btn" type="button">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4V1L8 5l4 4V6c3.31 0 6 2.69 6 6a6 6 0 0 1-6 6c-2.97 0-5.43-2.16-5.91-5H4.07c.5 3.95 3.86 7 7.93 7 4.41 0 8-3.59 8-8s-3.59-8-8-8"></path></svg>
+                      <span>Huruf berikutnya</span>
+                    </button>
+                    <button id="saveSketchJson" class="ghost-btn" type="button">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 9h-4V3H9v6H5l7 7z"></path><path d="M5 18v2h14v-2z"></path></svg>
+                      <span>Ekspor JSON</span>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="sketch-board-card">
+                  <div class="sketch-toolbar">
+                    <label class="sketch-range-wrap">
+                      <span>Ketebalan</span>
+                      <input id="brushSize" type="range" min="2" max="18" value="6">
+                    </label>
+                    <div class="sketch-actions">
+                      <button id="helperGuideBtn" class="ghost-btn sketch-guide-btn" type="button" title="Tampilkan bayangan huruf panduan di tengah grid">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"></path></svg>
+                        <span>Bantuan</span>
+                      </button>
+                      <button id="undoSketch" class="ghost-btn" type="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6 0 1.12-.31 2.17-.85 3.07l1.46 1.46A7.93 7.93 0 0 0 20 13c0-4.41-3.59-8-8-8"></path><path d="M6.39 16.56A5.96 5.96 0 0 1 6 13H4c0 2.21.9 4.21 2.34 5.66z"></path></svg>
+                        <span>Undo</span>
+                      </button>
+                      <button id="clearSketch" class="ghost-btn" type="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M16 9v10H8V9zm-1.5-6h-5l-1 1H5v2h14V4h-3.5z"></path></svg>
+                        <span>Clear</span>
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="sketch-canvas-shell">
+                    <canvas id="sketchCanvas" width="720" height="520" aria-label="Canvas sketch kana"></canvas>
+                    <div class="sketch-guide guide-1"></div>
+                    <div class="sketch-guide guide-2"></div>
+                    <div class="sketch-guide guide-3"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="sketch-json-panel">
+                <div class="subsection-head compact">
+                  <span>B</span>
+                  <h3>JSON hasil stroke</h3>
+                </div>
+                <pre id="sketchJsonOutput" class="sketch-json-output">{
+  "script": "hiragana",
+  "kana": "あ",
+  "romaji": "a",
+  "strokes": []
+}</pre>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Kamus -->
+        <section id="kosakata" class="content-section">
+          <div class="section-heading">
+            <p class="section-kicker">Jelajah kata</p>
+            <h2>Kamus JLPT</h2>
+            <p>Cari cepat, ganti level, lalu filter jenis kata.</p>
+          </div>
+
+          <div class="vocab-shell">
+            <div class="level-container">
+              <button class="level-tab active" id="tab-n5" type="button" data-level="n5">N5</button>
+              <button class="level-tab" id="tab-n4" type="button" data-level="n4">N4</button>
+              <button class="level-tab" id="tab-n3" type="button" data-level="n3">N3</button>
+            </div>
+
+            <div class="vocab-toolbar">
+              <label class="search-field">
+                <span>Cari kata</span>
+                <input type="text" id="vocabSearch" class="vocab-search" placeholder="Kana, romaji, atau arti">
+              </label>
+
+              <div class="filter-container-inline">
+                <button id="btn-filter" class="btn-filter-icon" type="button" aria-label="Buka filter">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="m13.45 10.11-10-5c-.31-.15-.68-.14-.97.04s-.47.5-.47.85v10c0 .38.21.73.55.89l10 5a.997.997 0 0 0 1.45-.89V11c0-.38-.21-.73-.55-.89ZM12 19.39l-8-4V7.63l8 4z"></path>
+                    <path d="m17.45 8.11-10-5-.89 1.79 9.45 4.72V19h2V9c0-.38-.21-.73-.55-.89Z"></path>
+                    <path d="m21.45 6.11-10-5-.89 1.79 9.45 4.72V17h2V7c0-.38-.21-.73-.55-.89Z"></path>
+                  </svg>
+                  <span>Filter</span>
+                </button>
+                <div id="filter-menu" class="filter-menu">
+                  <button class="filter-option active" type="button" data-tipe="semua"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="m12 16-8-4 8-4 8 4-8 4zm0-10.5-5.5 2.75L12 11l5.5-2.75L12 5.5zM12 21l-8-4v-2.5l8 4 8-4V17l-8 4z"></path></svg><span>Semua</span></button>
+                  <button class="filter-option" type="button" data-tipe="verb"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 5.5c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zM9.8 8.9L7 23h2.1l1.8-8 2.1 2v6h2v-7.5l-2.1-2 .6-3C14.8 12 16.8 13 19 13v-2c-1.9 0-3.5-1-4.3-2.4l-1-1.6c-.4-.6-1-1-1.7-1-.3 0-.5.1-.8.1L6 8.3V13h2V9.6l1.8-.7"></path></svg><span>Verb</span></button>
+                  <button class="filter-option" type="button" data-tipe="adjective"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z"></path></svg><span>Adjective</span></button>
+                  <button class="filter-option" type="button" data-tipe="noun"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M21 9.44L12 4.06 3 9.44v5.12L12 19.94l9-5.38V9.44zM12 6.27l5.3 3.18-5.3 3.18-5.3-3.18L12 6.27zm-7 4.29l5.5 3.3v5.43L5 15.99v-5.43zm14 5.43l-5.5 3.3v-5.43l5.5-3.3v5.43z"></path></svg><span>Noun</span></button>
+                  <button class="filter-option" type="button" data-tipe="pronoun"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0-6c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm0 7c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4zm-6 4c.22-.72 3.31-2 6-2 2.7 0 5.8 1.29 6 2H6z"></path></svg><span>Pronoun</span></button>
+                  <button class="filter-option" type="button" data-tipe="adverb"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zm.293-12h-2v6.414l4.293 4.293 1.414-1.414L12.293 13.586V8z"></path></svg><span>Adverb</span></button>
+                  <button class="filter-option" type="button" data-tipe="ungkapan"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20 2H4c-1.103 0-2 .897-2 2v18l5.333-4H20c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm0 14H6.667L4 18V4h16v12z"></path><path d="M7 6h10v2H7zm0 4h10v2H7z"></path></svg><span>Ungkapan</span></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="vocab-meta">
+              <p id="vocabCount">Menampilkan 0 kata</p>
+              <button id="clearSearch" class="text-btn" type="button">Reset pencarian</button>
+            </div>
+
+            <div id="wadah-kosa-kata" class="vocab-grid"></div>
+            <div id="vocabEmpty" class="empty-state" hidden>Tidak ada kata yang cocok dengan pencarianmu.</div>
+            <button id="loadMoreVocab" class="load-more" type="button">Muat lebih banyak</button>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- 4 menu utama di kapsul bawah -->
+    <nav class="mobile-dock" aria-label="Navigasi cepat (4 menu utama)">
+      <button class="tab-btn active" type="button" data-tab="hiragana"><span>あ</span> Hiragana</button>
+      <button class="tab-btn" type="button" data-tab="partikel"><span>助</span> Partikel</button>
+      <button class="tab-btn" type="button" data-tab="katakana"><span>ア</span> Katakana</button>
+      <button class="tab-btn" type="button" data-tab="kosakata"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 2a8 8 0 1 0 5.29 14l4.35 4.35 1.41-1.41-4.35-4.35A8 8 0 0 0 10 2"></path></svg> Kamus</button>
+    </nav>
+
+    <!-- Handle/tombol kecil: swipe up atau tap untuk menu tambahan -->
+    <button id="btn-trigger-sheet" class="dock-handle-btn" type="button" aria-label="Buka menu tambahan"></button>
+
+    <button id="btnBackToTop" class="btn-back-to-top" type="button" aria-label="Kembali ke atas">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M13 22v-9.59l4.29 4.3 1.42-1.42L12 8.59l-6.71 6.7 1.42 1.42 4.29-4.3V22z"></path>
+        <path d="M12 2c-4.96 0-9 4.04-9 9h2c0-3.86 3.14-7 7-7s7 3.14 7 7h2c0-4.96-4.04-9-9-9"></path>
+      </svg>
+    </button>
+    <div id="selectionToast" class="selection-toast" aria-live="polite"></div>
+
+    <!-- Bottom sheet: menu tambahan (swipe up untuk buka) -->
+    <div id="bottom-sheet" class="bottom-sheet-overlay" aria-hidden="true">
+      <div id="sheet-content" class="bottom-sheet-content" role="dialog" aria-modal="true">
+        <div class="drag-handle" aria-hidden="true"></div>
+        <div class="sheet-header">
+          <h3>Menu lainnya</h3>
+        </div>
+        <div class="sheet-body">
+          <button id="btn-kuis-sheet" class="sheet-item" type="button">
+            <div class="sheet-icon">🧩</div>
+            <div class="sheet-text">
+              <strong>Kuis</strong>
+              <p>Main kuis susun romaji</p>
+            </div>
+          </button>
+
+          <button id="btn-buka-ai" class="sheet-item" type="button">
+            <div class="sheet-icon">✨</div>
+            <div class="sheet-text">
+              <strong>AI Asisten</strong>
+              <p>Tanya jawab bersama AI</p>
+            </div>
+          </button>
+
+          <button id="btn-sketch-sheet" class="sheet-item" type="button" data-tab-jump="sketch">
+            <div class="sheet-icon">✍️</div>
+            <div class="sheet-text">
+              <strong>Sketch</strong>
+              <p>Latihan menulis kana</p>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- AI modal -->
+    <div id="modal-ai" class="ai-modal-overlay" aria-hidden="true">
+      <div class="ai-modal-content" role="dialog" aria-modal="true">
+        <div class="ai-header">
+          <div>
+            <p class="ai-kicker">KEJUU</p>
+            <h3>AI Sensei</h3>
+          </div>
+          <button id="btn-tutup-ai" class="close-btn" type="button" aria-label="Tutup">✕</button>
+        </div>
+
+        <p class="ai-desc">Tanyakan apa saja tentang bahasa Jepang. Jawaban singkat dan jelas dalam bahasa Indonesia.</p>
+
+        <textarea id="ai-input" class="ai-textarea" placeholder="Tanya sesuatu..."></textarea>
+        <button id="btn-tanya-ai" class="accent-btn w-full" type="button">Tanyakan Sekarang</button>
+
+        <div id="ai-response-container" class="ai-response-box" hidden>
+          <div id="ai-loader" class="ai-loader">
+            <span></span><span></span><span></span>
+          </div>
+          <div id="ai-response-text" class="ai-text-result"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal kuis (tetap kompatibel dengan logic `huruf.js`) -->
+    <div id="modalKuis" class="modal-kuis-overlay" aria-hidden="true">
+      <div class="modal-kuis-content">
+        <div class="kuis-header">
+          <div>
+            <p class="kuis-overline">Mini challenge</p>
+            <h3>Kuis susun romaji</h3>
+          </div>
+          <span id="kuisLevel" class="badge-level">N5</span>
+        </div>
+
+        <p class="kuis-instruksi">Susun huruf menjadi romaji yang cocok dari arti berikut.</p>
+        <h2 id="kuisArti" class="kuis-arti">Makan</h2>
+        <button id="kuisHint" class="kuis-hint" type="button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 21h6v-1H9zm3-20C8.14 1 5 4.14 5 8c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-3.26c1.81-1.27 3-3.36 3-5.74 0-3.86-3.14-7-7-7m2.85 11.1-.85.6V16h-4v-3.3l-.85-.6A4.98 4.98 0 0 1 7 8c0-2.76 2.24-5 5-5s5 2.24 5 5a4.98 4.98 0 0 1-2.15 4.1"></path></svg>
+          <span>Hint</span>
+        </button>
+
+        <div id="tempatJawaban" class="wadah-jawaban"></div>
+        <div id="tempatHurufAcak" class="wadah-huruf-acak"></div>
+        <p id="pesanKuis" class="pesan-kuis"></p>
+
+        <div class="kuis-aksi">
+          <button id="btnRerollKuis" class="ghost-btn" type="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4V1L8 5l4 4V6c3.31 0 6 2.69 6 6a6 6 0 0 1-6 6c-2.97 0-5.43-2.16-5.91-5H4.07c.5 3.95 3.86 7 7.93 7 4.41 0 8-3.59 8-8s-3.59-8-8-8"></path></svg>
+            <span>Ganti soal</span>
+          </button>
+          <button id="btnTutupKuis" class="accent-btn" type="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+            <span>Tutup</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JS utama dari upload -->
+  <script src="huruf.js"></script>
+
+  <!-- JS bottom sheet + AI (dibuat final di workspace) -->
+  <script src="asisten.js"></script>
+</body>
+</html>

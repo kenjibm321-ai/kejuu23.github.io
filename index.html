@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <title>KEJUU languages learning</title>
+  <meta name="description" content="Belajar bahasa international interaktif menyenangkan yaitu (Jepang, Inggris, Jerman, Korea) hanya di Kejuu! Tidak perlu membayar mahal, cukup sediakan akses internet yang memadai bisa langsung akses halaman kami.">
+  
+  <link rel="icon" type="image/png" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4600838552332740"
+     crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://unpkg.com" crossorigin>
+  <link rel="dns-prefetch" href="https://unpkg.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="stylesheet" href="source/style.css">
+  <link rel="stylesheet" href="source/header/header.css">
+  
+  <link rel="preload" href="source/search/omni.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="source/search/omni.css"></noscript>
+</head>
+<body>
+
+  <main class="main-container">
+    
+    <section class="hero">
+      <h1 data-dynamic="false" style="color: #00c6ff;">Konnichiwa!</h1> 
+      <p style="color: #dcdde1;">Pilih bahasamu, sesuaikan gaya belajarmu sendiri!. Hari ini mau coba yang mana?</p>
+
+      <div class="hero-buttons">
+        <button id="btn-practice" class="btn-primary">Mulai dari sekarang</button>
+        <button id="btn-continue" class="btn-secondary">Lanjutkan Kursus</button>
+        
+        <button id="btn-chat-ai" class="btn-primary" style="background: linear-gradient(45deg, #00796b, #00c6ff); border-color: #00796b; display: inline-flex; align-items: center; gap: 8px;" aria-label="Buka fitur Chat AI">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a9 9 0 0 0-9 9v11l3-2 3 2 3-2 3 2 3-2 3 2V11a9 9 0 0 0-9-9zm5 11h-2v-2h2v2zm-6-2v2H9v-2h2z"></path></svg> AI Trainer
+        </button>
+        
+        <button id="btn-omni" class="btn-omni" aria-label="Buka fitur pencarian kata (Omni Search)" style="display: inline-flex; align-items: center; gap: 8px;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 24 24">
+            <path d="m6.71 18.71 7.29-7.3V16h2V8H8v2h4.59l-7.3 7.29z"></path>
+            <path d="M12 2C9.33 2 6.82 3.04 4.93 4.93S2 9.33 2 12h2c0-2.14.83-4.15 2.34-5.66S9.86 4 12 4s4.15.83 5.66 2.34S20 9.86 20 12s-.83 4.15-2.34 5.66S14.14 20 12 20v2c2.67 0 5.18-1.04 7.07-2.93S22 14.67 22 12s-1.04-5.18-2.93-7.07S14.67 2 12 2"></path>
+          </svg>
+          cari kata yuk...
+        </button>
+      </div>
+    </section>
+
+    <section id="language-selection" class="languages">
+      <a href="source/menu/hiragana/jp.html" style="text-decoration: none; color: inherit; display: block;">
+        <div class="lang-card">
+          <h2>🇯🇵 Japanese</h2>
+          <p>Hiragana, Katakana & JLPT</p>
+        </div>
+      </a>
+      
+      <a href="source/menu/english/eng.html" style="text-decoration: none; color: inherit; display: block;">
+        <div class="lang-card">
+          <h2>🇬🇧 English</h2>
+          <p>17 Tenses & Grammar</p>
+        </div>
+      </a>
+      
+      <a href="source/menu/deutsch/de.html" style="text-decoration: none; color: inherit; display: block;">
+        <div class="lang-card">
+          <h2>🇩🇪 Deutsch</h2>
+          <p>Der/Die/Das & Cases</p>
+        </div>
+      </a>
+      
+      <a href="source/menu/korea/kr.html" style="text-decoration: none; color: inherit; display: block;">
+        <div class="lang-card">
+          <h2>🇰🇷 Korean</h2>
+          <p>Hangeul & EPS-TOPIK</p>
+        </div>
+      </a>
+    </section>
+  </main>
+
+  <div class="assistant">
+    <div id="prank-badge" class="prank-badge hidden" style="background-color: #e74c3c; color: #fff; font-weight: bold; border-radius: 5px; padding: 2px 8px; font-size: 0.8rem;">😈 Terhukum: <span id="prank-count">0</span>x</div>
+    <div id="bubble" class="bubble">Hai 👋</div>
+    <img src="source/assets/asisten.webp" id="assistant-img" class="assistant-img" alt="Ilustrasi Asisten Kejuu" style="width: 120px; height: auto;" fetchpriority="high" decoding="async">
+  </div>
+
+  <div id="punishment-overlay" class="punishment-overlay">
+    <div class="punishment-box">
+      <h2 class="punishment-title">🚨 TERCYDUK! 🚨</h2>
+      <p style="color: #aaa; font-size: 0.9rem; margin-bottom: 20px;">Berani-beraninya noel asisten 2x! Sebagai hukuman, jawab soal random ini untuk membebaskan layar hahaha!</p>
+      <div id="punish-lang" style="font-size: 2rem; margin-bottom: 5px;">🌍</div>
+      <div id="punish-q" class="punishment-q">Memuat Kutukan...</div>
+      <div id="punish-opts" class="punishment-opts"></div>
+    </div>
+  </div>
+
+  <div id="omni-overlay" class="omni-overlay">
+    <div class="omni-container">
+      <div class="omni-header">
+        <input type="text" id="omni-input" class="omni-input" placeholder="Ketik kata di sini... (Misal: Makan, Minum dsb)" aria-label="Kolom input pencarian Omni">
+        <button id="omni-close" class="omni-close" aria-label="Tutup pencarian Omni">✖</button>
+      </div>
+      <div id="omni-results" class="omni-results">
+        <p style="color: #718093; text-align: center; margin-top: 20px; font-style: italic;">ketik kata yang kamu inginkan, setelahnya akan muncul multiple languages yang bisa dilatih..</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="ai-chat-overlay" class="omni-overlay">
+    <div class="omni-container" style="max-width: 500px; height: 80vh; display: flex; flex-direction: column; padding: 0; overflow: hidden; background: #1e1e2f;">
+      
+      <div style="background: #2d2d44; padding: 15px 20px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #3f3f5a;">
+        <h3 style="margin: 0; color: #00c6ff; display: flex; align-items: center; gap: 8px;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a9 9 0 0 0-9 9v11l3-2 3 2 3-2 3 2 3-2 3 2V11a9 9 0 0 0-9-9zm5 11h-2v-2h2v2zm-6-2v2H9v-2h2z"></path></svg>
+          Kejuu AI Tutor
+        </h3>
+        <button id="ai-chat-close" class="omni-close" aria-label="Tutup Chat" style="top: auto; right: auto; position: relative;">✖</button>
+      </div>
+      
+      <div id="ai-lang-selector" style="padding: 30px 20px; text-align: center; flex: 1; overflow-y: auto;">
+        <p style="color: #dcdde1; margin-bottom: 25px; font-size: 1.1rem;">Hari ini mau latihan percakapan pakai bahasa apa, Komandan?</p>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+          <button class="btn-secondary ai-lang-btn" data-lang="jp" style="padding: 15px; font-size: 1.1rem;">🇯🇵 Jepang</button>
+          <button class="btn-secondary ai-lang-btn" data-lang="en" style="padding: 15px; font-size: 1.1rem;">🇬🇧 Inggris</button>
+          <button class="btn-secondary ai-lang-btn" data-lang="de" style="padding: 15px; font-size: 1.1rem;">🇩🇪 Jerman</button>
+          <button class="btn-secondary ai-lang-btn" data-lang="kr" style="padding: 15px; font-size: 1.1rem;">🇰🇷 Korea</button>
+        </div>
+      </div>
+
+      <div id="ai-chat-room" style="display: none; flex: 1; flex-direction: column; overflow: hidden;">
+        <div id="ai-chat-history" style="flex: 1; overflow-y: auto; padding: 20px; display: flex; flex-direction: column; gap: 15px;"></div>
+        <div id="ai-chat-options" style="padding: 15px; background: #252538; border-top: 1px solid #3f3f5a; display: flex; flex-direction: column; gap: 10px;"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="source/menu/hiragana/huruf.js" defer></script> 
+  <script src="source/header/nav.js" defer></script>
+  <script src="source/app.js" defer></script>
+  <script src="source/chat.js" defer></script>
+  <script src="source/search/omni.js" defer></script>
+  
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <h3>🌍 KEJUU</h3>
+      <p>
+        Belajar bahasa Jepang, Inggris,
+        Jerman, dan Korea secara gratis
+        untuk pelajar Indonesia.
+      </p>
+    </div>
+    <div class="footer-section">
+      <h4>Hubungi kami</h4>
+      <a href="mailto:kenji@kejuu.web.id">
+        📧 kenji@kejuu.web.id
+      </a>
+      <a href="https://wa.me/6285129943580">
+        💬 WhatsApp
+      </a>
+    </div>
+    <div class="footer-section">
+      <h4>Informasi</h4>
+      <a href="information/community/about.html">
+        Tentang Kami
+      </a>
+      <a href="privacy.html">
+        Kebijakan Privasi
+      </a>
+      <a href="terms.html">
+        Ketentuan Layanan
+      </a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    © 2026 KEJUU™ • Copyright Reserved
+  <p>
+    Dibuat dengan 🤎 untuk pelajar Indonesia
+    <p>
+      With us | Reniverse
+    </p>
+  </p>
+  </div>
+</footer>
+</body>
+</html>

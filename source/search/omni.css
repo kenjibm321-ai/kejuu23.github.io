@@ -1,0 +1,201 @@
+/* ==========================================================
+   FILE KHUSUS: OMNI SEARCH COMMAND PALETTE 🌌🔍
+   (EDISI FULL AESTHETIC + LACI GESER + ARENA GAME 🎬✨)
+   ========================================================== */
+
+.btn-omni { background: rgba(255, 255, 255, 0.05); color: #fff; border: 1px solid rgba(0, 198, 255, 0.3); padding: 12px 30px; border-radius: 30px; font-size: 1.1rem; margin-top: 20px; cursor: pointer; transition: all 0.3s ease; backdrop-filter: blur(5px); box-shadow: 0 0 15px rgba(0, 198, 255, 0.1); }
+.btn-omni:hover { background: rgba(0, 198, 255, 0.2); border-color: #00c6ff; transform: translateY(-3px); box-shadow: 0 5px 20px rgba(0, 198, 255, 0.4); }
+
+.omni-overlay { position: fixed; inset: 0; z-index: 10000; background: rgba(10, 10, 15, 0); backdrop-filter: blur(0px); display: flex; justify-content: center; align-items: flex-start; padding-top: 15vh; opacity: 0; pointer-events: none; transition: background 0.4s ease, backdrop-filter 0.4s ease, opacity 0.4s ease; }
+.omni-overlay.active { opacity: 1; pointer-events: auto; background: rgba(10, 10, 15, 0.85); backdrop-filter: blur(10px); }
+
+.omni-container { width: 90%; max-width: 650px; background: #1a1a24; border: 1px solid rgba(0, 198, 255, 0.3); border-radius: 16px; box-shadow: 0 20px 50px rgba(0,0,0,0.6); opacity: 0; transform: scale(0.9) translateY(40px); transition: all 0.3s ease; display: flex; flex-direction: column; max-height: 80vh; }
+@keyframes omniSpawn { 0% { opacity: 0; transform: scale(0.9) translateY(40px); } 60% { transform: scale(1.02) translateY(-5px); } 100% { opacity: 1; transform: scale(1) translateY(0); } }
+@keyframes omniDespawn { 0% { opacity: 1; transform: scale(1) translateY(0); } 100% { opacity: 0; transform: scale(0.9) translateY(40px); } }
+.omni-overlay.active .omni-container { animation: omniSpawn 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
+.omni-container.closing { animation: omniDespawn 0.3s ease-in forwards; }
+
+.omni-header { position: relative; border-bottom: 1px solid rgba(255,255,255,0.05); flex-shrink: 0; }
+.omni-input { width: 100%; padding: 25px 50px 25px 25px; background: transparent; border: none; color: #fff; font-size: 1.3rem; outline: none; }
+.omni-input::placeholder { color: #555; }
+.omni-close { position: absolute; right: 20px; top: 25px; background: transparent; border: none; color: #718093; font-size: 1.5rem; cursor: pointer; transition: 0.2s; }
+.omni-close:hover { color: #ff2a7a; transform: scale(1.2) rotate(90deg); }
+
+.omni-results { padding: 20px; overflow-y: auto; flex-grow: 1; }
+.omni-results::-webkit-scrollbar { width: 6px; }
+.omni-results::-webkit-scrollbar-track { background: transparent; }
+.omni-results::-webkit-scrollbar-thumb { background: rgba(0, 198, 255, 0.3); border-radius: 10px; }
+
+/* ==========================================================
+   KARTU HASIL & LACI GESER (SWIPE TO REVEAL) ↔️
+   ========================================================== */
+.concept-group { margin-bottom: 25px; }
+.concept-title { color: #00c6ff; font-size: 1rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 15px; border-bottom: 1px solid rgba(0,198,255,0.2); padding-bottom: 5px; }
+
+/* Sihir Scroll Snap buat efek geser laci */
+.swipe-container { 
+    display: flex; overflow-x: auto; scroll-snap-type: x mandatory; 
+    scrollbar-width: none; border-radius: 12px; margin-bottom: 12px; 
+    background: #22222a; border: 1px solid rgba(255,255,255,0.05);
+}
+.swipe-container::-webkit-scrollbar { display: none; }
+
+.panel { 
+    min-width: 100%; scroll-snap-align: start; padding: 18px; 
+    display: flex; flex-direction: column; justify-content: center; 
+}
+
+/* Panel Depan (Tampilan Awal) */
+.panel-front { display: flex; justify-content: space-between; align-items: center; }
+.lang-info { display: flex; align-items: center; gap: 12px; }
+.lang-flag { font-size: 1.5rem; }
+.lang-word { font-size: 1.2rem; color: #fff; font-weight: bold; }
+.swipe-hint { color: #718093; font-size: 0.8rem; animation: pulseHint 2s infinite; }
+
+/* Panel Belakang (Laci Detail + Tombol Game) */
+.panel-back { background: rgba(0, 198, 255, 0.05); border-left: 3px solid #00c6ff; }
+.grammar-detail { color: #dcdde1; font-size: 0.95rem; margin-bottom: 10px; line-height: 1.4;}
+.btn-play-mini { background: #00c6ff; color: #000; border: none; padding: 8px 15px; border-radius: 6px; font-weight: bold; cursor: pointer; transition: 0.2s; align-self: flex-start; }
+.btn-play-mini:hover { background: #fff; box-shadow: 0 0 10px rgba(0,198,255,0.5); transform: translateY(-2px); }
+
+@keyframes pulseHint { 0%, 100% { opacity: 0.5; transform: translateX(0); } 50% { opacity: 1; transform: translateX(5px); } }
+
+/* ==========================================================
+   MINI ARENA SATZBAU (MESIN CUCI OTAK) 🎯
+   ========================================================== */
+.mini-arena { display: none; margin-top: 15px; padding-top: 15px; border-top: 1px dashed rgba(255,255,255,0.1); animation: fadeIn 0.4s ease; }
+.mini-arena.active { display: block; }
+.mission-text { color: #fff; font-size: 0.95rem; margin-bottom: 15px; font-style: italic; text-align: center; }
+
+.answer-slots { display: flex; flex-wrap: wrap; gap: 8px; min-height: 40px; margin-bottom: 15px; justify-content: center; background: rgba(0,0,0,0.2); padding: 10px; border-radius: 8px; }
+.slot-box { border-bottom: 2px solid #718093; min-width: 40px; text-align: center; color: #00c6ff; font-weight: bold; padding: 5px; }
+
+.word-chips { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+.chip { background: #2f3542; color: #fff; padding: 8px 15px; border-radius: 20px; font-size: 0.9rem; cursor: pointer; transition: 0.2s; border: 1px solid rgba(255,255,255,0.1); user-select: none; }
+.chip:hover { background: #57606f; transform: translateY(-2px); }
+.chip.hidden { opacity: 0; pointer-events: none; transform: scale(0); }
+
+.chip.wrong-shake { animation: shakeWrong 0.4s ease-in-out; background: rgba(255, 42, 122, 0.3); border-color: #ff2a7a; color: #ff2a7a; }
+
+/* =========================================
+   UI RUANG OBROLAN AI (CHAT ROOM FULL) 🤖👻💬
+   ========================================= */
+
+/* 1. Wadah Utama & Modal Chat Biar Tinggi & Elegan */
+#ai-chat-overlay .omni-container {
+    max-width: 500px;
+    height: 85vh; 
+    padding: 0; 
+    background: #1e1e2f; 
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid #3f3f5a;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* 2. Tombol Pilihan Bahasa di Layar Awal */
+.ai-lang-btn {
+    background: #2d2d44;
+    color: #dcdde1;
+    border: 2px solid #3f3f5a;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.ai-lang-btn:hover {
+    background: linear-gradient(45deg, #00796b, #00c6ff);
+    color: #ffffff;
+    border-color: transparent;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 198, 255, 0.3);
+}
+
+/* 3. Baris Obrolan (Row) & Foto Profil (Avatar) */
+.chat-row {
+    display: flex;
+    gap: 10px;
+    align-items: flex-end; 
+    width: 100%;
+    animation: popIn 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+.chat-row.ai { justify-content: flex-start; }
+.chat-row.user { justify-content: flex-end; }
+
+.chat-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.ai-avatar { background: #2d2d44; color: #00c6ff; border: 1px solid #3f3f5a; }
+.user-avatar { background: linear-gradient(45deg, #00796b, #00c6ff); color: #ffffff; }
+
+/* 4. Balon Chat (Bubbles) */
+.chat-bubble {
+    max-width: 80%;
+    padding: 12px 16px;
+    border-radius: 15px;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    opacity: 0;
+    transform: translateY(10px);
+    animation: popIn 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+    margin: 0; 
+}
+.ai-msg {
+    background: #2d2d44;
+    color: #e0e0e0;
+    border-bottom-left-radius: 2px;
+    border: 1px solid #3f3f5a;
+}
+.user-msg {
+    background: linear-gradient(45deg, #00796b, #00c6ff);
+    color: #ffffff;
+    border-bottom-right-radius: 2px;
+    font-weight: 500;
+}
+
+/* 5. Tombol Pilihan Jawaban User */
+.chat-choice-btn {
+    background: transparent;
+    color: #00c6ff;
+    border: 1px solid #00c6ff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-align: left;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+    animation: fadeIn 0.3s ease forwards;
+}
+.chat-choice-btn:hover {
+    background: rgba(0, 198, 255, 0.1);
+    transform: translateX(5px);
+}
+
+/* 6. Animasi Titik Ngetik... */
+.typing-indicator { display: flex; gap: 4px; padding: 10px; align-items: center; }
+.typing-dot { width: 6px; height: 6px; background: #00c6ff; border-radius: 50%; animation: typingBounce 1s infinite; }
+.typing-dot:nth-child(2) { animation-delay: 0.2s; }
+.typing-dot:nth-child(3) { animation-delay: 0.4s; }
+
+/* 7. Kustomisasi Scrollbar History Chat Biar Langsing */
+#ai-chat-history::-webkit-scrollbar { width: 6px; }
+#ai-chat-history::-webkit-scrollbar-track { background: transparent; }
+#ai-chat-history::-webkit-scrollbar-thumb { background: #3f3f5a; border-radius: 10px; }
+#ai-chat-history::-webkit-scrollbar-thumb:hover { background: #00c6ff; }
+
+/* Keyframes Tambahan untuk Chat */
+@keyframes popIn { to { opacity: 1; transform: translateY(0); } }
+@keyframes typingBounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+}

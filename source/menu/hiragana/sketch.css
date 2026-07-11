@@ -1,0 +1,227 @@
+:root {
+  --sketch-paper: rgba(244, 239, 228, 0.98);
+  --sketch-ink: #121722;
+  --sketch-line: rgba(18, 23, 34, 0.12);
+}
+
+.hero-secondary-btn {
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: none;
+}
+
+.section-nav,
+.mobile-dock {
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.section-nav::-webkit-scrollbar,
+.mobile-dock::-webkit-scrollbar {
+  display: none;
+}
+
+.section-nav .tab-btn,
+.mobile-dock .tab-btn {
+  white-space: nowrap;
+}
+
+.sketch-stage {
+  gap: 24px;
+}
+
+.sketch-header,
+.sketch-target-actions,
+.sketch-actions,
+.sketch-script-tabs {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.sketch-header {
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.sketch-script-tab,
+.sketch-select-wrap select {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text);
+  padding: 10px 16px;
+}
+
+.sketch-script-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sketch-script-tab span {
+  font-family: "Noto Serif JP", serif;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.sketch-script-tab.active {
+  color: #111319;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  box-shadow: 0 12px 30px rgba(64, 224, 208, 0.18);
+}
+
+.sketch-select-wrap {
+  display: grid;
+  gap: 8px;
+  color: var(--muted-strong);
+  font-size: 0.84rem;
+}
+
+.sketch-practice-grid {
+  display: grid;
+  grid-template-columns: minmax(260px, 320px) minmax(0, 1fr);
+  gap: 18px;
+}
+
+.sketch-target-card,
+.sketch-board-card,
+.sketch-json-panel {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 18px;
+}
+
+.sketch-kicker {
+  margin: 0 0 10px;
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--muted);
+}
+
+.sketch-target-kana {
+  font-family: "Noto Serif JP", serif;
+  font-size: clamp(4rem, 10vw, 6.4rem);
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.sketch-target-romaji {
+  font-size: 1rem;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  margin-bottom: 8px;
+}
+
+.sketch-target-meta {
+  margin: 0 0 20px;
+  color: var(--muted-strong);
+}
+
+.sketch-toolbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.sketch-range-wrap {
+  display: grid;
+  gap: 8px;
+  color: var(--muted-strong);
+  font-size: 0.84rem;
+  min-width: min(100%, 260px);
+}
+
+.sketch-range-wrap input {
+  width: 100%;
+}
+
+.sketch-actions .sketch-guide-btn {
+  border-color: rgba(64, 224, 208, 0.22);
+  color: var(--accent);
+}
+
+.sketch-actions .sketch-guide-btn.active {
+  background: rgba(64, 224, 208, 0.12);
+  border-color: var(--accent);
+}
+
+.sketch-canvas-shell {
+  position: relative;
+  border-radius: 26px;
+  overflow: hidden;
+  background:
+    linear-gradient(0deg, transparent 24%, var(--sketch-line) 25%, transparent 26%) center/100% 33.33%,
+    linear-gradient(90deg, transparent 24%, rgba(18, 23, 34, 0.06) 25%, transparent 26%) center/33.33% 100%,
+    var(--sketch-paper);
+  min-height: 520px;
+}
+
+#sketchCanvas {
+  width: 100%;
+  height: 520px;
+  display: block;
+  touch-action: none;
+  position: relative;
+  z-index: 2;
+  cursor: crosshair;
+}
+
+.sketch-guide {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1px;
+  border-top: 1px dashed rgba(18, 23, 34, 0.18);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.guide-1 { top: 33.33%; }
+.guide-2 { top: 50%; }
+.guide-3 { top: 66.66%; }
+
+.compact {
+  margin-bottom: 14px;
+}
+
+.sketch-json-output {
+  margin: 0;
+  min-height: 160px;
+  border-radius: 18px;
+  padding: 16px;
+  background: rgba(9, 12, 18, 0.9);
+  color: #d6f3ff;
+  overflow: auto;
+  font-size: 0.84rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 900px) {
+  .sketch-practice-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .sketch-target-card,
+  .sketch-board-card,
+  .sketch-json-panel {
+    padding: 16px;
+    border-radius: 20px;
+  }
+
+  #sketchCanvas,
+  .sketch-canvas-shell {
+    min-height: 420px;
+    height: 420px;
+  }
+}

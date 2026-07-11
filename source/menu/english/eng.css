@@ -1,0 +1,403 @@
+/* =========================================
+   UI english
+   ========================================= */
+
+.top-bar {
+    padding: 15px 20px;
+    position: relative;
+    z-index: 10;
+}
+
+.back-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #00c6ff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.back-btn:hover { color: #fff; }
+
+.intro-container {
+    text-align: center;
+    padding: 10px 20px 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.intro-container h1 {
+    background: linear-gradient(to right, #00c6ff, #a78bfa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+    font-size: 2.2rem;
+}
+
+.intro-container p { color: #aaa; margin-bottom: 20px; line-height: 1.5; }
+
+/* TAB STYLE */
+.eng-tabs {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.tab-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #888;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.tab-btn:hover { color: #fff; border-color: rgba(0, 198, 255, 0.3); }
+
+.tab-btn.active {
+    background: linear-gradient(135deg, #00c6ff, #1e90ff);
+    color: #fff;
+    border-color: transparent;
+    box-shadow: 0 4px 15px rgba(0, 198, 255, 0.3);
+}
+
+.content-section {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 20px 80px;
+    animation: fadeIn 0.4s ease forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* STATS CARD TENSES */
+.stats-card {
+    background: rgba(0, 198, 255, 0.1);
+    border: 1px dashed #00c6ff;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+.stats-card h3 { color: #fff; margin-bottom: 5px; font-size: 1.1rem; }
+.stats-card span { color: #00c6ff; font-weight: bold; }
+
+/* ACCORDION TENSES */
+.acc-header {
+    width: 100%;
+    text-align: left;
+    background: #1e1e1e;
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.acc-header:hover { border-color: #00c6ff; }
+.acc-body {
+    background: rgba(255,255,255,0.02);
+    padding: 15px;
+    border-radius: 0 0 8px 8px;
+    color: #aaa;
+    margin-bottom: 10px;
+    border: 1px solid rgba(255,255,255,0.05);
+    border-top: none;
+}
+
+/* SEARCH & FILTER TOOLBAR */
+.vocab-toolbar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.vocab-search {
+    flex: 1;
+    padding: 12px 15px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.05);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    outline: none;
+    transition: 0.3s;
+}
+.vocab-search:focus { border-color: #00c6ff; box-shadow: 0 0 10px rgba(0,198,255,0.2); }
+
+.filter-wrapper { position: relative; }
+
+.btn-filter {
+    padding: 10px 14px;
+    border-radius: 12px;
+    background: rgba(0, 198, 255, 0.1);
+    color: #00c6ff;
+    border: 1px solid #00c6ff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.btn-filter:hover { background: #00c6ff; color: #000; box-shadow: 0 0 10px rgba(0,198,255,0.4); }
+
+.filter-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 55px;
+    background: #1a1a24;
+    border: 1px solid #00c6ff;
+    border-radius: 12px;
+    padding: 10px;
+    width: 180px;
+    z-index: 100;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+}
+
+.filter-menu.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.filter-option {
+    width: 100%;
+    text-align: left;
+    background: transparent;
+    border: none;
+    color: #aaa;
+    padding: 10px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-weight: 500;
+}
+.filter-option:hover { background: rgba(255,255,255,0.1); color: #fff; }
+.filter-option.active { background: #00c6ff; color: #000; font-weight: bold; }
+
+.idiom-btn { color: #f1c40f; }
+.slang-btn { color: #ff9f43; }
+
+/* WADAH & KARTU SWIPE OMNI */
+.wadah-vocab {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.swipe-container {
+    position: relative;
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 15px;
+    border: 1px solid rgba(255,255,255,0.08);
+    background: #1e1e1e;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.panel-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1e1e1e;
+    z-index: 2;
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    cursor: grab;
+}
+.panel-front:active { cursor: grabbing; }
+
+.panel-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 15px 20px;
+    background: linear-gradient(135deg, #1c2541, #0a0a0f);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-left: 4px solid #00c6ff;
+}
+
+/* ACCORDION TENSES */
+.acc-header {
+    width: 100%;
+    text-align: left;
+    background: #1e1e1e;
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.acc-header:hover { border-color: silver; }
+
+/* 1. Tambahkan Animasi Ini Agar Menu Muncul Berurutan */
+@keyframes slideDownFade {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* 2. Modifikasi acc-body Agar Bisa Ditutup */
+.acc-body {
+    background: rgba(255,255,255,0.02);
+    padding: 0 15px; /* Padding vertikal di-NOL-kan saat tertutup */
+    border-radius: 0 0 8px 8px;
+    color: #aaa;
+    margin-bottom: 10px;
+    border: 1px solid rgba(255,255,255,0.05);
+    border-top: none;
+    
+    /* Senjata Rahasia Buka Tutup */
+    max-height: 0; 
+    overflow: hidden; 
+    opacity: 0;
+    transition: max-height 0.3s ease-out, padding 0.3s ease, opacity 0.3s ease;
+}
+
+/* =========================================
+   ACCORDION TENSES (STYLE BARU & ANIMASI PANAH) 📚
+   ========================================= */
+
+/* Item Utama (Wrapper) */
+.acc-item {
+    margin-bottom: 12px;
+}
+
+/* Header Accordion (Yang diklik) */
+.acc-header {
+    width: 100%;
+    text-align: left;
+    background: #1e1e1e; /* Warna gelap background item */
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.05); /* Border tipis */
+    
+    /* 1. Kunci Style Kiri Berwarna (Warna dinamis diset di JS) */
+    border-left: 5px solid transparent; 
+    
+    padding: 18px; /* Padding lebih luas */
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+    /* Flexbox untuk menata dot, teks, dan panah ke samping */
+    display: flex;
+    align-items: center;
+    position: relative;
+    outline: none;
+}
+
+/* Hover Effect */
+.acc-header:hover { 
+    background: #252525;
+    border-color: rgba(255,255,255,0.1);
+}
+
+/* 2. Style Lingkaran Dot Kecil Berwarna */
+.acc-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 15px;
+    flex-shrink: 0; /* Biar gak gepeng */
+    box-shadow: 0 0 8px rgba(255,255,255,0.3); /* Sedikit glow default */
+}
+
+/* 3. Wrapper Teks (Judul + Deskripsi Bertumpuk) */
+.acc-text-wrapper {
+    display: flex;
+    flex-direction: column; /* Tumpuk ke bawah */
+    flex-grow: 1; /* Ambil sisa ruang */
+}
+
+/* Judul Tenses (Putih, Bold) */
+.acc-name {
+    font-weight: bold;
+    font-size: 1.05rem;
+    color: lavender;
+}
+
+/* Deskripsi Kecil (Abu-abu, seperti di gambar) */
+.acc-desc {
+    font-size: 0.85rem;
+    color: #A9A9A9;
+    margin-top: 2px;
+}
+
+/* 4. TANDA PANAH (::after pada Header) */
+.acc-header::after {
+    content: '▼'; /* Gunakan karakter panah */
+    font-size: 0.8rem;
+    color: gray;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%) rotate(0deg); /* Posisi tengah & rotasi awal 0 */
+    transition: transform 0.3s ease, color 0.3s ease; /* Transisi untuk animasi putar */
+}
+
+/* 5. ANIMASI PANAH SAAT AKTIF (Diputar 180 derajat) */
+.acc-header.active::after {
+    transform: translateY(-50%) rotate(180deg);
+    color: lavender; /* Panah jadi putih saat aktif */
+}
+
+/* 6. Body Accordion (Konten yang muncul) - Sesuaikan Padding */
+.acc-body {
+    background: rgba(255,255,255,0.02);
+    padding: 0 18px; /* Padding samping menyesuaikan header */
+    border-radius: 0 0 8px 8px;
+    color: ivory;
+    margin-bottom: 10px;
+    border: 1px solid rgba(255,255,255,0.05);
+    border-top: none;
+    margin-top: -1px; /* Rapatkan dengan header */
+    
+    /* Logika Buka Tutup (Retained from previous code) */
+    max-height: 0; 
+    overflow: hidden; 
+    opacity: 0;
+    transition: max-height 0.3s ease-out, padding 0.3s ease, opacity 0.3s ease;
+}
+
+/* Saat Terbuka */
+.acc-header.active + .acc-body {
+    padding: 18px; /* Kembalikan padding vertikal */
+    opacity: 1;
+}
+
+/* Gaya Teks di Dalam Body */
+.acc-body b { color: lavender; }
+.acc-body .acc-contoh { margin-top: 5px; font-style: italic; opacity: 0.9; }
+
+/* Animasi Turun Berurutan (Retained) */
+@keyframes slideDownFade {
+    from { opacity: 0; transform: translateY(-15px); }
+    to { opacity: 1; transform: translateY(0); }
+}

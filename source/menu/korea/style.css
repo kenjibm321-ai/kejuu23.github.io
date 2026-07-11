@@ -1,0 +1,133 @@
+:root {
+    --bg-dark: #0f172a;
+    --glass-bg: rgba(255, 255, 255, 0.05);
+    --glass-border: rgba(255, 255, 255, 0.1);
+    --neon-blue: #38bdf8;
+    --neon-red: #fb7185;
+    --neon-green: #34d399;
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+
+body {
+    background: linear-gradient(135deg, #020617, #0f172a);
+    color: var(--text-main);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.arena-container {
+    width: 100%; max-width: 480px; padding: 15px; display: flex; flex-direction: column; gap: 15px;
+}
+
+.top-bar {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-top: 70px;
+    padding: 10px 15px; background: var(--glass-bg); border: 1px solid var(--glass-border);
+    border-radius: 12px; backdrop-filter: blur(10px); font-weight: bold;
+}
+.stats { display: flex; gap: 15px; }
+.combo-text { color: var(--neon-red); transition: transform 0.15s ease-out; display: inline-block;}
+.combo-glow { text-shadow: 0 0 10px var(--neon-red); }
+
+/* Update di bagian karakter */
+.character-section { 
+    display: flex; 
+    gap: 10px; 
+    align-items: flex-end; 
+    min-height: 60px; 
+    width: 100%;
+}
+
+.speech-bubble {
+    background: var(--glass-bg); 
+    border: 1px solid var(--glass-border);
+    padding: 12px; 
+    border-radius: 15px 15px 15px 0; 
+    font-size: 14px; 
+    min-height: 45px;
+    flex-grow: 1;
+    
+
+    max-width: calc(100% - 70px);
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+}
+
+.top-bar {
+    width: 100%; 
+}
+
+/* --- UPDATE CSS Wadah Foto --- */
+.chara-img {
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%; /* Bikin wadahnya jadi bulet */
+    border: 1px solid var(--neon-blue);
+    background: #1e293b; /* Warna *fallback* kalau foto gagal *load* */
+    /* 🔥 OBAT PENAWAR FOTO TUMPAH 🔥 */
+    overflow: hidden; /* Paksa foto di dalemnya ikut bentuk bulet */
+    display: flex; /* Biar gampang nengahin gambar (opsional) */
+}
+
+.chara-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Foto bakal dipotong (crop) tengah, nggak bakal ditarik/lonjong */
+    object-position: center; /* Fokus potongan di tengah foto */
+    display: block;
+}
+
+.tabs { display: grid; grid-template-columns: repeat(4, 1fr); gap: 5px; }
+.tab-btn {
+    background: var(--glass-bg); border: 1px solid var(--glass-border);
+    color: var(--text-muted); padding: 8px 5px; border-radius: 8px;
+    font-size: 11px; cursor: pointer; transition: all 0.3s;
+}
+.tab-btn.active {
+    background: rgba(56, 189, 248, 0.2); color: var(--neon-blue); border-color: var(--neon-blue);
+}
+
+.arena-card {
+    background: var(--glass-bg); border: 1px solid var(--glass-border);
+    border-radius: 16px; padding: 20px; min-height: 300px;
+    backdrop-filter: blur(10px); display: none; animation: fadeInScale 0.3s ease;
+    position: relative; overflow: hidden;
+}
+/* Efek Depth biar nggak generik */
+.arena-card::before {
+    content: ""; position: absolute; inset: 0;
+    background: radial-gradient(circle at top, rgba(56,189,248,0.1), transparent);
+    pointer-events: none;
+}
+.arena-card.active { display: block; }
+
+@keyframes fadeInScale {
+    0% { opacity: 0; transform: scale(0.95); }
+    100% { opacity: 1; transform: scale(1); }
+}
+
+.question-text { font-size: 18px; margin-bottom: 20px; text-align: center; position: relative; z-index: 1;}
+.drop-area { 
+    background: rgba(0,0,0,0.3); padding: 15px; border-radius: 8px; 
+    text-align: center; font-size: 24px; letter-spacing: 2px; margin-bottom: 20px;
+    min-height: 60px; color: var(--neon-green); position: relative; z-index: 1;
+}
+.options-grid { display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; position: relative; z-index: 1;}
+.btn-option {
+    background: #1e293b; border: 1px solid var(--glass-border);
+    color: white; padding: 10px 20px; border-radius: 8px;
+    font-size: 16px; cursor: pointer; transition: 0.1s;
+}
+.btn-option:active { transform: scale(0.9); }
+
+.timer-bar {
+    height: 4px; background: var(--glass-bg); border-radius: 2px;
+    margin-bottom: 15px; overflow: hidden; position: relative; z-index: 1;
+}
+.timer-fill {
+    height: 100%; background: var(--neon-red); width: 100%;
+}

@@ -1,0 +1,3062 @@
+[
+  {
+    "level": "N3",
+    "romaji": "Tamesu",
+    "kana": "ためす",
+    "arti": "Mencoba",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kokoro",
+    "kana": "こころ",
+    "arti": "Hati / perasaan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kankou",
+    "kana": "かんこう (観光)",
+    "arti": "Pariwisata",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Keiken",
+    "kana": "けいけん (経験)",
+    "arti": "Pengalaman",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kachi",
+    "kana": "かち (価値)",
+    "arti": "Nilai / Harga diri",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Jouhou",
+    "kana": "じょうほう (情報)",
+    "arti": "Informasi",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Ketsuron",
+    "kana": "けつろん (結論)",
+    "arti": "Kesimpulan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Riyuu",
+    "kana": "りゆう (理由)",
+    "arti": "Alasan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Mokuteki",
+    "kana": "もくてき (目的)",
+    "arti": "Tujuan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Seikou",
+    "kana": "せいこう (成功)",
+    "arti": "Kesuksesan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Shippai",
+    "kana": "しっぱい (失敗)",
+    "arti": "Kegagalan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Shurui",
+    "kana": "しゅるい (種類)",
+    "arti": "Jenis / Macam",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Joutai",
+    "kana": "じょうたい (状態)",
+    "arti": "Keadaan / Kondisi",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kakunin",
+    "kana": "かくにん (確認)",
+    "arti": "Konfirmasi / Memastikan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kankei",
+    "kana": "かんけい (関係)",
+    "arti": "Hubungan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kikai",
+    "kana": "きかい (機会)",
+    "arti": "Kesempatan / Peluang",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kyouju",
+    "kana": "きょうじゅ (教授)",
+    "arti": "Profesor",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Sanka",
+    "kana": "さんか (参加)",
+    "arti": "Partisipasi",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Hakken",
+    "kana": "はっけん (発見)",
+    "arti": "Penemuan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Hatsumei",
+    "kana": "はつめい (発明)",
+    "arti": "Invensi / Penciptaan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Gutaiteki",
+    "kana": "ぐたいてき (具体的)",
+    "arti": "Spesifik / Nyata",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Ippanteki",
+    "kana": "いっぱんてき (一般的)",
+    "arti": "Umum / Lazim",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Aijou",
+    "kana": "あいじょう (愛情)",
+    "arti": "Kasih sayang",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Anki",
+    "kana": "あんき (暗記)",
+    "arti": "Hafalan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Ichi",
+    "kana": "いち (位置)",
+    "arti": "Posisi / Letak",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Inshou",
+    "kana": "いんしょう (印象)",
+    "arti": "Kesan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Utagau",
+    "kana": "うたがう (疑う)",
+    "arti": "Meragukan",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Eikyou",
+    "kana": "えいきょう (影響)",
+    "arti": "Pengaruh",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Ouen",
+    "kana": "おうえん (応援)",
+    "arti": "Dukungan / Sorakan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kanri",
+    "kana": "かんり (管理)",
+    "arti": "Manajemen / Pengelolaan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kichou",
+    "kana": "きちょう (貴重)",
+    "arti": "Berharga",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kyoukyuu",
+    "kana": "きょうきゅう (供給)",
+    "arti": "Pasokan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Ketsudan",
+    "kana": "けつだん (決断)",
+    "arti": "Keputusan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Gendai",
+    "kana": "げんだい (現代)",
+    "arti": "Zaman modern",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kouken",
+    "kana": "こうけん (貢献)",
+    "arti": "Kontribusi",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Shikin",
+    "kana": "しきん (資金)",
+    "arti": "Dana / Modal",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Shijou",
+    "kana": "しじょう (市場)",
+    "arti": "Pasar (Ekonomi)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Shousai",
+    "kana": "しょうさい (詳細)",
+    "arti": "Detail / Rincian",
+    "tipe": "noun adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Shinrai",
+    "kana": "しんらい (信頼)",
+    "arti": "Kepercayaan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Seigen",
+    "kana": "せいげん (制限)",
+    "arti": "Batasan / Restriksi",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Sekinin",
+    "kana": "せきにん (責任)",
+    "arti": "Tanggung jawab",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Zenshin",
+    "kana": "ぜんしん (前進)",
+    "arti": "Kemajuan / Melangkah maju",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Taishou",
+    "kana": "たいしょう (対象)",
+    "arti": "Target / Objek",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Chishiki",
+    "kana": "ちしき (知識)",
+    "arti": "Pengetahuan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Teian",
+    "kana": "ていあん (提案)",
+    "arti": "Saran / Proposal",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Dokuritsu",
+    "kana": "どくりつ (独立)",
+    "arti": "Kemerdekaan / Kemandirian",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Nattoku",
+    "kana": "なっとく (納得)",
+    "arti": "Pemahaman / Persetujuan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Hyouka",
+    "kana": "ひょうか (評価)",
+    "arti": "Penilaian / Evaluasi",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Fukkatsu",
+    "kana": "ふっかつ (復活)",
+    "arti": "Kebangkitan / Pemulihan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Bunseki",
+    "kana": "ぶんせき (分析)",
+    "arti": "Analisis",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Miryoku",
+    "kana": "みりょく (魅力)",
+    "arti": "Daya tarik / Pesona",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Yosan",
+    "kana": "よさん (予算)",
+    "arti": "Anggaran",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Ase",
+    "kana": "あせ (汗)",
+    "arti": "Keringat",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Idou",
+    "kana": "いどう (移動)",
+    "arti": "Perpindahan / Pergerakan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Uchuu",
+    "kana": "うちゅう (宇宙)",
+    "arti": "Luar angkasa",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Eiyou",
+    "kana": "えいよう (栄養)",
+    "arti": "Gizi / Nutrisi",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Osen",
+    "kana": "おせん (汚染)",
+    "arti": "Polusi / Pencemaran",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Ondo",
+    "kana": "おんど (温度)",
+    "arti": "Suhu / Temperatur",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kankaku",
+    "kana": "かんかく (感覚)",
+    "arti": "Indera / Perasaan (Fisik)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kigen",
+    "kana": "きげん (期限)",
+    "arti": "Batas waktu (Deadline)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kibou",
+    "kana": "きぼう (希望)",
+    "arti": "Harapan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kyuuryou",
+    "kana": "きゅうりょう (給料)",
+    "arti": "Gaji",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kyoufu",
+    "kana": "きょうふ (恐怖)",
+    "arti": "Ketakutan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kyoutsuu",
+    "kana": "きょうつう (共通)",
+    "arti": "Kesamaan / Umum",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kunren",
+    "kana": "くんれん (訓練)",
+    "arti": "Pelatihan / Latihan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Keikoku",
+    "kana": "けいこく (警告)",
+    "arti": "Peringatan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Ketsueki",
+    "kana": "けつえき (血液)",
+    "arti": "Darah",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kenkou",
+    "kana": "けんこう (健康)",
+    "arti": "Kesehatan",
+    "tipe": "noun adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Genshou",
+    "kana": "げんしょう (現象)",
+    "arti": "Fenomena",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kouka",
+    "kana": "こうか (効果)",
+    "arti": "Efek / Khasiat",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kokusai",
+    "kana": "こくさい (国際)",
+    "arti": "Internasional",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kokka",
+    "kana": "こっか (国家)",
+    "arti": "Negara / Bangsa",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Koshi",
+    "kana": "こし (腰)",
+    "arti": "Pinggang",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kodoku",
+    "kana": "こどく (孤独)",
+    "arti": "Kesepian / Terisolasi",
+    "tipe": "noun adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Saigai",
+    "kana": "さいがい (災害)",
+    "arti": "Bencana alam",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Sainou",
+    "kana": "さいのう (才能)",
+    "arti": "Bakat / Talenta",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Sakusha",
+    "kana": "さくしゃ (作者)",
+    "arti": "Penulis / Pembuat",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Sanso",
+    "kana": "さんそ (酸素)",
+    "arti": "Oksigen",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Shigeki",
+    "kana": "しげき (刺激)",
+    "arti": "Stimulus / Rangsangan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Shigen",
+    "kana": "しげん (資源)",
+    "arti": "Sumber daya",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Shishutsu",
+    "kana": "ししゅつ (支出)",
+    "arti": "Pengeluaran (Uang)",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Shizen",
+    "kana": "しぜん (自然)",
+    "arti": "Alam",
+    "tipe": "noun adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Shuto",
+    "kana": "しゅと (首都)",
+    "arti": "Ibukota",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Shouhi",
+    "kana": "しょうひ (消費)",
+    "arti": "Konsumsi",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Shokubutsu",
+    "kana": "しょくぶつ (植物)",
+    "arti": "Tumbuhan / Tanaman",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Shinri",
+    "kana": "しんり (心理)",
+    "arti": "Psikologi / Mental",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Suimin",
+    "kana": "すいみん (睡眠)",
+    "arti": "Tidur (Kata benda)",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Seikatsu",
+    "kana": "せいかつ (生活)",
+    "arti": "Kehidupan sehari-hari",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Seiseki",
+    "kana": "せいせき (成績)",
+    "arti": "Nilai / Prestasi",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Zetsubou",
+    "kana": "ぜつぼう (絶望)",
+    "arti": "Keputusasaan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Souzou",
+    "kana": "そうぞう (想像)",
+    "arti": "Imajinasi / Bayangan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Sonkei",
+    "kana": "そんけい (尊敬)",
+    "arti": "Rasa hormat",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Taido",
+    "kana": "たいど (態度)",
+    "arti": "Sikap",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Taiyou",
+    "kana": "たいよう (太陽)",
+    "arti": "Matahari",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Chousa",
+    "kana": "ちょうさ (調査)",
+    "arti": "Penyelidikan / Survei",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Tsuuka",
+    "kana": "つうか (通貨)",
+    "arti": "Mata uang",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Teikyou",
+    "kana": "ていきょう (提供)",
+    "arti": "Penawaran / Penyediaan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Tetsugaku",
+    "kana": "てつがく (哲学)",
+    "arti": "Filsafat",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Doryoku",
+    "kana": "どりょく (努力)",
+    "arti": "Usaha / Upaya keras",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Ningen",
+    "kana": "にんげん (人間)",
+    "arti": "Manusia",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Hyougen",
+    "kana": "ひょうげん (表現)",
+    "arti": "Ekspresi / Ungkapan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Houhou",
+    "kana": "ほうほう (方法)",
+    "arti": "Metode / Cara",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Akirameru",
+    "kana": "あきらめる (諦める)",
+    "arti": "Menyerah",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Ukeireru",
+    "kana": "うけいれる (受け入れる)",
+    "arti": "Menerima / Menyetujui",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Urayamu",
+    "kana": "うらやむ (羨む)",
+    "arti": "Iri hati",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Oeru",
+    "kana": "おえる (終える)",
+    "arti": "Menyelesaikan",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kanashimu",
+    "kana": "かなしむ (悲しむ)",
+    "arti": "Bersedih",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Gaman suru",
+    "kana": "がまんする (我慢する)",
+    "arti": "Menahan diri / Bersabar",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kyoka",
+    "kana": "きょか (許可)",
+    "arti": "Izin",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kyouyuu",
+    "kana": "きょうゆう (共有)",
+    "arti": "Berbagi (Share)",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kinshi",
+    "kana": "きんし (禁止)",
+    "arti": "Larangan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Keiyaku",
+    "kana": "けいやく (契約)",
+    "arti": "Kontrak",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Koushin",
+    "kana": "こうしん (更新)",
+    "arti": "Pembaruan (Update)",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Shien",
+    "kana": "しえん (支援)",
+    "arti": "Dukungan / Bantuan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Shiji",
+    "kana": "しじ (指示)",
+    "arti": "Instruksi / Arahan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Suisen",
+    "kana": "すいせん (推薦)",
+    "arti": "Rekomendasi",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Seibi",
+    "kana": "せいび (整備)",
+    "arti": "Pemeliharaan / Perawatan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Seisan",
+    "kana": "せいさん (生産)",
+    "arti": "Produksi",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Soshiki",
+    "kana": "そしき (組織)",
+    "arti": "Organisasi",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Anshin",
+    "kana": "あんしん (安心)",
+    "arti": "Rasa Tenang / Lega",
+    "tipe": "noun verb adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Igai",
+    "kana": "いがい (意外)",
+    "arti": "Tidak Terduga",
+    "tipe": "adjective noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Ishou",
+    "kana": "いしょう (衣装)",
+    "arti": "Kostum / Pakaian",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Inori",
+    "kana": "いのり (祈り)",
+    "arti": "Doa",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Onkei",
+    "kana": "おんけい (恩恵)",
+    "arti": "Berkah / Karunia",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kakaku",
+    "kana": "かかく (価格)",
+    "arti": "Harga / Nilai Jual",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kakuritsu",
+    "kana": "かくりつ (確率)",
+    "arti": "Probabilitas / Peluang",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kanou",
+    "kana": "かのう (可能)",
+    "arti": "Mungkin / Bisa Terjadi",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kanari",
+    "kana": "かなり (可也)",
+    "arti": "Lumayan / Cukup",
+    "tipe": "adverb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kikou",
+    "kana": "きこう (気候)",
+    "arti": "Iklim",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kigyou",
+    "kana": "きぎょう (企業)",
+    "arti": "Perusahaan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kinen",
+    "kana": "きねん (記念)",
+    "arti": "Peringatan / Memori",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kyousou",
+    "kana": "きょうそう (競争)",
+    "arti": "Persaingan / Kompetisi",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kyuugeki",
+    "kana": "きゅうげき (急激)",
+    "arti": "Mendadak / Tiba-tiba",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kekka",
+    "kana": "けっか (結果)",
+    "arti": "Hasil",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Genin",
+    "kana": "げんいん (原因)",
+    "arti": "Penyebab",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kouzou",
+    "kana": "こうぞう (構造)",
+    "arti": "Struktur",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kouritsu",
+    "kana": "こうりつ (効率)",
+    "arti": "Efisiensi",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kokunai",
+    "kana": "こくない (国内)",
+    "arti": "Domestik / Dalam Negeri",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Saiyou",
+    "kana": "さいよう (採用)",
+    "arti": "Perekrutan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Sakusei",
+    "kana": "さくせい (作成)",
+    "arti": "Pembuatan (Dokumen)",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Shikaku",
+    "kana": "しかく (資格)",
+    "arti": "Kualifikasi / Sertifikat",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Shindoi",
+    "kana": "しんどい",
+    "arti": "Melelahkan (Mental/Fisik)",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Shinpo",
+    "kana": "しんぽ (進歩)",
+    "arti": "Kemajuan / Progress",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Seifu",
+    "kana": "せいふ (政府)",
+    "arti": "Pemerintah",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Sekkyokuteki",
+    "kana": "せっきょくてき (積極的)",
+    "arti": "Aktif / Proaktif",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Tetsuzuki",
+    "kana": "てつづき (手続き)",
+    "arti": "Prosedur",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Dousei",
+    "kana": "どうせい (同性)",
+    "arti": "Sesama Jenis",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Nigate",
+    "kana": "にがて (苦手)",
+    "arti": "Lemah dalam... / Tidak suka",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Nichijou",
+    "kana": "にちじょう (日常)",
+    "arti": "Sehari-hari",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Ninki",
+    "kana": "にんき (人気)",
+    "arti": "Populer",
+    "tipe": "noun adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Nintei",
+    "kana": "にんてい (認定)",
+    "arti": "Sertifikasi / Pengakuan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Han'i",
+    "kana": "はんい (範囲)",
+    "arti": "Cakupan / Jangkauan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Hitei",
+    "kana": "ひてい (否定)",
+    "arti": "Penyangkalan / Bantahan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Hihyou",
+    "kana": "ひひょう (批評)",
+    "arti": "Kritik / Review",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Hyoujun",
+    "kana": "ひょうじゅん (標準)",
+    "arti": "Standar",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Fuman",
+    "kana": "ふまん (不満)",
+    "arti": "Ketidakpuasan",
+    "tipe": "noun adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Fuzai",
+    "kana": "ふざい (不在)",
+    "arti": "Ketidakhadiran",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Heiwa",
+    "kana": "へいわ (平和)",
+    "arti": "Kedamaian",
+    "tipe": "noun adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Houkoku",
+    "kana": "ほうこく (報告)",
+    "arti": "Laporan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Hoshou",
+    "kana": "ほしょう (保障)",
+    "arti": "Jaminan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Manzoku",
+    "kana": "まんぞく (満足)",
+    "arti": "Kepuasan",
+    "tipe": "noun verb adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Mirai",
+    "kana": "みらい (未来)",
+    "arti": "Masa Depan (Jauh)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Mujun",
+    "kana": "むじゅん (矛盾)",
+    "arti": "Kontradiksi",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Meiwaku",
+    "kana": "めいわく (迷惑)",
+    "arti": "Mengganggu / Merepotkan",
+    "tipe": "noun adjective verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Mokuhyou",
+    "kana": "もくひょう (目標)",
+    "arti": "Target / Sasaran",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Yakuwari",
+    "kana": "やくわり (役割)",
+    "arti": "Peran / Tugas",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Yuuetsukan",
+    "kana": "ゆうえつかん (優越感)",
+    "arti": "Rasa Superioritas",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Yuukou",
+    "kana": "ゆうこう (有効)",
+    "arti": "Valid / Berlaku",
+    "tipe": "noun adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Youkyuu",
+    "kana": "ようきゅう (要求)",
+    "arti": "Tuntutan / Permintaan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Ryousan",
+    "kana": "りょうさん (量産)",
+    "arti": "Produksi Massal",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Reisei",
+    "kana": "れいせい (冷静)",
+    "arti": "Tenang / Berkepala Dingin",
+    "tipe": "adjective noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Ronsou",
+    "kana": "ろんそう (論争)",
+    "arti": "Kontroversi / Perdebatan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Ataeru",
+    "kana": "あたえる (与える)",
+    "arti": "Memberikan / Menyajikan",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Atsukau",
+    "kana": "あつかう (扱う)",
+    "arti": "Menangani / Memperlakukan",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Amaru",
+    "kana": "あまる (余る)",
+    "arti": "Tersisa / Berlebih",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Amu",
+    "kana": "あむ (編む)",
+    "arti": "Merajut / Menganyam",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Iwau",
+    "kana": "いわう (祝う)",
+    "arti": "Merayakan / Mengucapkan selamat",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Ushinau",
+    "kana": "うしなう (失う)",
+    "arti": "Kehilangan",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Utsu",
+    "kana": "うつ (撃つ)",
+    "arti": "Menembak",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Umeru",
+    "kana": "うめる (埋める)",
+    "arti": "Mengubur / Memendam",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Eru",
+    "kana": "える (得る)",
+    "arti": "Memperoleh / Mendapatkan",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Ou",
+    "kana": "おう (追う)",
+    "arti": "Mengejar / Mengikuti",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Oeru",
+    "kana": "おえる (終える)",
+    "arti": "Menyelesaikan",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kakusu",
+    "kana": "かくす (隠す)",
+    "arti": "Menyembunyikan",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kakomu",
+    "kana": "かこむ (囲む)",
+    "arti": "Mengelilingi / Mengepung",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kanashimu",
+    "kana": "かなしむ (悲しむ)",
+    "arti": "Bersedih / Meratapi",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kanjiru",
+    "kana": "かんじる (感じる)",
+    "arti": "Merasakan",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kizuku",
+    "kana": "きづく (気づく)",
+    "arti": "Menyadari",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kiniiru",
+    "kana": "きにいる (気に入る)",
+    "arti": "Menyukai / Berkenan",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kurasu",
+    "kana": "くらす (暮らす)",
+    "arti": "Menjalani hidup",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kurikaesu",
+    "kana": "くりかえす (繰り返す)",
+    "arti": "Mengulang",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kurushimu",
+    "kana": "くるしむ (苦しむ)",
+    "arti": "Menderita",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Koeru",
+    "kana": "こえる (越える)",
+    "arti": "Melampaui / Melewati",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kotowaru",
+    "kana": "ことわる (断る)",
+    "arti": "Menolak / Meminta izin",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Korobu",
+    "kana": "ころぶ (転ぶ)",
+    "arti": "Terjatuh / Tersandung",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Saguru",
+    "kana": "さぐる (探る)",
+    "arti": "Meraba-raba / Menyelidiki",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Sakebu",
+    "kana": "さけぶ (叫ぶ)",
+    "arti": "Berteriak",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Sameru",
+    "kana": "さめる (覚める)",
+    "arti": "Terbangun / Menjadi sadar",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Shiku",
+    "kana": "しく (敷く)",
+    "arti": "Membentangkan / Menggelar",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Shitagau",
+    "kana": "したがう (従う)",
+    "arti": "Mematuhi / Mengikuti",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Shiharau",
+    "kana": "しはらう (支払う)",
+    "arti": "Membayar (Tagihan)",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Shimesu",
+    "kana": "しめす (示す)",
+    "arti": "Menunjukkan / Memperlihatkan",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Susumeru",
+    "kana": "すすめる (勧める)",
+    "arti": "Menyarankan / Merekomendasikan",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Sumu",
+    "kana": "すむ (済む)",
+    "arti": "Selesai / Berakhir",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Sukuu",
+    "kana": "すくう (救う)",
+    "arti": "Menyelamatkan",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Sodatsu",
+    "kana": "そだつ (育つ)",
+    "arti": "Tumbuh / Berkembang",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Taosu",
+    "kana": "たおす (倒す)",
+    "arti": "Menjatuhkan / Mengalahkan",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Tashikameru",
+    "kana": "たしかめる (確かめる)",
+    "arti": "Memastikan",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Tayoru",
+    "kana": "たよる (頼る)",
+    "arti": "Mengandalkan / Bergantung",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Damaru",
+    "kana": "だまる (黙る)",
+    "arti": "Berdiam diri / Bungkam",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Chigau",
+    "kana": "ちがう (違う)",
+    "arti": "Berbeda / Salah",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Tsukamaeru",
+    "kana": "つかまえる (捕まえる)",
+    "arti": "Menangkap (Pencuri/Hewan)",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Tsunagu",
+    "kana": "つなぐ (繋ぐ)",
+    "arti": "Menyambung / Mengikat",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Toku",
+    "kana": "とく (解く)",
+    "arti": "Memecahkan / Melepaskan",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Tobasu",
+    "kana": "とばす (飛ばす)",
+    "arti": "Menerbangkan / Melewatkan",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Nagameru",
+    "kana": "ながめる (眺める)",
+    "arti": "Memandang / Menatap",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Nayamu",
+    "kana": "なやむ (悩む)",
+    "arti": "Merasa cemas / Bingung",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Niau",
+    "kana": "にあう (似合う)",
+    "arti": "Cocok / Pantas",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Nuku",
+    "kana": "ぬく (抜く)",
+    "arti": "Mencabut / Menarik keluar",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Negau",
+    "kana": "ねがう (願う)",
+    "arti": "Berharap / Memohon",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Habuku",
+    "kana": "はぶく (省く)",
+    "arti": "Meniadakan / Menghemat",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Hayaru",
+    "kana": "はやる (流行る)",
+    "arti": "Populer / Menjadi tren",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Hazusu",
+    "kana": "はずす (外す)",
+    "arti": "Melepas / Menyingkir",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Hanareru",
+    "kana": "はなれる (離れる)",
+    "arti": "Menjauh / Berpisah",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Hiyasu",
+    "kana": "ひやす (冷やす)",
+    "arti": "Mendinginkan",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Butsukaru",
+    "kana": "ぶつかる",
+    "arti": "Menabrak / Terbentur",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Fusegu",
+    "kana": "ふせぐ (防ぐ)",
+    "arti": "Mencegah / Menangkal",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Heru",
+    "kana": "へる (減る)",
+    "arti": "Berkurang",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Hoeru",
+    "kana": "ほえる (吠える)",
+    "arti": "Menggonggong / Mengaum",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Horu",
+    "kana": "ほる (掘る)",
+    "arti": "Menggali",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Makaseru",
+    "kana": "まかせる (任せる)",
+    "arti": "Mempercayakan / Menyerahkan",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Mazaru",
+    "kana": "まざる (交ざる)",
+    "arti": "Bercampur / Berbaur",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Mayou",
+    "kana": "まよう (迷う)",
+    "arti": "Tersesat / Bimbang",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Mitomeru",
+    "kana": "みとめる (認める)",
+    "arti": "Mengakui / Menyetujui",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Mukeru",
+    "kana": "むける (向ける)",
+    "arti": "Mengarahkan / Menghadapkan",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Medatsu",
+    "kana": "めだつ (目立つ)",
+    "arti": "Mencolok / Menarik perhatian",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Moushikomu",
+    "kana": "もうしこむ (申し込む)",
+    "arti": "Mendaftar / Mengajukan",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Moeru",
+    "kana": "もえる (燃える)",
+    "arti": "Terbakar / Membara",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Modosu",
+    "kana": "もどす (戻す)",
+    "arti": "Mengembalikan",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Yurusu",
+    "kana": "ゆるす (許す)",
+    "arti": "Memaafkan / Mengizinkan",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Yogoreru",
+    "kana": "よごれる (汚れる)",
+    "arti": "Menjadi kotor",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Yorokobu",
+    "kana": "よろこぶ (喜ぶ)",
+    "arti": "Bergembira / Merasa senang",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Wakeru",
+    "kana": "わける (分ける)",
+    "arti": "Membagi / Memisahkan",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Otonashii",
+    "kana": "おとなしい (大人しい)",
+    "arti": "Pendiam / Patuh",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Hageshii",
+    "kana": "はげしい (激しい)",
+    "arti": "Hebat / Ekstrem / Sengit",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Hitoshii",
+    "kana": "ひとしい (等しい)",
+    "arti": "Sama / Setara",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Mazushii",
+    "kana": "まずしい (貧しい)",
+    "arti": "Miskin / Melarat",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Mabushii",
+    "kana": "まぶしい (眩しい)",
+    "arti": "Menyilaukan",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Yutaka",
+    "kana": "ゆたか (豊か)",
+    "arti": "Kaya / Berlimpah",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Tashika",
+    "kana": "たしか (確か)",
+    "arti": "Pasti / Tentu",
+    "tipe": "adjective adverb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Sawayaka",
+    "kana": "さわやか (爽やか)",
+    "arti": "Menyegarkan",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Odayaka",
+    "kana": "おだやか (穏やか)",
+    "arti": "Tenang / Damai",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Hade",
+    "kana": "はで (派手)",
+    "arti": "Mencolok / Terang",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Jimi",
+    "kana": "じみ (地味)",
+    "arti": "Sederhana / Polos",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Aimai",
+    "kana": "あいまい (曖昧)",
+    "ambigu": "Ambigu / Tidak jelas",
+    "arti": "Ambigu / Tidak jelas",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kanpeki",
+    "kana": "かんぺき (完璧)",
+    "arti": "Sempurna",
+    "tipe": "adjective noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kimyou",
+    "kana": "きみょう (奇妙)",
+    "arti": "Aneh / Ganjil",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kyuu",
+    "kana": "きゅう (急)",
+    "arti": "Mendadak / Darurat",
+    "tipe": "adjective noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kyodai",
+    "kana": "きょだい (巨大)",
+    "arti": "Raksasa / Sangat besar",
+    "tipe": "adjective noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kiyou",
+    "kana": "きよう (器用)",
+    "arti": "Terampil / Cekatan",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kuyashii",
+    "kana": "くやしい (悔しい)",
+    "arti": "Menyesal / Frustrasi",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kashikoi",
+    "kana": "かしこい (賢い)",
+    "arti": "Cerdas / Bijaksana",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kayui",
+    "kana": "かゆい (痒い)",
+    "arti": "Gatal",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kusai",
+    "kana": "くさい (臭い)",
+    "arti": "Bau busuk",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kewashii",
+    "kana": "けわしい (険しい)",
+    "arti": "Terjal / Curam",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Koi",
+    "kana": "こい (濃い)",
+    "arti": "Pekat / Kental / Gelap (Warna)",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Osoroshii",
+    "kana": "おそろしい (恐ろしい)",
+    "arti": "Menakutkan / Mengerikan",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Surudoi",
+    "kana": "するどい (鋭い)",
+    "arti": "Tajam",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Nibui",
+    "kana": "にぶい (鈍い)",
+    "arti": "Tumpul / Lamban",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Tsurai",
+    "kana": "つらい (辛い)",
+    "arti": "Menyakitkan / Pahit (Perasaan)",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Nikui",
+    "kana": "にくい (憎い)",
+    "arti": "Membenci",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Yurui",
+    "kana": "ゆるい (緩い)",
+    "arti": "Longgar",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Erai",
+    "kana": "えらい (偉い)",
+    "arti": "Hebat / Terkemuka",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Aite",
+    "kana": "あいて (相手)",
+    "arti": "Lawan / Pasangan / Rekan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Akuma",
+    "kana": "あくま (悪魔)",
+    "arti": "Iblis / Setan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Atari",
+    "kana": "あたり (辺り)",
+    "arti": "Sekitar",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Arashi",
+    "kana": "あらし (嵐)",
+    "arti": "Badai",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Awa",
+    "kana": "あわ (泡)",
+    "arti": "Gelembung / Busa",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Ikari",
+    "kana": "いかり (怒り)",
+    "arti": "Kemarahan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Iki",
+    "kana": "いき (息)",
+    "arti": "Napas",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Inochi",
+    "kana": "いのち (命)",
+    "arti": "Nyawa / Kehidupan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Uwasa",
+    "kana": "うわさ (噂)",
+    "arti": "Rumor / Gosip",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Egao",
+    "kana": "えがお (笑顔)",
+    "arti": "Wajah tersenyum",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Oku",
+    "kana": "おく (億)",
+    "arti": "Ratusan Juta",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Obi",
+    "kana": "おび (帯)",
+    "arti": "Sabuk (Kimono)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "On",
+    "kana": "おん (恩)",
+    "arti": "Budi / Hutang budi",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Ka",
+    "kana": "か (蚊)",
+    "arti": "Nyamuk",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kata",
+    "kana": "かた (肩)",
+    "arti": "Bahu",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kara",
+    "kana": "から (殻)",
+    "arti": "Cangkang",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kan",
+    "kana": "かん (勘)",
+    "arti": "Insting / Firasat",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kizu",
+    "kana": "きず (傷)",
+    "arti": "Luka",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kuda",
+    "kana": "くだ (管)",
+    "arti": "Pipa / Tabung",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kemuri",
+    "kana": "けむり (煙)",
+    "arti": "Asap",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Koori",
+    "kana": "こおり (氷)",
+    "arti": "Es",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Saka",
+    "kana": "さか (坂)",
+    "arti": "Tanjakan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Shi",
+    "kana": "し (詩)",
+    "arti": "Puisi",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Shibafu",
+    "kana": "しばふ (芝生)",
+    "arti": "Halaman rumput",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Shimo",
+    "kana": "しも (霜)",
+    "arti": "Embun beku",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Shiro",
+    "kana": "しろ (城)",
+    "arti": "Kastil / Istana",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Suji",
+    "kana": "すじ (筋)",
+    "arti": "Otot / Serat",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Sumi",
+    "kana": "すみ (炭)",
+    "arti": "Arang",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Sen",
+    "kana": "せん (線)",
+    "arti": "Garis",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Soko",
+    "kana": "そこ (底)",
+    "arti": "Dasar (bawah)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Taki",
+    "kana": "たき (滝)",
+    "arti": "Air terjun",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Take",
+    "kana": "たけ (竹)",
+    "arti": "Bambu",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Tabi",
+    "kana": "たび (旅)",
+    "arti": "Perjalanan (Travel)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Tama",
+    "kana": "たま (玉)",
+    "arti": "Bola / Permata",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Tou",
+    "kana": "とう (塔)",
+    "arti": "Menara",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Doku",
+    "kana": "どく (毒)",
+    "arti": "Racun",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Doro",
+    "kana": "どろ (泥)",
+    "arti": "Lumpur",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Nazo",
+    "kana": "なぞ (謎)",
+    "arti": "Misteri / Teka-teki",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Nami",
+    "kana": "なみ (波)",
+    "arti": "Ombak",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Namida",
+    "kana": "なみだ (涙)",
+    "arti": "Air mata",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Niji",
+    "kana": "にじ (虹)",
+    "arti": "Pelangi",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Nuno",
+    "kana": "ぬの (布)",
+    "arti": "Kain",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Ne",
+    "kana": "ね (根)",
+    "arti": "Akar",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Hata",
+    "kana": "はた (旗)",
+    "arti": "Bendera",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Batsu",
+    "kana": "ばつ (罰)",
+    "arti": "Hukuman",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Haka",
+    "kana": "はか (墓)",
+    "arti": "Makam / Kuburan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Hada",
+    "kana": "はだ (肌)",
+    "arti": "Kulit (manusia)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Hachi",
+    "kana": "はち (鉢)",
+    "arti": "Mangkuk / Pot",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Hane",
+    "kana": "はね (羽)",
+    "arti": "Bulu / Sayap",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Hari",
+    "kana": "はり (針)",
+    "arti": "Jarum",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Hitsuji",
+    "kana": "ひつじ (羊)",
+    "arti": "Domba",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Bin",
+    "kana": "びん (瓶)",
+    "arti": "Botol kaca",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Hone",
+    "kana": "ほね (骨)",
+    "arti": "Tulang",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Maku",
+    "kana": "まく (幕)",
+    "arti": "Tirai / Layar",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Matsu",
+    "kana": "まつ (松)",
+    "arti": "Pohon pinus",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Mame",
+    "kana": "まめ (豆)",
+    "arti": "Kacang",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Maru",
+    "kana": "まる (丸)",
+    "arti": "Lingkaran",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Mizo",
+    "kana": "みぞ (溝)",
+    "arti": "Selokan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Mune",
+    "kana": "むね (胸)",
+    "arti": "Dada",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Momo",
+    "kana": "もも (桃)",
+    "arti": "Persik (Peach)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Izumi",
+    "kana": "いずみ (泉)",
+    "arti": "Mata air",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Choujou",
+    "kana": "ちょうじょう (頂上)",
+    "arti": "Puncak",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Chikyuu",
+    "kana": "ちきゅう (地球)",
+    "arti": "Bumi",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kaiketsu",
+    "kana": "かいけつ (解決)",
+    "arti": "Penyelesaian / Solusi",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Rikai",
+    "kana": "りかい (理解)",
+    "arti": "Pemahaman / Mengerti",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kyouryoku",
+    "kana": "きょうりょく (協力)",
+    "arti": "Kerjasama",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kansha",
+    "kana": "かんしゃ (感謝)",
+    "arti": "Rasa Syukur / Berterima kasih",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kitai",
+    "kana": "きたい (期待)",
+    "arti": "Ekspektasi / Harapan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kettei",
+    "kana": "けってい (決定)",
+    "arti": "Keputusan / Penentuan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Seiri",
+    "kana": "せいり (整理)",
+    "arti": "Pengaturan / Menyortir",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Chuumon",
+    "kana": "ちゅうもん (注文)",
+    "arti": "Pesanan / Order",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kiroku",
+    "kana": "きろく (記録)",
+    "arti": "Catatan / Rekor",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kinyuu",
+    "kana": "きにゅう (記入)",
+    "arti": "Pengisian (Formulir)",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Zouka",
+    "kana": "ぞうか (増加)",
+    "arti": "Peningkatan / Penambahan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Seichou",
+    "kana": "せいちょう (成長)",
+    "arti": "Pertumbuhan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Henka",
+    "kana": "へんか (変化)",
+    "arti": "Perubahan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Katsudou",
+    "kana": "かつどう (活動)",
+    "arti": "Aktivitas / Kegiatan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kandou",
+    "kana": "かんどう (感動)",
+    "arti": "Tersentuh / Terharu",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Angai",
+    "kana": "あんがい (案外)",
+    "arti": "Di luar dugaan",
+    "tipe": "adverb adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Ikinari",
+    "kana": "いきなり",
+    "arti": "Tiba-tiba / Mendadak",
+    "tipe": "adverb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Osoraku",
+    "kana": "おそらく (恐らく)",
+    "arti": "Mungkin / Barangkali",
+    "tipe": "adverb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Omoikiri",
+    "kana": "おもいきり (思い切り)",
+    "arti": "Sepenuh hati / Sekuat tenaga",
+    "tipe": "adverb noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kesshite",
+    "kana": "けっして (決して)",
+    "arti": "Sama sekali tidak (Negatif)",
+    "tipe": "adverb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kossori",
+    "kana": "こっそり",
+    "arti": "Diam-diam / Sembunyi-sembunyi",
+    "tipe": "adverb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Sasuga",
+    "kana": "さすが (流石)",
+    "arti": "Seperti yang diharapkan",
+    "tipe": "adverb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Jitto",
+    "kana": "じっと",
+    "arti": "Diam tak bergerak / Menatap",
+    "tipe": "adverb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Sudeni",
+    "kana": "すでに (既に)",
+    "arti": "Sudah (Lebih formal dari Mou)",
+    "tipe": "adverb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Subete",
+    "kana": "すべて (全て)",
+    "arti": "Semuanya",
+    "tipe": "adverb noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Sokkuri",
+    "kana": "そっくり",
+    "arti": "Sangat mirip / Persis",
+    "tipe": "adverb adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Tappuri",
+    "kana": "たっぷり",
+    "arti": "Penuh / Banyak",
+    "tipe": "adverb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Tsuini",
+    "kana": "ついに (遂に)",
+    "arti": "Akhirnya (Setelah sekian lama)",
+    "tipe": "adverb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Dekirudake",
+    "kana": "できるだけ (出来るだけ)",
+    "arti": "Sebisa mungkin",
+    "tipe": "adverb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Touzen",
+    "kana": "とうぜん (当然)",
+    "arti": "Tentu saja / Wajar",
+    "tipe": "adverb adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Nonbiri",
+    "kana": "のんびり",
+    "arti": "Santai / Tanpa terburu-buru",
+    "tipe": "adverb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Hatashite",
+    "kana": "はたして (果たして)",
+    "arti": "Sesuai dugaan / Benarkah?",
+    "tipe": "adverb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Pittari",
+    "kana": "ぴったり",
+    "arti": "Pas / Cocok (Ukuran)",
+    "tipe": "adverb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Fudan",
+    "kana": "ふだん (普段)",
+    "arti": "Biasanya",
+    "tipe": "adverb noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Hobo",
+    "kana": "ほぼ",
+    "arti": "Hampir / Sekitar",
+    "tipe": "adverb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Yahari / Yappari",
+    "kana": "やはり / やっぱり",
+    "arti": "Ternyata / Memang",
+    "tipe": "adverb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Wazuka",
+    "kana": "わずか (僅か)",
+    "arti": "Hanya sedikit",
+    "tipe": "adverb adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Wareware",
+    "kana": "われわれ (我々)",
+    "arti": "Kami / Kita (Sangat Formal)",
+    "tipe": "pronoun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Otagai",
+    "kana": "おたがい (お互い)",
+    "arti": "Satu sama lain / Saling",
+    "tipe": "pronoun noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kochira",
+    "kana": "こちら",
+    "arti": "Sebelah sini / Pihak kami (Sopan)",
+    "tipe": "pronoun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Sochira",
+    "kana": "そちら",
+    "arti": "Sebelah situ / Pihak Anda (Sopan)",
+    "tipe": "pronoun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Achira",
+    "kana": "あちら",
+    "arti": "Sebelah sana / Pihak mereka (Sopan)",
+    "tipe": "pronoun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Dochira",
+    "kana": "どちら",
+    "arti": "Sebelah mana? / Pihak mana?",
+    "tipe": "pronoun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Otsukaresama desu",
+    "kana": "おつかれさまです (お疲れ様です)",
+    "arti": "Terima kasih atas kerja kerasnya",
+    "tipe": "ungkapan"
+  },
+  {
+    "level": "N3",
+    "romaji": "Gokurousama desu",
+    "kana": "ごくろうさまです (ご苦労様です)",
+    "arti": "Terima kasih kerja kerasnya (Atasan ke bawahan)",
+    "tipe": "ungkapan"
+  },
+  {
+    "level": "N3",
+    "romaji": "Osewa ni narimasu",
+    "kana": "おせわになります (お世話になります)",
+    "arti": "Mohon bimbingannya / Terima kasih dukungannya",
+    "tipe": "ungkapan"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kashikomarimashita",
+    "kana": "かしこまりました",
+    "arti": "Baik, saya mengerti (Sangat sopan/Pelayan ke tamu)",
+    "tipe": "ungkapan"
+  },
+  {
+    "level": "N3",
+    "romaji": "Moushiwake arimasen",
+    "kana": "もうしわけありません (申し訳ありません)",
+    "arti": "Saya sangat memohon maaf",
+    "tipe": "ungkapan"
+  },
+  {
+    "level": "N3",
+    "romaji": "Omatase shimashita",
+    "kana": "おまたせしました (お待たせしました)",
+    "arti": "Maaf telah membuat Anda menunggu",
+    "tipe": "ungkapan"
+  },
+  {
+    "level": "N3",
+    "romaji": "Yoroshiku onegai shimasu",
+    "kana": "よろしくおねがいします (よろしくお願いします)",
+    "arti": "Senang bekerja sama dengan Anda / Mohon bantuannya",
+    "tipe": "ungkapan"
+  },
+  {
+    "level": "N3",
+    "romaji": "Gobusata shite orimasu",
+    "kana": "ごぶさたしております (ご無沙汰しております)",
+    "arti": "Lama tidak berjumpa (Sangat sopan)",
+    "tipe": "ungkapan"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kouhai",
+    "kana": "こうはい (後輩)",
+    "arti": "Junior (Di sekolah/kantor)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Senpai",
+    "kana": "せんぱい (先輩)",
+    "arti": "Senior",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Douki",
+    "kana": "どうき (同期)",
+    "arti": "Rekan seangkatan (Sangat Formal/Bisnis)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Joushi",
+    "kana": "じょうし (上司)",
+    "arti": "Atasan / Bos",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Buka",
+    "kana": "ぶか (部下)",
+    "arti": "Bawahan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Torihikisaki",
+    "kana": "とりひきさき (取引先)",
+    "arti": "Klien / Mitra Bisnis (Keigo Bisnis)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kokyaku",
+    "kana": "こきゃく (顧客)",
+    "arti": "Pelanggan / Customer (Bisnis)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Jouren",
+    "kana": "じょうれん (常連)",
+    "arti": "Pelanggan tetap / Langganan (Kasual)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kibun",
+    "kana": "きぶん (気分)",
+    "arti": "Suasana hati / Mood (Kasual)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kijun",
+    "kana": "きじゅん (基準)",
+    "arti": "Standar / Kriteria (Formal)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kisoku",
+    "kana": "きそく (規則)",
+    "arti": "Peraturan (Pabrik/Sekolah)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Houritsu",
+    "kana": "ほうりつ (法律)",
+    "arti": "Hukum / Undang-undang",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Ihan",
+    "kana": "いはん (違反)",
+    "arti": "Pelanggaran (Lalu lintas/Hukum)",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Bakkure",
+    "kana": "ばっくれ",
+    "arti": "Bolos / Kabur dari tanggung jawab (Slang Kasar)",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Saboru",
+    "kana": "サボる",
+    "arti": "Bolos sekolah/kerja (Kasual)",
+    "tipe": "verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kesseki",
+    "kana": "けっせき (欠席)",
+    "arti": "Absen / Tidak Hadir (Sopan/Formal)",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Chikoku",
+    "kana": "ちこく (遅刻)",
+    "arti": "Datang terlambat",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Soutai",
+    "kana": "そうたい (早退)",
+    "arti": "Pulang lebih awal (Dari kantor/sekolah)",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Zangyou",
+    "kana": "ざんぎょう (残業)",
+    "arti": "Lembur kerja",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kyuuka",
+    "kana": "きゅうか (休暇)",
+    "arti": "Cuti (Pekerjaan/Bisnis)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Yasumi",
+    "kana": "やすみ (休み)",
+    "arti": "Libur (Kasual/Umum)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Shucchou",
+    "kana": "しゅっちょう (出張)",
+    "arti": "Perjalanan dinas",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Shoukan",
+    "kana": "しょうかん (召喚)",
+    "arti": "Panggilan / Summon (Formal/Game RPG)",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Tokumei",
+    "kana": "とくめい (匿名)",
+    "arti": "Anonim / Tanpa nama",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Gisou",
+    "kana": "ぎそう (偽装)",
+    "arti": "Penyamaran / Pemalsuan",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Inpei",
+    "kana": "いんぺい (隠蔽)",
+    "arti": "Penyembunyian fakta (Berita Politik)",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Gokai",
+    "kana": "ごかい (誤解)",
+    "arti": "Kesalahpahaman",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Rikutsu",
+    "kana": "りくつ (理屈)",
+    "arti": "Teori / Logika (Sering dipakai debat)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kekkan",
+    "kana": "けっかん (欠陥)",
+    "arti": "Cacat / Produk gagal (Bisnis)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Monku",
+    "kana": "もんく (文句)",
+    "arti": "Keluhan / Komplain (Kasual)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kureemu",
+    "kana": "クレーム",
+    "arti": "Komplain dari pelanggan (Bisnis)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kuujou",
+    "kana": "くじょう (苦情)",
+    "arti": "Pengaduan / Keluhan Resmi",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Hyouban",
+    "kana": "ひょうばん (評判)",
+    "arti": "Reputasi / Penilaian publik",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Uwasa",
+    "kana": "うわさ (噂)",
+    "arti": "Rumor / Gosip",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N3",
+    "romaji": "Ryoushin",
+    "kana": "りょうしん (良心)",
+    "arti": "Hati nurani",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Saimin",
+    "kana": "さいみん (催眠)",
+    "arti": "Hipnotis",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Jumyou",
+    "kana": "じゅみょう (寿命)",
+    "arti": "Umur / Batas usia hidup",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Ketsuekigata",
+    "kana": "けつえきがた (血液型)",
+    "arti": "Golongan darah",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Shinchou",
+    "kana": "しんちょう (身長)",
+    "arti": "Tinggi badan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Taijuu",
+    "kana": "たいじゅう (体重)",
+    "arti": "Berat badan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kuse",
+    "kana": "くせ (癖)",
+    "arti": "Kebiasaan (Biasanya buruk)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Tanjun",
+    "kana": "たんじゅん (単純)",
+    "arti": "Sederhana / Simple (Formal)",
+    "tipe": "adjective noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Fukuzatsu",
+    "kana": "ふくざつ (複雑)",
+    "arti": "Rumit / Kompleks",
+    "tipe": "adjective noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Aimai",
+    "kana": "あいまい (曖昧)",
+    "arti": "Ambigu / Tidak jelas",
+    "tipe": "adjective noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Meikaku",
+    "kana": "めいかく (明確)",
+    "arti": "Jelas / Tegas (Formal)",
+    "tipe": "adjective noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Buji",
+    "kana": "ぶじ (無事)",
+    "arti": "Selamat / Aman dari bahaya",
+    "tipe": "adjective noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Kiken",
+    "kana": "きけん (危険)",
+    "arti": "Bahaya",
+    "tipe": "adjective noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Zettai",
+    "kana": "ぜったい (絶対)",
+    "arti": "Pasti / Absolut (Sangat kuat)",
+    "tipe": "adverb noun"
+  },
+  {
+    "level": "N3",
+    "romaji": "Tashika",
+    "kana": "たしか (確か)",
+    "arti": "Kalau tidak salah / Pasti",
+    "tipe": "adverb adjective"
+  },
+  {
+    "level": "N3",
+    "romaji": "Osoraku",
+    "kana": "おそらく (恐らく)",
+    "arti": "Mungkin / Barangkali (Formal)",
+    "tipe": "adverb"
+  }
+]

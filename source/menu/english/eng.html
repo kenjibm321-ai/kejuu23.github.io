@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kejuu English - Interactive Learning</title>
+    
+    <meta name="description" content="Belajar bahasa Inggris interaktif: Latihan tenses, grammar, slang, idiom, dan kamus vocab pro dapat dicari markas English Division sekarang ">
+    <link rel="canonical" href="https://kejuu.web.id/source/menu/english/eng.html">
+    <link rel="preconnect" href="https://unpkg.com" crossorigin>
+    <link rel="dns-prefetch" href="https://unpkg.com">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4600838552332740"
+     crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../header/header.css">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="eng.css">
+</head>
+<body>
+
+    <header class="main-header" data-siluman="false">
+        <div class="header-content">
+            <a href="../../../index.html" class="logo">KEJUU<span>.id</span></a>
+            
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <button id="btn-focus" class="btn-focus" title="Aktifkan Mode Fokus">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M16 5h-3V2h-2v3H8l4 4zm-5 17h2v-3h3l-4-4-4 4h3zM3 11h3v2H3zm5 0h3v2H8zm5 0h3v2h-3zm5 0h3v2h-3z"></path>
+                    </svg>
+                </button>
+                <div class="menu-toggle" id="navBtn"><span></span><span></span><span></span></div>
+            </div>
+        </div>
+
+        <div class="dropdown-container" id="navMenu">
+            <a href="../../../index.html" class="menu-item">profile</a>
+            <a href="../hiragana/jp.html" class="menu-item">japanese</a>
+        </div>
+    </header>
+
+    <div class="intro-container" id="intro-area">
+        <h1 style="background: linear-gradient(to right, #00c6ff, #a78bfa); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 10px; margin-top: 100px; font-size: 2.2rem;">English Division</h1>
+        <p style="color: #aaa; margin-bottom: 20px; line-height: 1.5;">Selamat datang di markas besar bahasa Inggris! Siapkan jarimu, karena di sini kita nggak cuma ngafal, tapi langsung praktek!</p>
+        
+        <div class="eng-tabs" style="display: flex; gap: 10px; justify-content: center; margin-bottom: 30px;">
+            <button class="tab-btn active" onclick="openEngTab('tab-tenses', this)" style="display: flex; align-items: center; justify-content: center; gap: 6px;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M21 10.975V8a2 2 0 0 0-2-2h-6V4.612A2.005 2.005 0 0 0 14 2.628V2h-4v.628A2.005 2.005 0 0 0 11 4.612V6H5a2 2 0 0 0-2 2v2.975A3.003 3.003 0 0 0 2 14v4c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2v-4a3.003 3.003 0 0 0-1-3.025zM5 8h14v2.975a3.004 3.004 0 0 0-1 .025H6a3.004 3.004 0 0 0-1-.025V8zm15 10H4v-4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v4z"></path><path d="M15.5 14a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm-4 0a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM7 14h2v3H7z"></path></svg>
+                Arena Latihan
+            </button>
+            <button class="tab-btn" onclick="openEngTab('tab-library', this)" style="display: flex; align-items: center; justify-content: center; gap: 6px;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M21 8c-.2 0-4.85.03-9 2.01C7.85 8.03 3.2 8 3 8c-.55 0-1 .45-1 1v9.88c0 .27.11.53.31.72.19.19.45.3.73.28.04 0 3.97-.11 8.54 2.02.02 0 .03 0 .05.01.12.05.24.08.37.08s.25-.03.37-.08c.02 0 .03 0 .05-.01 4.54-2.12 8.51-2.03 8.54-2.02.27.02.53-.09.73-.28.19-.19.31-.45.31-.72V9c0-.55-.45-1-1-1M4 10.05c1.49.11 4.38.48 7 1.69v7.74c-3.02-1.18-5.62-1.5-7-1.58v-7.86Zm16 7.86c-1.38.08-3.98.4-7 1.58v-7.74c2.62-1.21 5.51-1.58 7-1.69v7.86ZM12 2a3 3 0 1 0 0 6 3 3 0 1 0 0-6"></path>
+                </svg>
+                Library
+            </button>
+        </div>
+    </div>
+
+    <div id="tab-tenses" class="content-section active" style="width: 100%; max-width: 600px; padding: 0 20px 80px;">
+        
+        <div class="stats-card" style="background: rgba(0, 198, 255, 0.1); border: 1px dashed #00c6ff; padding: 15px; border-radius: 12px; margin-bottom: 25px;">
+            <h3 style="color: #fff; margin-bottom: 5px;">Status Agen:</h3>
+            <p>🏆 Level Saat Ini: <span id="intro-level-text" style="color:#00c6ff; font-weight:bold;">Rookie</span></p>
+        </div>
+
+        <div id="level-select-area">
+            <h3 style="color: #fff; margin-bottom: 15px;">Pilih Misi Tenses:</h3>
+            <div class="level-grid" id="level-grid">
+                </div>
+        </div>
+
+        <div id="quiz-area" style="display: none;">
+            <div class="quiz-header" style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px;">
+                <button id="btn-back-level" class="btn-float-outline" style="padding: 6px 10px; border-radius: 20px; background: transparent; color: #fff; border: 1px solid #fff;">⬅ mundur</button>
+                <span id="quiz-level-title" style="color:#00c6ff; font-weight:bold;">Level X</span>
+            </div>
+            
+            <div class="progress-bar-container" style="background: rgba(255,255,255,0.1); height: 8px; border-radius: 4px; overflow: hidden; margin-bottom: 10px;">
+                <div id="progress-fill" class="progress-fill" style="height: 100%; background: #00c6ff; width: 0%; transition: width 0.3s;"></div>
+            </div>
+            <div id="q-counter" style="text-align: right; font-size: 0.8rem; color: #888; margin-bottom: 20px;">Soal 1/3</div>
+
+            <div class="question-box" style="background: rgba(255,255,255,0.05); padding: 20px; border-radius: 15px; text-align: center; border: 1px solid rgba(0,198,255,0.2);">
+                <p id="q-text" style="font-size: 1.1rem; color: #fff; margin-bottom: 10px;">Loading pertanyaan...</p>
+                <p id="q-base" style="font-size: 1.3rem; font-weight: bold; color: #00c6ff;">Loading base...</p>
+            </div>
+
+            <div class="input-section" style="margin: 20px 0;">
+                <input type="text" id="ans-input" placeholder="Ketik jawaban di sini..." autocomplete="off" style="width: 100%; padding: 15px; border-radius: 12px; border: 1px solid #00c6ff; background: rgba(0,0,0,0.5); color: #fff; font-size: 1rem; text-align: center;">
+            </div>
+
+            <div id="feedback-msg" class="feedback-msg" style="display:none; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold; margin-bottom: 20px;"></div>
+
+            <div class="action-buttons" style="display:flex; gap: 10px;">
+                <button id="btn-check" class="btn-primary" style="flex:1; padding:15px; border-radius:12px; background:#00c6ff; color:#000; font-weight:bold; border:none; cursor:pointer;">Periksa!</button>
+                <button id="btn-next" class="btn-primary" style="display:none; flex:1; padding:15px; border-radius:12px; background:#00d26a; color:#000; font-weight:bold; border:none; cursor:pointer;">Lanjut ⏭️</button>
+            </div>
+        </div>
+
+        <div class="floating-tools" style="display:flex; justify-content:center; gap:10px; margin-top:35px;">
+            <button id="btn-saku" class="btn-float" style="padding:10px 20px; border-radius:25px; background:rgba(0,198,255,0.1); border:1px solid #00c6ff; color:#00c6ff; cursor:pointer;">📖 Tenses</button>
+            <button id="btn-museum" class="btn-float" style="padding:10px 20px; border-radius:25px; background:rgba(255,71,87,0.1); border:1px solid #ff4757; color:#ff4757; cursor:pointer;">🏛️ Mistake Museum</button>
+        </div>
+    </div>
+
+    <div id="tab-library" class="content-section" style="display: none; width: 100%; max-width: 600px; padding: 0 20px 80px;">
+        
+        <div class="vocab-toolbar">
+            <input type="text" id="engSearch" class="vocab-search" placeholder="Cari vocab, slang, idiom...">
+            
+            <div class="filter-wrapper">
+                <button id="btn-filter-eng" class="btn-filter">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M21 16V8l-5 4zM3 5h15v2H3zm0 6h11v2H3zm0 6h15v2H3z"></path>
+                    </svg>
+                </button>
+                
+                <div id="filter-menu-eng" class="filter-menu">
+                    <button class="filter-option active" data-tipe="semua">All (Semua)</button>
+                    <button class="filter-option" data-tipe="verb">Verb (Kerja)</button>
+                    <button class="filter-option" data-tipe="noun">Noun (Benda)</button>
+                    <button class="filter-option" data-tipe="adjective">Adjective (Sifat)</button>
+                    <button class="filter-option" data-tipe="adverb">Adverb (Ket)</button>
+                    <button class="filter-option idiom-btn" data-tipe="idiom">Idiom (Ungkapan)</button>
+                    <button class="filter-option slang-btn" data-tipe="slang">Slang (Gaul)</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="wadah-vocab-eng" class="wadah-vocab">
+            <p style="text-align:center; color:#aaa;">Memuat kosakata~..~</p>
+        </div>
+    </div>
+
+    <div id="museum-modal" class="modal-overlay" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.85); z-index:9999; justify-content:center; align-items:center; padding:20px; backdrop-filter: blur(5px);">
+        <div class="modal-content" style="background:#1c2541; border:1px solid #ff4757; border-radius:20px; width:100%; max-width:500px; padding:25px; box-shadow: 0 20px 50px rgba(0,0,0,0.8);">
+            <div class="modal-header" style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px;">
+                <h2 style="color:#ff4757; margin:0; font-size:1.5rem;">🏛️ Mistake Museum</h2>
+                <button id="btn-close-museum" style="background:transparent; border:none; color:#fff; font-size:1.5rem; cursor:pointer;">✖</button>
+            </div>
+            <input type="text" id="museum-search" placeholder="Cari dosamu di sini... 🔍" autocomplete="off" style="width:100%; padding:12px; border-radius:10px; margin-bottom:20px; border:1px solid rgba(255,71,87,0.5); background:rgba(0,0,0,0.3); color:#fff;">
+            <div id="museum-list" class="museum-list" style="max-height:60vh; overflow-y:auto;"></div>
+        </div>
+    </div>
+
+    <div id="saku-modal" class="modal-overlay" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.85); z-index:9999; justify-content:center; align-items:center; padding:20px; backdrop-filter: blur(5px);">
+        <div class="modal-content" style="background:#1c2541; border:1px solid #00c6ff; border-radius:20px; width:100%; max-width:500px; padding:25px; box-shadow: 0 20px 50px rgba(0,0,0,0.8);">
+            <div class="modal-header" style="display:flex; justify-content:space-between; align-items:center; margin-bottom:15px;">
+                <h2 style="color:#00c6ff; margin:0; font-size:1.5rem;">📚 Buku Saku Tenses</h2>
+                <button id="btn-close-saku" style="background:transparent; border:none; color:#fff; font-size:1.5rem; cursor:pointer;">✖</button>
+            </div>
+            <p style="color: #aaa; font-size: 0.9rem; margin-bottom: 20px; text-align: center;">Klik materi di bawah untuk membuka dokumen rahasia agen! 👀</p>
+            
+            <div class="saku-list" id="saku-list" style="max-height:55vh; overflow-y:auto; padding-right:5px;">
+                <p style="text-align:center; color:#aaa;" id="loading-tenses">Membongkar brankas rahasia... ⏳</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="../../header/nav.js" defer></script> 
+    <script src="eng.js" defer></script>
+</body>
+</html>

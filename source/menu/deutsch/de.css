@@ -1,0 +1,225 @@
+/* ===================================================================
+   🇩🇪 KEJUU DEUTSCH - ABT. SATZBAU & FÄLLE (CLASSIC BLUEPRINT)
+   ===================================================================
+   [x] Architect  : Pak CEO Kejuu
+   [x] Kuli Coder : Mesin V8 Gemini AI 🤖✨
+   [x] Concept    : Blueprint Grid, Bento Layout, Bouncy 3D Flip
+   =================================================================== */
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Segoe UI', system-ui, sans-serif; 
+}
+
+body {
+    background-color: #15151a;
+    background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 40px 40px; 
+    background-attachment: fixed; 
+    color: #dcdde1;
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.de-container {
+    max-width: 800px;
+    margin: 60px auto 50px;
+    padding: 0 20px;
+}
+
+/* =========================================
+   TOP BAR & BACK BUTTON (PINTU KELUAR) 🚪
+   ========================================= */
+.top-bar { display: flex; justify-content: flex-start; margin-bottom: 25px; }
+.back-btn { display: inline-flex; align-items: center; gap: 8px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); color: #718093; padding: 10px 18px; border-radius: 8px; text-decoration: none; font-size: 0.95rem; font-weight: bold; transition: 0.3s ease; }
+.back-btn:hover { background: rgba(255, 255, 255, 0.1); color: #fff; transform: translateX(-5px); border-color: #74b9ff; }
+
+/* INTRO */
+.de-intro { margin-bottom: 30px; border-left: 4px solid #718093; padding-left: 15px; }
+.de-intro h1 { font-size: 2.2rem; color: #fff; font-weight: 700; letter-spacing: 1px; }
+.de-intro p { color: #718093; font-size: 1rem; margin-top: 5px; }
+
+/* FOCUS NAVIGATION (TABS) */
+.de-focus-nav { display: flex; gap: 10px; margin-bottom: 30px; border-bottom: 1px solid rgba(255, 255, 255, 0.08); padding-bottom: 15px; overflow-x: auto; }
+.de-focus-nav::-webkit-scrollbar { display: none; } 
+.de-focus-nav { -ms-overflow-style: none; scrollbar-width: none; }
+
+.focus-btn { background: transparent; border: 1px solid rgba(255, 255, 255, 0.08); color: #718093; padding: 12px 20px; border-radius: 8px; font-size: 0.95rem; font-weight: 600; cursor: pointer; transition: 0.3s ease; white-space: nowrap; }
+.focus-btn:hover { background: rgba(255,255,255,0.03); color: #fff; }
+.focus-btn.active { background: #22222a; border-color: rgba(255,255,255,0.2); color: #fff; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
+
+/* PANELS */
+.de-panel { display: none; animation: fadeIn 0.4s ease; }
+.de-panel.active { display: block; }
+.panel-header { margin-bottom: 25px; }
+.panel-header h2 { font-size: 1.4rem; color: #fff; font-weight: 600; }
+.panel-header p { color: #718093; font-size: 0.95rem; margin-top: 5px; }
+
+/* --- SATZBAU & TIME TRAINER --- */
+.time-trainer-box { background: rgba(255,255,255,0.02); border: 1px dashed rgba(255,255,255,0.1); padding: 25px; border-radius: 10px; margin-bottom: 20px; text-align: center; }
+.time-label { font-size: 0.9rem; color: #718093; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 1px; font-weight: bold; display: block;}
+.time-sentence { font-size: 1.3rem; color: #fff; font-family: 'Courier New', monospace; line-height: 1.5; }
+
+/* BATCH CONTAINER & ITEMS (Dipakai buat Accordion) */
+.batch-container { display: flex; flex-direction: column; gap: 15px; }
+.batch-item { background: #22222a; border-radius: 10px; border: 1px solid rgba(255, 255, 255, 0.08); overflow: hidden; transition: 0.3s; }
+
+/* ==========================================================
+   MESIN GAME (SLOT & WORD BANK) - LAYOUT DIPERBAIKI 🛠️
+   ========================================================== */
+.batch-container { display: flex; flex-direction: column; gap: 20px; }
+
+.sentence-slots { 
+    display: flex; flex-wrap: wrap; justify-content: center; align-items: center; 
+    gap: 12px; min-height: 90px; 
+    /* Tambahan Wadah Dashboard biar gak kaku melayang */
+    background: rgba(255, 255, 255, 0.02); 
+    border: 1px solid rgba(255, 255, 255, 0.05); 
+    padding: 20px; border-radius: 12px; 
+}
+
+.slot-case { 
+    /* Fleksibel ngisi ruang di HP biar rapi */
+    flex: 1 1 100px; max-width: 140px; min-height: 50px; 
+    padding: 10px 15px; border: 1px dashed #718093; border-radius: 8px; 
+    display: flex; align-items: center; justify-content: center; 
+    font-size: 0.9rem; font-weight: bold; text-transform: uppercase; 
+    background: rgba(0,0,0,0.3); color: #718093; transition: all 0.2s; text-align: center; 
+}
+
+/* Warna Identitas Tetap Sama */
+.slot-nom.filled { background: rgba(116, 185, 255, 0.1); border-color: #74b9ff; color: #74b9ff; border-style: solid; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
+.slot-verb.filled { background: rgba(255, 234, 167, 0.1); border-color: #ffeaa7; color: #ffeaa7; border-style: solid; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
+.slot-akk.filled { background: rgba(85, 239, 196, 0.1); border-color: #55efc4; color: #55efc4; border-style: solid; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
+.slot-dat.filled { background: rgba(162, 155, 254, 0.1); border-color: #a29bfe; color: #a29bfe; border-style: solid; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
+.slot-gen.filled { background: rgba(255, 118, 117, 0.1); border-color: #ff7675; color: #ff7675; border-style: solid; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
+
+.word-bank { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+.word-chip { background: rgba(0,0,0,0.3); border: 1px dashed #718093; color: #dcdde1; padding: 12px 20px; border-radius: 8px; font-size: 1rem; font-weight: bold; cursor: pointer; transition: 0.2s; user-select: none; }
+.word-chip:hover { background: rgba(255,255,255,0.08); color: #fff; border-color: #fff; border-style: solid; transform: translateY(-3px); }
+.word-chip.hidden { opacity: 0; pointer-events: none; transform: scale(0); }
+
+/* ==========================================================
+   ACCORDION MUSEUM
+   ========================================================== */
+.accordion-header { padding: 18px 20px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; transition: 0.3s; }
+.accordion-header:hover { background: rgba(255,255,255,0.03); }
+.accordion-header h3 { color: #fff; font-size: 1.1rem; font-weight: 600; }
+.accordion-header .status { color: #718093; font-family: 'Courier New', monospace; font-size: 0.9rem; }
+.accordion-content { max-height: 0; overflow: hidden; transition: max-height 0.4s ease; background: #1a1a20; }
+.accordion-content.open { max-height: 2000px; border-top: 1px solid rgba(255,255,255,0.05); }
+.accordion-body { padding: 20px; } /* Buang flexbox yg bikin error */
+
+/* ==========================================================
+   TRUE 3D FLIP CARDS (Bento Grid Layout ANTI GENCET 🎬✨)
+   ========================================================== */
+.card-grid {
+    width: 100%;
+    display: grid;
+    /* KHUSUS HP: 1 Kolom Full Biar Gak Tabrakan! */
+    grid-template-columns: 1fr;
+    gap: 20px; /* Jarak lega antar kartu */
+}
+
+.flip-card { 
+    background-color: transparent; 
+    height: 200px; 
+    width: 100%; 
+    perspective: 1000px; 
+    cursor: pointer; 
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
+}
+
+/* KHUSUS PC/TABLET: Baru Bento Grid Jalan */
+@media (min-width: 600px) {
+    .card-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-auto-flow: dense;
+    }
+    .flip-card:nth-child(3n + 1) { grid-column: span 2; }
+    .flip-card:nth-child(4n) { grid-row: span 2; height: 100%; }
+}
+
+.flip-card:hover { transform: translateY(-5px) scale(1.02); z-index: 10; }
+.flip-card-inner { position: relative; width: 100%; height: 100%; text-align: center; transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275); transform-style: preserve-3d; }
+.flip-card.is-flipped .flip-card-inner { transform: rotateY(180deg); }
+.flip-card-front, .flip-card-back { position: absolute; width: 100%; height: 100%; -webkit-backface-visibility: hidden; backface-visibility: hidden; border-radius: 12px; padding: 20px; display: flex; flex-direction: column; justify-content: center; align-items: center; border: 1px solid rgba(255,255,255,0.08); background: #22222a; box-shadow: 0 10px 20px rgba(0,0,0,0.4); }
+.flip-card-front h4 { color: #fff; font-size: 1.15rem; margin-bottom: 5px;}
+.flip-card-front p.translate { color: #718093; font-size: 0.95rem; margin-bottom: 10px;}
+.flip-hint { margin-top: auto; font-size: 0.75rem; color: #718093; font-weight: bold; letter-spacing: 1px; }
+
+.flip-card-back { transform: rotateY(180deg); border-color: #74b9ff; background: rgba(116, 185, 255, 0.05); }
+.flip-card-back h5 { color: #74b9ff; margin-bottom: 10px; font-size: 0.95rem;}
+.flip-card-back p.notes-text { font-size: 0.9rem; line-height: 1.5; color: #dcdde1;}
+
+/* =========================================
+   TABEL PRONOMEN (CONTEKAN SAKTI) 📊
+   ========================================= */
+.table-wrapper { 
+    width: 100%; 
+    max-width: 100vw; /* Paksa jangan melebihi layar */
+    overflow-x: auto; /* Bikin bisa di-scroll ke kanan/kiri */
+    -webkit-overflow-scrolling: touch; /* Biar scroll di HP mulussss */
+    background: rgba(0, 0, 0, 0.2); 
+    border: 1px solid rgba(255, 255, 255, 0.08); 
+    border-radius: 10px; 
+    margin-top: 15px; 
+    padding-bottom: 8px; /* Kasih napas buat scrollbar */
+}
+
+/* Kustomisasi Scrollbar Biar Elegan & Kelihatan! */
+.table-wrapper::-webkit-scrollbar {
+    height: 6px;
+}
+.table-wrapper::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+}
+.table-wrapper::-webkit-scrollbar-thumb {
+    background: rgba(116, 185, 255, 0.5); /* Warna Biru Blueprint */
+    border-radius: 10px;
+}
+.table-wrapper::-webkit-scrollbar-thumb:hover {
+    background: rgba(116, 185, 255, 0.8);
+}
+
+.blueprint-table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    text-align: left; 
+    min-width: 550px; /* Minimal lebar biar lega */
+    white-space: nowrap; /* Bikin teks memanjang, gak numpuk ke bawah! */
+}
+
+.blueprint-table th { 
+    background: rgba(255, 255, 255, 0.05); 
+    padding: 15px; 
+    color: #fff; 
+    font-size: 0.95rem; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1); 
+}
+.blueprint-table .th-sub { 
+    font-size: 0.75rem; color: #718093; font-weight: normal; text-transform: none; 
+}
+.blueprint-table td { 
+    padding: 12px 15px; 
+    font-size: 1rem; 
+    font-weight: 600; 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05); 
+    color: #dcdde1; 
+    transition: 0.2s; 
+}
+
+.blueprint-table tr:last-child td { border-bottom: none; }
+.blueprint-table tbody tr:hover td { background: rgba(255, 255, 255, 0.03); color: #fff; }
+
+.td-nom { color: #74b9ff !important; }
+.td-akk { color: #55efc4 !important; }
+.td-dat { color: #a29bfe !important; }

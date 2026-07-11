@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangul Arena | Kejuu</title>
+
+    <meta name="description" content="Belajar bahasa Korea seru di Hangul Arena: Kuasai huruf Hangul, partikel, dan latih ingatanmu di mini gamenya~">
+    <link rel="canonical" href="https://kejuu.web.id/source/menu/korea/kr.html">
+    <link rel="preconnect" href="https://unpkg.com" crossorigin>
+    <link rel="dns-prefetch" href="https://unpkg.com">
+   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4600838552332740"
+     crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../header/header.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="header-content">
+            <a href="../../../index.html" class="logo">KEJUU<span>.id</span></a>
+            
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <button id="btn-focus" class="btn-focus" title="Aktifkan Mode Fokus">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M16 5h-3V2h-2v3H8l4 4zm-5 17h2v-3h3l-4-4-4 4h3zM3 11h3v2H3zm5 0h3v2H8zm5 0h3v2h-3zm5 0h3v2h-3z"></path>
+                    </svg>
+                </button>
+                <div class="menu-toggle" id="navBtn"><span></span><span></span><span></span></div>
+            </div>
+        </div>
+
+        <div class="dropdown-container" id="navMenu">
+            <a href="../../../index.html" class="menu-item">home</a>
+            <a href="../hiragana/jp.html" class="menu-item">japanese</a>
+            <a href="../english/eng.html" class="menu-item">english</a>
+            <a href="../deutsch/de.html" class="menu-item">deutsch</a>
+        </div>
+    </header>
+
+    <div class="arena-container">
+        
+        <div class="top-bar">
+            <div>🇰🇷 Hangul Arena</div>
+            <div class="stats">
+                <span class="combo-text" id="comboDisplay">Combo 🔥 0</span>
+                <span>⚡ Lvl 1</span>
+            </div>
+        </div>
+
+        <div class="character-section">
+            <div class="chara-img">
+                <img src="char.png" alt="Character Profile" id="charaAvatar">
+            </div> 
+            
+            <div class="speech-bubble" id="speechText"></div>
+        </div>
+
+        <div class="tabs">
+            <button class="tab-btn active" onclick="switchMode('camp', this)">Camp</button>
+            <button class="tab-btn" onclick="switchMode('particle', this)">Particle</button>
+            <button class="tab-btn" onclick="switchMode('survival', this)">Survival</button>
+            <button class="tab-btn" onclick="switchMode('build', this)">Build</button>
+        </div>
+
+        <div id="camp" class="arena-card active">
+            <div class="question-text">Pusat Pelatihan Hangul Dasar</div>
+            
+            <div style="text-align: left; margin-bottom: 10px; color: var(--neon-blue); font-size: 14px;">Vokal Dasar</div>
+            <div class="options-grid" id="vowelGrid" style="margin-bottom: 20px;"></div>
+
+            <div style="text-align: left; margin-bottom: 10px; color: var(--neon-red); font-size: 14px;">Konsonan Dasar</div>
+            <div class="options-grid" id="consonantGrid"></div>
+        </div>
+        
+        <div id="particle" class="arena-card">
+            <div class="question-text" id="particleQuestion">Loading...</div>
+            <div class="options-grid">
+                <button class="btn-option" onclick="checkParticle('을')">을</button>
+                <button class="btn-option" onclick="checkParticle('를')">를</button>
+                <button class="btn-option" onclick="checkParticle('은')">은</button>
+                <button class="btn-option" onclick="checkParticle('는')">는</button>
+            </div>
+        </div>
+
+        <div id="survival" class="arena-card">
+            <div class="timer-bar"><div class="timer-fill" id="timerFill"></div></div>
+            <div class="question-text" id="survQuestion">Loading...</div>
+            <div class="options-grid" id="survOptions">
+                </div>
+        </div>
+
+        <div id="build" class="arena-card">
+            <div class="question-text" id="buildTarget">Buat kata: makan</div>
+            <div class="drop-area" id="buildResult">___</div>
+            <div class="options-grid" style="margin-bottom: 15px;">
+                <button class="btn-option" onclick="addChar('ㅁ')">ㅁ</button>
+                <button class="btn-option" onclick="addChar('ㅓ')">ㅓ</button>
+                <button class="btn-option" onclick="addChar('ㄱ')">ㄱ</button>
+                <button class="btn-option" onclick="addChar('ㄷ')">ㄷ</button>
+                <button class="btn-option" onclick="addChar('ㅏ')">ㅏ</button>
+            </div>
+            <div class="options-grid">
+                <button class="btn-option" style="background:#ef4444;" onclick="resetBuild()">Reset</button>
+                <button class="btn-option" style="background:#10b981;" onclick="submitBuild()">Kirim</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="../../header/nav.js" defer></script>
+    <script src="script.js" defer></script>
+</body>
+</html>

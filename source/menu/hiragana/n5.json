@@ -1,0 +1,3236 @@
+[
+  {
+    "level": "N5",
+    "romaji": "Ohayou gozaimasu",
+    "kana": "おはようございます",
+    "arti": "Selamat pagi",
+    "tipe": "ungkapan"
+  },
+  {
+    "level": "N5",
+    "romaji": "Arigatou gozaimasu",
+    "kana": "ありがとうございます",
+    "arti": "Terima kasih banyak",
+    "tipe": "ungkapan"
+  },
+  {
+    "level": "N5",
+    "romaji": "Watashi",
+    "kana": "わたし",
+    "arti": "Saya",
+    "tipe": "pronoun noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Anata",
+    "kana": "あなた",
+    "arti": "Kamu",
+    "tipe": "pronoun noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Taberu",
+    "kana": "たべる (食べる)",
+    "arti": "Makan",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Nomu",
+    "kana": "のむ (飲む)",
+    "arti": "Minum",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Ima",
+    "kana": "いま (今)",
+    "arti": "Sekarang",
+    "tipe": "noun adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Ashita",
+    "kana": "あした (明日)",
+    "arti": "Besok",
+    "tipe": "noun adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Asobu",
+    "kana": "あそぶ (遊ぶ)",
+    "arti": "Bermain",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Yasumu",
+    "kana": "やすむ (休む)",
+    "arti": "Beristirahat / Libur",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Suwaru",
+    "kana": "すわる (座る)",
+    "arti": "Duduk",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Tatsu",
+    "kana": "たつ (立つ)",
+    "arti": "Berdiri",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Hashiru",
+    "kana": "はしる (走る)",
+    "arti": "Berlari",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Aruku",
+    "kana": "あるく (歩く)",
+    "arti": "Berjalan",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Hanasu",
+    "kana": "はなす (話す)",
+    "arti": "Berbicara",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Oyogu",
+    "kana": "およぐ (泳ぐ)",
+    "arti": "Berenang",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Matsu",
+    "kana": "まつ (待つ)",
+    "arti": "Menunggu",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kaeru",
+    "kana": "かえる (帰る)",
+    "arti": "Pulang",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Gakkou",
+    "kana": "がっこう (学校)",
+    "arti": "Sekolah",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Heya",
+    "kana": "へや (部屋)",
+    "arti": "Kamar / Ruangan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kusuri",
+    "kana": "くすり (薬)",
+    "arti": "Obat",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Eiga",
+    "kana": "えいが (映画)",
+    "arti": "Film",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Ongaku",
+    "kana": "おんがく (音楽)",
+    "arti": "Musik",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Tegami",
+    "kana": "てがみ (手紙)",
+    "arti": "Surat",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kutsushita",
+    "kana": "くつした (靴下)",
+    "arti": "Kaus kaki",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kaban",
+    "kana": "かばん (鞄)",
+    "arti": "Tas",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Isu",
+    "kana": "いす (椅子)",
+    "arti": "Kursi",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Tsukue",
+    "kana": "つくえ (机)",
+    "arti": "Meja",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Oishii",
+    "kana": "おいしい (美味しい)",
+    "arti": "Enak / Lezat",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Takai",
+    "kana": "たかい (高い)",
+    "arti": "Tinggi / Mahal",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Hikui",
+    "kana": "ひくい (低い)",
+    "arti": "Rendah",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Yasui",
+    "kana": "やすい (安い)",
+    "arti": "Murah",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Ookii",
+    "kana": "おおきい (大きい)",
+    "arti": "Besar",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Chiisai",
+    "kana": "ちいさい (小さい)",
+    "arti": "Kecil",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Nagai",
+    "kana": "ながい (長い)",
+    "arti": "Panjang",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Mijikai",
+    "kana": "みじかい (短い)",
+    "arti": "Pendek",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Namae",
+    "kana": "なまえ (名前)",
+    "arti": "Nama",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kuni",
+    "kana": "くに (国)",
+    "arti": "Negara",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Machi",
+    "kana": "まち (町)",
+    "arti": "Kota",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Mise",
+    "kana": "みせ (店)",
+    "arti": "Toko",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Michi",
+    "kana": "みち (道)",
+    "arti": "Jalan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Hana",
+    "kana": "はな (花)",
+    "arti": "Bunga",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Onna",
+    "kana": "おんな (女)",
+    "arti": "Perempuan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Otoko",
+    "kana": "おとこ (男)",
+    "arti": "Laki-laki",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kodomo",
+    "kana": "こども (子供)",
+    "arti": "Anak-anak",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Otona",
+    "kana": "おとな (大人)",
+    "arti": "Orang dewasa",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kazoku",
+    "kana": "かぞく (家族)",
+    "arti": "Keluarga",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Isha",
+    "kana": "いしゃ (医者)",
+    "arti": "Dokter",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Byouin",
+    "kana": "びょういん (病院)",
+    "arti": "Rumah sakit",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Eki",
+    "kana": "えき (駅)",
+    "arti": "Stasiun",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Densha",
+    "kana": "でんしゃ (電車)",
+    "arti": "Kereta",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Hikouki",
+    "kana": "ひこうき (飛行機)",
+    "arti": "Pesawat",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Basu",
+    "kana": "バス",
+    "arti": "Bus",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Jitensha",
+    "kana": "じてんしゃ (自転車)",
+    "arti": "Sepeda",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Asa",
+    "kana": "あさ (朝)",
+    "arti": "Pagi",
+    "tipe": "noun adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Hiru",
+    "kana": "ひる (昼)",
+    "arti": "Siang",
+    "tipe": "noun adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Yoru",
+    "kana": "よる (夜)",
+    "arti": "Malam",
+    "tipe": "noun adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Tenki",
+    "kana": "てんき (天気)",
+    "arti": "Cuaca",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Ame",
+    "kana": "あめ (雨)",
+    "arti": "Hujan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Yuki",
+    "kana": "ゆき (雪)",
+    "arti": "Salju",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kaze",
+    "kana": "かぜ (風)",
+    "arti": "Angin",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Sora",
+    "kana": "そら (空)",
+    "arti": "Langit",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kawa",
+    "kana": "かわ (川)",
+    "arti": "Sungai",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Ie",
+    "kana": "いえ (家)",
+    "arti": "Rumah",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Mado",
+    "kana": "まど (窓)",
+    "arti": "Jendela",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Doa",
+    "kana": "ドア",
+    "arti": "Pintu",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Denki",
+    "kana": "でんき (電気)",
+    "arti": "Lampu / Listrik",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Megane",
+    "kana": "めがね (眼鏡)",
+    "arti": "Kacamata",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Boushi",
+    "kana": "ぼうし (帽子)",
+    "arti": "Topi",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kutsu",
+    "kana": "くつ (靴)",
+    "arti": "Sepatu",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Fuku",
+    "kana": "ふく (服)",
+    "arti": "Baju / Pakaian",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Zubon",
+    "kana": "ズボン",
+    "arti": "Celana",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Hon",
+    "kana": "ほん (本)",
+    "arti": "Buku",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Jisho",
+    "kana": "じしょ (辞書)",
+    "arti": "Kamus",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Zasshi",
+    "kana": "ざっし (雑誌)",
+    "arti": "Majalah",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Shinbun",
+    "kana": "しんぶん (新聞)",
+    "arti": "Koran",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Enpitsu",
+    "kana": "えんぴつ (鉛筆)",
+    "arti": "Pensil",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Borupen",
+    "kana": "ボールペン",
+    "arti": "Pulpen",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Tokei",
+    "kana": "とけい (時計)",
+    "arti": "Jam",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kamera",
+    "kana": "カメラ",
+    "arti": "Kamera",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Terebi",
+    "kana": "テレビ",
+    "arti": "Televisi",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Rajio",
+    "kana": "ラジオ",
+    "arti": "Radio",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Denwa",
+    "kana": "でんわ (電話)",
+    "arti": "Telepon",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Pasokon",
+    "kana": "パソコン",
+    "arti": "Komputer / PC",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Mizu",
+    "kana": "みず (水)",
+    "arti": "Air",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Ocha",
+    "kana": "おちゃ (お茶)",
+    "arti": "Teh",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kohi",
+    "kana": "コーヒー",
+    "arti": "Kopi",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Gyuunyuu",
+    "kana": "ぎゅうにゅう (牛乳)",
+    "arti": "Susu",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Niku",
+    "kana": "にく (肉)",
+    "arti": "Daging",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Sakana",
+    "kana": "さかな (魚)",
+    "arti": "Ikan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Tamago",
+    "kana": "たまご (卵)",
+    "arti": "Telur",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Yasai",
+    "kana": "やさい (野菜)",
+    "arti": "Sayur",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kudamono",
+    "kana": "くだもの (果物)",
+    "arti": "Buah",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Pan",
+    "kana": "パン",
+    "arti": "Roti",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Gohan",
+    "kana": "ごはん (ご飯)",
+    "arti": "Nasi / Makanan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Hito",
+    "kana": "ひと (人)",
+    "arti": "Orang",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Sensei",
+    "kana": "せんせい (先生)",
+    "arti": "Guru",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Gakusei",
+    "kana": "がくせい (学生)",
+    "arti": "Siswa / Mahasiswa",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kaishain",
+    "kana": "かいしゃいん (会社員)",
+    "arti": "Pegawai perusahaan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Inu",
+    "kana": "いぬ (犬)",
+    "arti": "Anjing",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Neko",
+    "kana": "ねこ (猫)",
+    "arti": "Kucing",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Tori",
+    "kana": "とり (鳥)",
+    "arti": "Burung",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Uma",
+    "kana": "うま (馬)",
+    "arti": "Kuda",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Iku",
+    "kana": "いく (行く)",
+    "arti": "Pergi",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kuru",
+    "kana": "くる (来る)",
+    "arti": "Datang",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Miru",
+    "kana": "みる (見る)",
+    "arti": "Melihat",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Suru",
+    "kana": "する",
+    "arti": "Melakukan",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Wakaru",
+    "kana": "わかる (分かる)",
+    "arti": "Mengerti / Paham",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Toshokan",
+    "kana": "としょかん (図書館)",
+    "arti": "Perpustakaan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Ginkou",
+    "kana": "ぎんこう (銀行)",
+    "arti": "Bank",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Yuubinkyoku",
+    "kana": "ゆうびんきょく (郵便局)",
+    "arti": "Kantor Pos",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kissaten",
+    "kana": "きっさてん (喫茶店)",
+    "arti": "Kedai Kopi / Kafe",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Bijutsukan",
+    "kana": "びじゅつかん (美術館)",
+    "arti": "Museum Seni",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Daigaku",
+    "kana": "だいがく (大学)",
+    "arti": "Universitas",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Shokudou",
+    "kana": "しょくどう (食堂)",
+    "arti": "Kantin / Ruang Makan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kyoushitsu",
+    "kana": "きょうしつ (教室)",
+    "arti": "Ruang Kelas",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Jimusho",
+    "kana": "じむしょ (事務所)",
+    "arti": "Kantor",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kaigishitsu",
+    "kana": "かいぎしつ (会議室)",
+    "arti": "Ruang Rapat",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Ani",
+    "kana": "あに (兄)",
+    "arti": "Kakak Laki-laki (Sendiri)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Ane",
+    "kana": "あね (姉)",
+    "arti": "Kakak Perempuan (Sendiri)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Otouto",
+    "kana": "おとうと (弟)",
+    "arti": "Adik Laki-laki",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Imouto",
+    "kana": "いもうと (妹)",
+    "arti": "Adik Perempuan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Sofu",
+    "kana": "そふ (祖父)",
+    "arti": "Kakek (Sendiri)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Sobo",
+    "kana": "そぼ (祖母)",
+    "arti": "Nenek (Sendiri)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Ryoushin",
+    "kana": "りょうしん (両親)",
+    "arti": "Kedua Orang Tua",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kyoudai",
+    "kana": "きょうだい (兄弟)",
+    "arti": "Saudara Kandung",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Shujin",
+    "kana": "しゅじん (主人)",
+    "arti": "Suami (Sendiri)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kanai",
+    "kana": "かない (家内)",
+    "arti": "Istri (Sendiri)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Atama",
+    "kana": "あたま (頭)",
+    "arti": "Kepala",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kao",
+    "kana": "かお (顔)",
+    "arti": "Wajah",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Me",
+    "kana": "め (目)",
+    "arti": "Mata",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Hana",
+    "kana": "はな (鼻)",
+    "arti": "Hidung",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kuchi",
+    "kana": "くち (口)",
+    "arti": "Mulut",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Mimi",
+    "kana": "みみ (耳)",
+    "arti": "Telinga",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Ha",
+    "kana": "は (歯)",
+    "arti": "Gigi",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Te",
+    "kana": "て (手)",
+    "arti": "Tangan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Ashi",
+    "kana": "あし (足)",
+    "arti": "Kaki",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Onaka",
+    "kana": "おなか (お腹)",
+    "arti": "Perut",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Maiasa",
+    "kana": "まいあさ (毎朝)",
+    "arti": "Setiap Pagi",
+    "tipe": "noun adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Maiban",
+    "kana": "まいばん (毎晩)",
+    "arti": "Setiap Malam",
+    "tipe": "noun adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Mainichi",
+    "kana": "まいにち (毎日)",
+    "arti": "Setiap Hari",
+    "tipe": "noun adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Maishuu",
+    "kana": "まいしゅう (毎週)",
+    "arti": "Setiap Minggu",
+    "tipe": "noun adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Maitsuki",
+    "kana": "まいつき (毎月)",
+    "arti": "Setiap Bulan",
+    "tipe": "noun adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Maitoshi",
+    "kana": "まいとし (毎年)",
+    "arti": "Setiap Tahun",
+    "tipe": "noun adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Ototoi",
+    "kana": "おととい",
+    "arti": "Dua Hari Lalu",
+    "tipe": "noun adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Asatte",
+    "kana": "あさって",
+    "arti": "Lusa",
+    "tipe": "noun adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Senshuu",
+    "kana": "せんしゅう (先週)",
+    "arti": "Minggu Lalu",
+    "tipe": "noun adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Raishuu",
+    "kana": "らいしゅう (来週)",
+    "arti": "Minggu Depan",
+    "tipe": "noun adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Ue",
+    "kana": "うえ (上)",
+    "arti": "Atas",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Shita",
+    "kana": "した (下)",
+    "arti": "Bawah",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Mae",
+    "kana": "まえ (前)",
+    "arti": "Depan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Ushiro",
+    "kana": "うしろ (後ろ)",
+    "arti": "Belakang",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Migi",
+    "kana": "みぎ (右)",
+    "arti": "Kanan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Hidari",
+    "kana": "ひだり (左)",
+    "arti": "Kiri",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Naka",
+    "kana": "なか (中)",
+    "arti": "Dalam",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Soto",
+    "kana": "そと (外)",
+    "arti": "Luar",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Tonari",
+    "kana": "となり (隣)",
+    "arti": "Sebelah / Samping",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Chikaku",
+    "kana": "ちかく (近く)",
+    "arti": "Dekat",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Amai",
+    "kana": "あまい (甘い)",
+    "arti": "Manis",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Karai",
+    "kana": "からい (辛い)",
+    "arti": "Pedas",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Nigai",
+    "kana": "にがい (苦い)",
+    "arti": "Pahit",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Suppai",
+    "kana": "すっぱい (酸っぱい)",
+    "arti": "Asam",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Omoi",
+    "kana": "おもい (重い)",
+    "arti": "Berat",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Karui",
+    "kana": "かるい (軽い)",
+    "arti": "Ringan",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Hiroi",
+    "kana": "ひろい (広い)",
+    "arti": "Luas",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Semai",
+    "kana": "せまい (狭い)",
+    "arti": "Sempit",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Akarui",
+    "kana": "あかるい (明るい)",
+    "arti": "Terang",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kurai",
+    "kana": "くらい (暗い)",
+    "arti": "Gelap",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Arau",
+    "kana": "あらう (洗う)",
+    "arti": "Mencuci",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Utau",
+    "kana": "うたう (歌う)",
+    "arti": "Menyanyi",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Hiku",
+    "kana": "ひく (弾く)",
+    "arti": "Bermain (Alat Musik)",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kesu",
+    "kana": "けす (消す)",
+    "arti": "Mematikan / Menghapus",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Shimeru",
+    "kana": "しめる (閉める)",
+    "arti": "Menutup",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Akeru",
+    "kana": "あける (開ける)",
+    "arti": "Membuka",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Tsutomeru",
+    "kana": "つとめる (勤める)",
+    "arti": "Bekerja (di suatu tempat)",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Dekiru",
+    "kana": "できる",
+    "arti": "Bisa / Mampu",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Hareru",
+    "kana": "はれる (晴れる)",
+    "arti": "Cerah",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kumoru",
+    "kana": "くもる (曇る)",
+    "arti": "Berawan",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Monosashi",
+    "kana": "ものさし (物差し)",
+    "arti": "Penggaris",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kokuban",
+    "kana": "こくばん (黒板)",
+    "arti": "Papan tulis hitam",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Howaitoboodo",
+    "kana": "ホワイトボード",
+    "arti": "Papan tulis putih",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Chizu",
+    "kana": "ちず (地図)",
+    "arti": "Peta",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kyoukasho",
+    "kana": "きょうかしょ (教科書)",
+    "arti": "Buku Pelajaran",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Jugyou",
+    "kana": "じゅぎょう (授業)",
+    "arti": "Pelajaran / Kelas",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Mondai",
+    "kana": "もんだい (問題)",
+    "arti": "Masalah / Soal",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kotae",
+    "kana": "こたえ (答え)",
+    "arti": "Jawaban",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Shukudai",
+    "kana": "しゅくだい (宿題)",
+    "arti": "Pekerjaan Rumah (PR)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Tesuto",
+    "kana": "テスト",
+    "arti": "Ujian / Tes",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Bangou",
+    "kana": "ばんごう (番号)",
+    "arti": "Nomor",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Denwabangou",
+    "kana": "でんわばんごう (電話番号)",
+    "arti": "Nomor Telepon",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Depaato",
+    "kana": "デパート",
+    "arti": "Toserba / Department Store",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Suupaa",
+    "kana": "スーパー",
+    "arti": "Supermarket",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Panya",
+    "kana": "ぱんや (パン屋)",
+    "arti": "Toko Roti",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Yaoya",
+    "kana": "やおや (八百屋)",
+    "arti": "Toko Sayur",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Nikuya",
+    "kana": "にくや (肉屋)",
+    "arti": "Toko Daging",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kusuriya",
+    "kana": "くすりや (薬屋)",
+    "arti": "Toko Obat / Apotek",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Apaato",
+    "kana": "アパート",
+    "arti": "Apartemen",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Daidokoro",
+    "kana": "だいどころ (台所)",
+    "arti": "Dapur",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Oteiarai",
+    "kana": "おてあらい (お手洗い)",
+    "arti": "Toilet / Kamar Kecil",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Byouki",
+    "kana": "びょうき (病気)",
+    "arti": "Penyakit / Sakit",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kangofu",
+    "kana": "かんごふ (看護婦)",
+    "arti": "Perawat",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Haisha",
+    "kana": "はいしゃ (歯医者)",
+    "arti": "Dokter Gigi",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Ginkouin",
+    "kana": "ぎんこういん (銀行員)",
+    "arti": "Pegawai Bank",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Keikan",
+    "kana": "けいかん (警官)",
+    "arti": "Polisi",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kouban",
+    "kana": "こうばん (交番)",
+    "arti": "Pos Polisi",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Shingou",
+    "kana": "しんごう (信号)",
+    "arti": "Lampu Lalu Lintas",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kado",
+    "kana": "かど (角)",
+    "arti": "Sudut / Belokan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Hashi",
+    "kana": "はし (橋)",
+    "arti": "Jembatan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Hashi",
+    "kana": "はし (箸)",
+    "arti": "Sumpit",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Fooku",
+    "kana": "フォーク",
+    "arti": "Garpu",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Naifu",
+    "kana": "ナイフ",
+    "arti": "Pisau",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Supuun",
+    "kana": "スプーン",
+    "arti": "Sendok",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Koppu",
+    "kana": "コップ",
+    "arti": "Gelas",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Chawan",
+    "kana": "ちゃわん (茶碗)",
+    "arti": "Mangkuk Nasi",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Reizouko",
+    "kana": "れいぞうこ (冷蔵庫)",
+    "arti": "Kulkas",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Sentakuki",
+    "kana": "せんたくき (洗濯機)",
+    "arti": "Mesin Cuci",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Soujiki",
+    "kana": "そうじき (掃除機)",
+    "arti": "Mesin Penyedot Debu",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Eakon",
+    "kana": "エアコン",
+    "arti": "AC",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Sutoobu",
+    "kana": "ストーブ",
+    "arti": "Pemanas Ruangan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Beddo",
+    "kana": "ベッド",
+    "arti": "Kasur Ranjang",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Futon",
+    "kana": "ふとん (布団)",
+    "arti": "Kasur Lipat Jepang",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Moufu",
+    "kana": "もうふ (毛布)",
+    "arti": "Selimut",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Makura",
+    "kana": "まくら (枕)",
+    "arti": "Bantal",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Taoru",
+    "kana": "タオル",
+    "arti": "Handuk",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Sekken",
+    "kana": "せっけん (石鹸)",
+    "arti": "Sabun",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Shanpuu",
+    "kana": "シャンプー",
+    "arti": "Sampo",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kagi",
+    "kana": "かぎ (鍵)",
+    "arti": "Kunci",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kasa",
+    "kana": "かさ (傘)",
+    "arti": "Payung",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Udedokei",
+    "kana": "うでどけい (腕時計)",
+    "arti": "Jam Tangan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Yuka",
+    "kana": "ゆか (床)",
+    "arti": "Lantai",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Tenjou",
+    "kana": "てんじょう (天井)",
+    "arti": "Langit-langit",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Yane",
+    "kana": "やね (屋根)",
+    "arti": "Atap",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Niwa",
+    "kana": "にわ (庭)",
+    "arti": "Halaman",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Ike",
+    "kana": "いけ (池)",
+    "arti": "Kolam",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Ki",
+    "kana": "き (木)",
+    "arti": "Pohon",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Ha",
+    "kana": "は (葉)",
+    "arti": "Daun",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Yama",
+    "kana": "やま (山)",
+    "arti": "Gunung",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Umi",
+    "kana": "うみ (海)",
+    "arti": "Laut",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Taiyou",
+    "kana": "たいよう (太陽)",
+    "arti": "Matahari",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Higashi",
+    "kana": "ひがし (東)",
+    "arti": "Timur",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Nishi",
+    "kana": "にし (西)",
+    "arti": "Barat",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kita",
+    "kana": "きた (北)",
+    "arti": "Utara",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Minami",
+    "kana": "みなみ (南)",
+    "arti": "Selatan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Haru",
+    "kana": "はる (春)",
+    "arti": "Musim Semi",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Natsu",
+    "kana": "なつ (夏)",
+    "arti": "Musim Panas",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Aki",
+    "kana": "あき (秋)",
+    "arti": "Musim Gugur",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Fuyu",
+    "kana": "ふゆ (冬)",
+    "arti": "Musim Dingin",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kotoshi",
+    "kana": "ことし (今年)",
+    "arti": "Tahun Ini",
+    "tipe": "noun adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kyonen",
+    "kana": "きょねん (去年)",
+    "arti": "Tahun Lalu",
+    "tipe": "noun adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Rainen",
+    "kana": "らいねん (来年)",
+    "arti": "Tahun Depan",
+    "tipe": "noun adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kongetsu",
+    "kana": "こんげつ (今月)",
+    "arti": "Bulan Ini",
+    "tipe": "noun adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Sengetsu",
+    "kana": "せんげつ (先月)",
+    "arti": "Bulan Lalu",
+    "tipe": "noun adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Raigetsu",
+    "kana": "らいげつ (来月)",
+    "arti": "Bulan Depan",
+    "tipe": "noun adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Konshuu",
+    "kana": "こんしゅう (今週)",
+    "arti": "Minggu Ini",
+    "tipe": "noun adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Ban",
+    "kana": "ばん (晩)",
+    "arti": "Malam",
+    "tipe": "noun adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Yuugata",
+    "kana": "ゆうがた (夕方)",
+    "arti": "Sore Hari",
+    "tipe": "noun adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Gozen",
+    "kana": "ごぜん (午前)",
+    "arti": "AM (Pagi)",
+    "tipe": "noun adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Gogo",
+    "kana": "ごご (午後)",
+    "arti": "PM (Sore/Malam)",
+    "tipe": "noun adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Jikan",
+    "kana": "じかん (時間)",
+    "arti": "Waktu / Jam (Durasi)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Fun",
+    "kana": "ふん (分)",
+    "arti": "Menit",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Byou",
+    "kana": "びょう (秒)",
+    "arti": "Detik",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Otonari",
+    "kana": "おとなり (お隣)",
+    "arti": "Tetangga",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Ojiisan",
+    "kana": "おじいさん (お祖父さん)",
+    "arti": "Kakek (Orang Lain)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Obaasan",
+    "kana": "おばあさん (お祖母さん)",
+    "arti": "Nenek (Orang Lain)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Otousan",
+    "kana": "おとうさん (お父さん)",
+    "arti": "Ayah (Orang Lain)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Okaasan",
+    "kana": "おかあさん (お母さん)",
+    "arti": "Ibu (Orang Lain)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Oniisan",
+    "kana": "おにいさん (お兄さん)",
+    "arti": "Kakak Laki-Laki (Orang Lain)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Oneesan",
+    "kana": "おねえさん (お姉さん)",
+    "arti": "Kakak Perempuan (Orang Lain)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Otoutosan",
+    "kana": "おとうとさん (弟さん)",
+    "arti": "Adik Laki-Laki (Orang Lain)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Imoutosan",
+    "kana": "いもうとさん (妹さん)",
+    "arti": "Adik Perempuan (Orang Lain)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Oji",
+    "kana": "おじ (伯父)",
+    "arti": "Paman Sendiri",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Oba",
+    "kana": "おば (伯母)",
+    "arti": "Bibi Sendiri",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Ojisan",
+    "kana": "おじさん (伯父さん)",
+    "arti": "Paman Orang Lain",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Obasan",
+    "kana": "おばさん (伯母さん)",
+    "arti": "Bibi Orang Lain",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Itoko",
+    "kana": "いとこ (従兄弟)",
+    "arti": "Sepupu",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Toshi",
+    "kana": "とし (都市)",
+    "arti": "Kota Besar",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Chikatetsu",
+    "kana": "ちかてつ (地下鉄)",
+    "arti": "Kereta Bawah Tanah",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Shinkansen",
+    "kana": "しんかんせん (新幹線)",
+    "arti": "Kereta Peluru",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Takushii",
+    "kana": "タクシー",
+    "arti": "Taksi",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Baiku",
+    "kana": "バイク",
+    "arti": "Sepeda Motor",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kuruma",
+    "kana": "くるま (車)",
+    "arti": "Mobil",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Jidousha",
+    "kana": "じどうしゃ (自動車)",
+    "arti": "Mobil (Kendaraan Bermotor)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Douro",
+    "kana": "どうろ (道路)",
+    "arti": "Jalan Raya",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Shashin",
+    "kana": "しゃしん (写真)",
+    "arti": "Foto",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "E",
+    "kana": "え (絵)",
+    "arti": "Gambar / Lukisan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Iro",
+    "kana": "いろ (色)",
+    "arti": "Warna",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Aka",
+    "kana": "あか (赤)",
+    "arti": "Merah (Benda)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Ao",
+    "kana": "あお (青)",
+    "arti": "Biru (Benda)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Shiro",
+    "kana": "しろ (白)",
+    "arti": "Putih (Benda)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kuro",
+    "kana": "くろ (黒)",
+    "arti": "Hitam (Benda)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kiiro",
+    "kana": "きいろ (黄色)",
+    "arti": "Kuning (Benda)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Chairo",
+    "kana": "ちゃいろ (茶色)",
+    "arti": "Cokelat (Benda)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Midori",
+    "kana": "みどり (緑)",
+    "arti": "Hijau",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Pinku",
+    "kana": "ピンク",
+    "arti": "Merah Muda / Pink",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Orenji",
+    "kana": "オレンジ",
+    "arti": "Oranye / Jeruk",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Sukaato",
+    "kana": "スカート",
+    "arti": "Rok",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Shatsu",
+    "kana": "シャツ",
+    "arti": "Kemeja",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kooto",
+    "kana": "コート",
+    "arti": "Mantel",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Suutsu",
+    "kana": "スーツ",
+    "arti": "Jas Pria",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Nekutai",
+    "kana": "ネクタイ",
+    "arti": "Dasi",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Poketto",
+    "kana": "ポケット",
+    "arti": "Kantong / Saku",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Botan",
+    "kana": "ぼたん (ボタン)",
+    "arti": "Kancing / Tombol",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Saifu",
+    "kana": "さいふ (財布)",
+    "arti": "Dompet",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Okane",
+    "kana": "おかね (お金)",
+    "arti": "Uang",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kitte",
+    "kana": "きって (切手)",
+    "arti": "Perangko",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Hagaki",
+    "kana": "はがき (葉書)",
+    "arti": "Kartu Pos",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Fuutou",
+    "kana": "ふうとう (封筒)",
+    "arti": "Amplop",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Nimotsu",
+    "kana": "にもつ (荷物)",
+    "arti": "Barang Bawaan / Paket",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kippu",
+    "kana": "きっぷ (切符)",
+    "arti": "Tiket Kendaraan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Teikiken",
+    "kana": "ていきけん (定期券)",
+    "arti": "Tiket Langganan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Karendaa",
+    "kana": "カレンダー",
+    "arti": "Kalender",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Nooto",
+    "kana": "ノート",
+    "arti": "Buku Catatan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Hasami",
+    "kana": "はさみ (鋏)",
+    "arti": "Gunting",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Satou",
+    "kana": "さとう (砂糖)",
+    "arti": "Gula",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Shio",
+    "kana": "しお (塩)",
+    "arti": "Garam",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Shouyu",
+    "kana": "しょうゆ (醤油)",
+    "arti": "Kecap Asin",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Gyuuniku",
+    "kana": "ぎゅうにく (牛肉)",
+    "arti": "Daging Sapi",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Toriniku",
+    "kana": "とりにく (鶏肉)",
+    "arti": "Daging Ayam",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Butaniku",
+    "kana": "ぶたにく (豚肉)",
+    "arti": "Daging Babi",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Ringo",
+    "kana": "りんご",
+    "arti": "Apel",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Mikan",
+    "kana": "みかん",
+    "arti": "Jeruk Mikan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Banana",
+    "kana": "バナナ",
+    "arti": "Pisang",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Koucha",
+    "kana": "こうちゃ (紅茶)",
+    "arti": "Teh Hitam",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Osake",
+    "kana": "おさけ (お酒)",
+    "arti": "Sake / Alkohol",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Bentou",
+    "kana": "べんとう (弁当)",
+    "arti": "Kotak Bekal",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Bangohan",
+    "kana": "ばんごはん (晩ご飯)",
+    "arti": "Makan Malam",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Asagohan",
+    "kana": "あさごはん (朝ご飯)",
+    "arti": "Sarapan",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Hirugohan",
+    "kana": "ひるごはん (昼ご飯)",
+    "arti": "Makan Siang",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Atarashii",
+    "kana": "あたらしい (新しい)",
+    "arti": "Baru",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Furui",
+    "kana": "ふるい (古い)",
+    "arti": "Lama / Kuno",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Atsui",
+    "kana": "あつい (暑い)",
+    "arti": "Panas (Cuaca)",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Atsui",
+    "kana": "あつい (熱い)",
+    "arti": "Panas (Benda)",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Atsui",
+    "kana": "あつい (厚い)",
+    "arti": "Tebal",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Samui",
+    "kana": "さむい (寒い)",
+    "arti": "Dingin (Cuaca)",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Tsumetai",
+    "kana": "つめたい (冷たい)",
+    "arti": "Dingin (Benda)",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Atatakai",
+    "kana": "あたたかい (温かい)",
+    "arti": "Hangat",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Suzushii",
+    "kana": "すずしい (涼しい)",
+    "arti": "Sejuk",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Ii / Yoi",
+    "kana": "いい / よい (良い)",
+    "arti": "Bagus / Baik",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Warui",
+    "kana": "わるい (悪い)",
+    "arti": "Buruk / Jelek",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Tanoshii",
+    "kana": "たのしい (楽しい)",
+    "arti": "Menyenangkan",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Tsumaranai",
+    "kana": "つまらない",
+    "arti": "Membosankan",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Muzukashii",
+    "kana": "むずかしい (難しい)",
+    "arti": "Sulit",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kitanai",
+    "kana": "きたない (汚い)",
+    "arti": "Kotor",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kirei",
+    "kana": "きれい (綺麗)",
+    "arti": "Cantik / Bersih",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Shizuka",
+    "kana": "しずか (静か)",
+    "arti": "Tenang",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Nigiyaka",
+    "kana": "にぎやか (賑やか)",
+    "arti": "Ramai",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Hima",
+    "kana": "ひま (暇)",
+    "arti": "Senggang",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Benri",
+    "kana": "べんり (便利)",
+    "arti": "Praktis / Nyaman",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Genki",
+    "kana": "げんき (元気)",
+    "arti": "Sehat / Bersemangat",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Suki",
+    "kana": "すき (好き)",
+    "arti": "Suka",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kirai",
+    "kana": "きらい (嫌い)",
+    "arti": "Benci / Tidak Suka",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Jouzu",
+    "kana": "じょうず (上手)",
+    "arti": "Pintar / Mahir",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Heta",
+    "kana": "へた (下手)",
+    "arti": "Payah / Tidak Mahir",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Taisetsu",
+    "kana": "たいせつ (大切)",
+    "arti": "Penting",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Daijoubu",
+    "kana": "だいじょうぶ (大丈夫)",
+    "arti": "Tidak Apa-apa",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Iroiro",
+    "kana": "いろいろ (色々)",
+    "arti": "Bermacam-macam",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Rippa",
+    "kana": "りっぱ (立派)",
+    "arti": "Megah / Elegan",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Marui",
+    "kana": "まるい (丸い)",
+    "arti": "Bulat",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Hosoi",
+    "kana": "ほそい (細い)",
+    "arti": "Tipis / Ramping",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Futoi",
+    "kana": "ふとい (太い)",
+    "arti": "Tebal / Gemuk",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Wakai",
+    "kana": "わかい (若い)",
+    "arti": "Muda",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Abunai",
+    "kana": "あぶない (危ない)",
+    "arti": "Bahaya",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Itai",
+    "kana": "いたい (痛い)",
+    "arti": "Sakit / Nyeri",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Tooi",
+    "kana": "とおい (遠い)",
+    "arti": "Jauh",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Hayai",
+    "kana": "はやい (早い)",
+    "arti": "Cepat / Awal",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Osoi",
+    "kana": "おそい (遅い)",
+    "arti": "Lambat",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Tsuyoi",
+    "kana": "つよい (強い)",
+    "arti": "Kuat",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Yowai",
+    "kana": "よわい (弱い)",
+    "arti": "Lemah",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Usui",
+    "kana": "うすい (薄い)",
+    "arti": "Tipis / Hambar",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Yomu",
+    "kana": "よむ (読む)",
+    "arti": "Membaca",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kiku",
+    "kana": "きく (聞く)",
+    "arti": "Mendengar / Bertanya",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Okiru",
+    "kana": "おきる (起きる)",
+    "arti": "Bangun (Dari Tidur)",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kau",
+    "kana": "かう (買う)",
+    "arti": "Membeli",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kasu",
+    "kana": "かす (貸す)",
+    "arti": "Meminjamkan",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kariru",
+    "kana": "かりる (借りる)",
+    "arti": "Meminjam",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kaesu",
+    "kana": "かえす (返す)",
+    "arti": "Mengembalikan",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Oboeru",
+    "kana": "おぼえる (覚える)",
+    "arti": "Mengingat",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Wasureru",
+    "kana": "わすれる (忘れる)",
+    "arti": "Melupakan",
+    "tipe": "verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Totemo",
+    "kana": "とても",
+    "arti": "Sangat",
+    "tipe": "adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Sukoshi",
+    "kana": "すこし (少し)",
+    "arti": "Sedikit",
+    "tipe": "adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Chotto",
+    "kana": "ちょっと",
+    "arti": "Sebentar / Sedikit",
+    "tipe": "adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Takusan",
+    "kana": "たくさん",
+    "arti": "Banyak",
+    "tipe": "adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Amari",
+    "kana": "あまり",
+    "arti": "Tidak Begitu...",
+    "tipe": "adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Zenzen",
+    "kana": "ぜんぜん (全然)",
+    "arti": "Sama Sekali Tidak...",
+    "tipe": "adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Itsumo",
+    "kana": "いつも",
+    "arti": "Selalu",
+    "tipe": "adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Yoku",
+    "kana": "よく",
+    "arti": "Sering / Dengan Baik",
+    "tipe": "adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Tokidoki",
+    "kana": "ときどき (時々)",
+    "arti": "Kadang-kadang",
+    "tipe": "adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Mou",
+    "kana": "もう",
+    "arti": "Sudah",
+    "tipe": "adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Mada",
+    "kana": "まだ",
+    "arti": "Belum",
+    "tipe": "adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Mata",
+    "kana": "また",
+    "arti": "Lagi",
+    "tipe": "adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Motto",
+    "kana": "もっと",
+    "arti": "Lebih",
+    "tipe": "adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Massugu",
+    "kana": "まっすぐ (真っ直ぐ)",
+    "arti": "Lurus",
+    "tipe": "adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Boku",
+    "kana": "ぼく (僕)",
+    "arti": "Aku (Laki-laki, Kasual/Sopan)",
+    "tipe": "pronoun noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Ore",
+    "kana": "おれ (俺)",
+    "arti": "Gue / Aku (Laki-laki, Maskulin/Kasar)",
+    "tipe": "pronoun noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kimi",
+    "kana": "きみ (君)",
+    "arti": "Kamu (Kasual/Akrab)",
+    "tipe": "pronoun noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Omae",
+    "kana": "おまえ (お前)",
+    "arti": "Lu / Kamu (Kasar/Sangat Akrab)",
+    "tipe": "pronoun noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Watashitachi",
+    "kana": "わたしたち (私たち)",
+    "arti": "Kami / Kita",
+    "tipe": "pronoun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Bokutachi",
+    "kana": "ぼくたち (僕たち)",
+    "arti": "Kami / Kita (Laki-laki)",
+    "tipe": "pronoun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Oretachi",
+    "kana": "おれたち (俺たち)",
+    "arti": "Kita-kita / Kami (Maskulin/Kasar)",
+    "tipe": "pronoun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Minna",
+    "kana": "みんな (皆)",
+    "arti": "Semuanya / Kalian semua (Kasual)",
+    "tipe": "pronoun noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Minasan",
+    "kana": "みなさん (皆さん)",
+    "arti": "Hadirin sekalian / Kalian semua (Sopan)",
+    "tipe": "pronoun noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Atashi",
+    "kana": "あたし",
+    "arti": "Aku (Perempuan, Kasual/Feminim)",
+    "tipe": "pronoun noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Watakushi",
+    "kana": "わたくし (私)",
+    "arti": "Saya (Sangat Formal/Bisnis/Bangsawan)",
+    "tipe": "pronoun noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Uchi",
+    "kana": "うち",
+    "arti": "Aku (Kasual, sering dipakai cewek/logat Kansai)",
+    "tipe": "pronoun noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Washi",
+    "kana": "わし (儂)",
+    "arti": "Aku (Kakek-kakek/Karakter Anime Tua)",
+    "tipe": "pronoun noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Jikoshoukai",
+    "kana": "じこしょうかい (自己紹介)",
+    "arti": "Perkenalan Diri",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Hajimemashite",
+    "kana": "はじめまして (初めまして)",
+    "arti": "Salam kenal (Awal bertemu)",
+    "tipe": "ungkapan"
+  },
+  {
+    "level": "N5",
+    "romaji": "Douzo yoroshiku",
+    "kana": "どうぞよろしく",
+    "arti": "Senang berkenalan dengan Anda",
+    "tipe": "ungkapan"
+  },
+  {
+    "level": "N5",
+    "romaji": "Yoroshiku onegaishimasu",
+    "kana": "よろしくおねがいします",
+    "arti": "Mohon bimbingannya / Senang berkenalan",
+    "tipe": "ungkapan"
+  },
+  {
+    "level": "N5",
+    "romaji": "To moushimasu",
+    "kana": "ともうします (と申します)",
+    "arti": "Nama saya adalah... (Sangat Sopan/Merendah)",
+    "tipe": "ungkapan verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Shusshin",
+    "kana": "しゅっしん (出身)",
+    "arti": "Asal daerah / Tempat kelahiran",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Karakimashita",
+    "kana": "からきました (から来ました)",
+    "arti": "Saya datang/berasal dari...",
+    "tipe": "ungkapan"
+  },
+  {
+    "level": "N5",
+    "romaji": "Ossu",
+    "kana": "おっす",
+    "arti": "Halo / Woi! (Kasual Maskulin)",
+    "tipe": "ungkapan"
+  },
+  {
+    "level": "N5",
+    "romaji": "Yaho",
+    "kana": "ヤッホー",
+    "arti": "Yuhuu / Halo (Kasual Feminim)",
+    "tipe": "ungkapan"
+  },
+  {
+    "level": "N5",
+    "romaji": "Maji",
+    "kana": "まじ (本気)",
+    "arti": "Serius?! / Beneran? (Sangat Kasual)",
+    "tipe": "adverb ungkapan"
+  },
+  {
+    "level": "N5",
+    "romaji": "Gachi",
+    "kana": "ガチ",
+    "arti": "Sumpah / Beneran (Slang Anak Muda)",
+    "tipe": "adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Chou",
+    "kana": "ちょう (超)",
+    "arti": "Super / Banget (Slang Kasual)",
+    "tipe": "adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Yabai",
+    "kana": "やばい",
+    "arti": "Gila / Gawat / Keren (Slang Multi-fungsi)",
+    "tipe": "adjective ungkapan"
+  },
+  {
+    "level": "N5",
+    "romaji": "Sugee",
+    "kana": "すげー",
+    "arti": "Hebat gila! (Slang Kasar dari Sugoi)",
+    "tipe": "adjective ungkapan"
+  },
+  {
+    "level": "N5",
+    "romaji": "Baka",
+    "kana": "ばか (馬鹿)",
+    "arti": "Bodoh / Idiot (Kasaran Kanto)",
+    "tipe": "noun adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Aho",
+    "kana": "あほ (阿呆)",
+    "arti": "Bodoh / Konyol (Kasaran Kansai)",
+    "tipe": "noun adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Uza / Uzai",
+    "kana": "うざい",
+    "arti": "Menyebalkan / Berisik (Slang)",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Kimoi",
+    "kana": "キモい",
+    "arti": "Menjijikkan / Creepy (Slang)",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Dasai",
+    "kana": "ださい",
+    "arti": "Kuno / Norak / Tidak Keren (Slang)",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Mendokusai",
+    "kana": "めんどくさい",
+    "arti": "Ribet / Merepotkan (Kasual)",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Ukeru",
+    "kana": "ウケる",
+    "arti": "Ngakak / Lucu banget (Slang)",
+    "tipe": "verb ungkapan"
+  },
+  {
+    "level": "N5",
+    "romaji": "Bimyou",
+    "kana": "びみょう (微妙)",
+    "arti": "Biasa aja / Kurang sreg (Kasual)",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Chichi",
+    "kana": "ちち (父)",
+    "arti": "Ayah kandung (Sopan/Formal)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Haha",
+    "kana": "はは (母)",
+    "arti": "Ibu kandung (Sopan/Formal)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Sofu",
+    "kana": "そふ (祖父)",
+    "arti": "Kakek kandung (Sopan/Formal)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Sobo",
+    "kana": "そぼ (祖母)",
+    "arti": "Nenek kandung (Sopan/Formal)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Musuko",
+    "kana": "むすこ (息子)",
+    "arti": "Anak laki-laki kandung (Sopan)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Musume",
+    "kana": "むすめ (娘)",
+    "arti": "Anak perempuan kandung (Sopan)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Shinseki",
+    "kana": "しんせき (親戚)",
+    "arti": "Kerabat / Sanak saudara (Formal)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Goshujin",
+    "kana": "ごしゅじん (ご主人)",
+    "arti": "Suami Anda (Sopan/Orang lain)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Okusan",
+    "kana": "おくさん (奥さん)",
+    "arti": "Istri Anda (Sopan/Orang lain)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Bansan",
+    "kana": "ばんさん (晩餐)",
+    "arti": "Makan malam (Sangat Formal)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Choushoku",
+    "kana": "ちょうしょく (朝食)",
+    "arti": "Sarapan (Formal/Tulisan)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Chuushoku",
+    "kana": "ちゅうしょく (昼食)",
+    "arti": "Makan siang (Formal/Tulisan)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Yuushoku",
+    "kana": "ゆうしょく (夕食)",
+    "arti": "Makan malam (Formal/Tulisan)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Zettai",
+    "kana": "ぜったい (絶対)",
+    "arti": "Pasti / Mutlak (Bisa Kasual & Formal)",
+    "tipe": "adverb noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Saikou",
+    "kana": "さいこう (最高)",
+    "arti": "Terbaik / Puncak (Bisa Kasual & Formal)",
+    "tipe": "noun adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Saitei",
+    "kana": "さいてい (最低)",
+    "arti": "Terburuk / Paling rendah",
+    "tipe": "noun adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Hontou",
+    "kana": "ほんとう (本当)",
+    "arti": "Benar / Kenyataan",
+    "tipe": "noun adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Uso",
+    "kana": "うそ (嘘)",
+    "arti": "Bohong / Dusta",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Naisho",
+    "kana": "ないしょ (内緒)",
+    "arti": "Rahasia (Kasual)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Himitsu",
+    "kana": "ひみつ (秘密)",
+    "arti": "Rahasia (Formal)",
+    "tipe": "noun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Yakusoku",
+    "kana": "やくそく (約束)",
+    "arti": "Janji",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Onegai",
+    "kana": "おねがい (お願い)",
+    "arti": "Permintaan / Mohon",
+    "tipe": "noun verb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Gomen",
+    "kana": "ごめん",
+    "arti": "Maaf (Kasual)",
+    "tipe": "ungkapan"
+  },
+  {
+    "level": "N5",
+    "romaji": "Gomen nasai",
+    "kana": "ごめんなさい",
+    "arti": "Mohon maaf (Sopan)",
+    "tipe": "ungkapan"
+  },
+  {
+    "level": "N5",
+    "romaji": "Sumimasen",
+    "kana": "すみません",
+    "arti": "Permisi / Maaf (Formal)",
+    "tipe": "ungkapan"
+  },
+  {
+    "level": "N5",
+    "romaji": "Arigatou",
+    "kana": "ありがとう",
+    "arti": "Makasih (Kasual)",
+    "tipe": "ungkapan"
+  },
+  {
+    "level": "N5",
+    "romaji": "Sankyuu",
+    "kana": "サンキュー",
+    "arti": "Thank you / Makasih (Slang)",
+    "tipe": "ungkapan"
+  },
+  {
+    "level": "N5",
+    "romaji": "Yokatta",
+    "kana": "よかった",
+    "arti": "Syukurlah (Kasual)",
+    "tipe": "ungkapan adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Zannen",
+    "kana": "ざんねん (残念)",
+    "arti": "Sayang sekali / Kecewa",
+    "tipe": "adjective"
+  },
+  {
+    "level": "N5",
+    "romaji": "Shouganai",
+    "kana": "しょうがない",
+    "arti": "Mau gimana lagi / Gak ada pilihan (Kasual)",
+    "tipe": "ungkapan"
+  },
+  {
+    "level": "N5",
+    "romaji": "Mochiron",
+    "kana": "もちろん (勿論)",
+    "arti": "Tentu saja",
+    "tipe": "adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Zenbu",
+    "kana": "ぜんぶ (全部)",
+    "arti": "Semuanya (Barang)",
+    "tipe": "noun adverb"
+  },
+  {
+    "level": "N5",
+    "romaji": "Minna",
+    "kana": "みんな (皆)",
+    "arti": "Semua orang (Kasual)",
+    "tipe": "noun pronoun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Minasan",
+    "kana": "みなさん (皆さん)",
+    "arti": "Hadirin sekalian (Formal)",
+    "tipe": "noun pronoun"
+  },
+  {
+    "level": "N5",
+    "romaji": "Iroiro",
+    "kana": "いろいろ (色々)",
+    "arti": "Bermacam-macam",
+    "tipe": "adjective adverb"
+  }
+]

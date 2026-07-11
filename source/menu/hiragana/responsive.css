@@ -1,0 +1,341 @@
+/* =========================================================
+   RESPONSIVE FINAL
+   Kompatibel dengan asisten-final.css
+   Ganti responsive.css lama dengan file ini
+   ========================================================= */
+
+:root {
+  --font-base: clamp(14px, 0.35vw + 13px, 16px);
+  --header-h: clamp(3.75rem, 5vw, 4.375rem);
+  --space-1: 0.5rem;
+  --space-2: 0.75rem;
+  --space-3: 1rem;
+  --space-4: 1.25rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --r-lg: clamp(1.1rem, 2vw, 1.875rem);
+  --r-md: clamp(0.95rem, 1.6vw, 1.5rem);
+  --r-sm: clamp(0.75rem, 1.2vw, 1.125rem);
+}
+
+html {
+  font-size: var(--font-base);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Header dan layout utama */
+.main-header {
+  height: var(--header-h) !important;
+}
+
+.dropdown-container {
+  top: var(--header-h) !important;
+}
+
+.header-content {
+  width: min(calc(100% - 2rem), 72rem) !important;
+}
+
+.main-stage {
+  width: min(calc(100% - 1.25rem), var(--max-width, 1240px)) !important;
+  margin: calc(var(--header-h) + 1rem) auto 8rem !important;
+}
+
+/* Panel hero */
+.hero-panel {
+  padding: clamp(1rem, 2.2vw, 1.5rem) !important;
+  border-radius: var(--r-lg) !important;
+  gap: clamp(0.9rem, 2vw, 1.35rem) !important;
+}
+
+.hero-copy h1 {
+  font-size: clamp(2rem, 4.6vw, 4.25rem) !important;
+  line-height: 1.05 !important;
+}
+
+/* Navigasi kapsul atas */
+.section-nav {
+  top: calc(var(--header-h) + 0.75rem) !important;
+  padding: 0.55rem !important;
+}
+
+.tab-btn {
+  padding: 0.65rem 0.95rem !important;
+  font-size: clamp(0.84rem, 1vw + 0.45rem, 0.95rem) !important;
+}
+
+/* Kapsul bawah */
+.mobile-dock {
+  width: min(calc(100% - 1rem), 34rem) !important;
+  padding: 0.45rem !important;
+  border-radius: 2.15rem !important;
+  bottom: calc(0.9rem + env(safe-area-inset-bottom, 0px)) !important;
+}
+
+.mobile-dock .tab-btn {
+  min-height: 3.1rem !important;
+  padding: 0.45rem 0.35rem !important;
+  font-size: clamp(0.68rem, 1vw + 0.45rem, 0.82rem) !important;
+}
+
+.btn-back-to-top {
+  width: 2.9rem !important;
+  height: 2.9rem !important;
+  bottom: calc(6rem + env(safe-area-inset-bottom, 0px)) !important;
+}
+
+.dock-handle-btn {
+  width: clamp(4.5rem, 16vw, 6.25rem) !important;
+  height: 1.6rem !important;
+  bottom: calc(0.85rem + env(safe-area-inset-bottom, 0px) + 4rem) !important;
+}
+
+.dock-handle-btn::before {
+  width: clamp(2.4rem, 8vw, 3.2rem) !important;
+  height: 0.32rem !important;
+}
+
+/* Bottom sheet */
+.bottom-sheet-content {
+  max-width: min(37.5rem, 100%) !important;
+  padding: 0.75rem var(--space-4) calc(1.5rem + env(safe-area-inset-bottom, 0px)) !important;
+  border-radius: clamp(1.25rem, 2vw, 1.75rem) clamp(1.25rem, 2vw, 1.75rem) 0 0 !important;
+}
+
+.drag-handle {
+  width: 2.6rem !important;
+  height: 0.32rem !important;
+  margin: 0 auto 1rem !important;
+}
+
+.sheet-item {
+  padding: 1rem !important;
+  border-radius: var(--r-sm) !important;
+}
+
+.sheet-icon {
+  width: 2.75rem !important;
+  height: 2.75rem !important;
+  border-radius: 0.75rem !important;
+}
+
+/* AI modal: override yang kompatibel */
+.ai-modal-overlay {
+  padding: 0 !important;
+}
+
+.ai-modal-content {
+  width: 100% !important;
+  height: 100dvh !important;
+  max-height: 100dvh !important;
+  min-height: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+}
+
+.ai-header {
+  padding: clamp(0.9rem, 2vw, 1.1rem) clamp(0.95rem, 2vw, 1.15rem) clamp(0.75rem, 1.6vw, 0.95rem) !important;
+}
+
+.ai-header h3 {
+  font-size: clamp(1rem, 1.5vw + 0.65rem, 1.3rem) !important;
+}
+
+.ai-desc {
+  margin: 0.8rem 0.9rem 0.55rem !important;
+  padding: 0.75rem 0.85rem !important;
+  font-size: clamp(0.8rem, 0.8vw + 0.55rem, 0.9rem) !important;
+  border-radius: 0.95rem !important;
+}
+
+.ai-response-box {
+  padding: 0 0.9rem calc(5.8rem + env(safe-area-inset-bottom, 0px)) !important;
+}
+
+.ai-chat-thread {
+  gap: 0.6rem !important;
+}
+
+.ai-chat-bubble {
+  max-width: 85% !important;
+  padding: 0.8rem 0.9rem 1.1rem !important;
+  font-size: clamp(0.88rem, 0.7vw + 0.55rem, 0.95rem) !important;
+  line-height: 1.55 !important;
+}
+
+.ai-chat-time {
+  right: 0.75rem !important;
+  bottom: 0.36rem !important;
+}
+
+.ai-textarea {
+  min-height: 3.2rem !important;
+  max-height: 3.2rem !important;
+  height: 3.2rem !important;
+  left: 0.9rem !important;
+  right: calc(3.2rem + 0.9rem + 0.65rem + 0.9rem) !important;
+  bottom: calc(0.9rem + env(safe-area-inset-bottom, 0px)) !important;
+  margin: 0 !important;
+  padding: 0 1rem !important;
+  line-height: 3.2rem !important;
+  border-radius: 999px !important;
+  font-size: 0.94rem !important;
+}
+
+.w-full {
+  width: 3.2rem !important;
+  height: 3.2rem !important;
+  min-width: 3.2rem !important;
+  min-height: 3.2rem !important;
+  right: 0.9rem !important;
+  bottom: calc(0.9rem + env(safe-area-inset-bottom, 0px)) !important;
+  margin: 0 !important;
+}
+
+/* Tablet */
+@media (max-width: 64rem) {
+  .hero-panel {
+    grid-template-columns: 1fr !important;
+  }
+
+  .main-stage {
+    width: min(calc(100% - 1rem), var(--max-width, 1240px)) !important;
+  }
+
+  .ai-modal-content {
+    width: 100% !important;
+    height: 100dvh !important;
+  }
+}
+
+/* Mobile */
+@media (max-width: 40rem) {
+  .header-content {
+    width: min(calc(100% - 1rem), 70rem) !important;
+  }
+
+  .main-stage {
+    width: min(calc(100% - 0.75rem), var(--max-width, 1240px)) !important;
+    margin: calc(var(--header-h) + 0.9rem) auto 7rem !important;
+  }
+
+  .section-nav {
+    top: calc(var(--header-h) + 0.55rem) !important;
+    padding: 0.45rem !important;
+  }
+
+  .tab-btn {
+    padding: 0.58rem 0.85rem !important;
+  }
+
+  .bottom-sheet-content {
+    padding: 0.7rem 1rem calc(1.35rem + env(safe-area-inset-bottom, 0px)) !important;
+  }
+
+  .ai-modal-overlay {
+    padding: 0 !important;
+    align-items: stretch !important;
+  }
+
+  .ai-modal-content {
+    width: 100% !important;
+    max-width: none !important;
+    height: 100dvh !important;
+    max-height: 100dvh !important;
+    border-radius: 0 !important;
+  }
+
+  .ai-header {
+    padding: 0.85rem 0.85rem 0.72rem !important;
+  }
+
+  .ai-desc {
+    margin: 0.65rem 0.75rem 0.45rem !important;
+    padding: 0.68rem 0.78rem !important;
+    font-size: 0.82rem !important;
+  }
+
+  .ai-response-box {
+    padding: 0 0.75rem calc(5.3rem + env(safe-area-inset-bottom, 0px)) !important;
+  }
+
+  .ai-chat-bubble {
+    max-width: 88% !important;
+    padding: 0.75rem 0.85rem 1rem !important;
+    font-size: 0.9rem !important;
+  }
+
+  .ai-textarea {
+    min-height: 3rem !important;
+    max-height: 3rem !important;
+    left: 0.75rem !important;
+    right: calc(3rem + 0.75rem + 0.5rem + 0.75rem) !important;
+    bottom: calc(0.75rem + env(safe-area-inset-bottom, 0px)) !important;
+    margin: 0 !important;
+    padding: 0.82rem 0.92rem !important;
+  }
+
+  .w-full {
+    width: 3rem !important;
+    height: 3rem !important;
+    min-width: 3rem !important;
+    min-height: 3rem !important;
+    right: 0.75rem !important;
+    bottom: calc(0.75rem + env(safe-area-inset-bottom, 0px)) !important;
+    margin: 0 !important;
+  }
+
+  .mobile-dock {
+    width: min(calc(100% - 0.75rem), 34rem) !important;
+  }
+}
+
+/* Sangat kecil */
+@media (max-width: 23.5rem) {
+  .ai-chat-bubble {
+    max-width: 90% !important;
+  }
+
+  .ai-header h3 {
+    font-size: 0.96rem !important;
+  }
+
+  .ai-desc {
+    font-size: 0.78rem !important;
+  }
+}
+
+/* Desktop besar */
+@media (min-width: 64.0625rem) {
+  .header-content {
+    width: min(calc(100% - 2.5rem), 76rem) !important;
+  }
+
+  .main-stage {
+    width: min(calc(100% - 2rem), var(--max-width, 1240px)) !important;
+  }
+
+  .ai-modal-content {
+    width: 100% !important;
+    height: 100dvh !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bottom-sheet-overlay,
+  .bottom-sheet-content,
+  .ai-modal-overlay,
+  .ai-modal-content,
+  .sheet-item,
+  .tab-btn,
+  .mobile-dock .tab-btn,
+  .ai-chat-bubble {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
