@@ -661,8 +661,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // MASUKKAN API KEY PUBLIK GEMINI KAMU DI SINI
     // (Karena alasan keamanan platform AI, API Key Publik yang valid selalu berbayar/terikat akun, 
     // jadi silakan generate key gratis di https://aistudio.google.com/ dan tempel di bawah ini)
-    const GEMINI_API_KEY = "AIzaSyCYFXbmilzMZ6T07f2U729-izx5qtogtT4"; 
-    const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`;
+    const GEMINI_API_KEY = "nanti saja"; 
+    const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=${GEMINI_API_KEY}`;
 
     btnTanyaAI?.addEventListener("click", async () => {
         const text = aiInput.value.trim();
@@ -705,7 +705,7 @@ document.addEventListener("DOMContentLoaded", () => {
         } catch (error) {
             console.error(error);
             removePendingBubble();
-            appendChatBubble("ai", formatChatMessage("Terjadi Kesalahan. Pastikan kamu sudah memasukkan API Key yang benar ke dalam file asisten.js."));
+            appendChatBubble("ai", formatChatMessage("Terjadi Kesalahan dalam sinkronisasi server."));
         } finally {
             // Kembalikan UI seperti semula
             aiLoader.hidden = true;

@@ -4,15 +4,15 @@
   --panel: rgba(19, 20, 28, 0.88);
   --panel-strong: rgba(15, 16, 24, 0.96);
   --panel-soft: rgba(255, 255, 255, 0.04);
-  --line: rgba(255, 255, 255, 0.1);
+  --line: rgba(119, 136, 153, 0.15);
   --line-strong: rgba(255, 255, 255, 0.18);
   --text: #f5f1e8;
   --muted: #aaa6b9;
   --muted-strong: #d3cfde;
   --accent: #40e0d0;
-  --accent-2: #b794f4;
-  --accent-3: #00c6ff;
-  --success: #34d399;
+  --accent-2: #BC8F8F;
+  --accent-3: #4682B4;
+  --success: #2E8B57;
   --shadow: 0 24px 80px rgba(0, 0, 0, 0.38);
   --radius-lg: 28px;
   --radius-md: 20px;
@@ -108,7 +108,7 @@ button {
   font-weight: 800;
   text-decoration: none;
   letter-spacing: 0.02em;
-  background: linear-gradient(25deg, var(--accent), var(--accent-2));
+  background: linear-gradient(180deg, var(--accent), #B0C4DE);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   filter: drop-shadow(0 0 8px rgba(64, 224, 208, 0.18));
@@ -171,8 +171,8 @@ button {
 .quick-pill,
 .load-more {
   color: #111319;
-  background: linear-gradient(135deg, var(--accent), var(--accent-2));
-  box-shadow: 0 12px 32px rgba(64, 224, 208, 0.18);
+  background: linear-gradient(135deg, var(--accent), var(--accent-3));
+  box-shadow: 0 4px 10px rgba(64, 224, 208, 0.18);
 }
 
 .header-quiz-btn {
@@ -448,7 +448,7 @@ button {
 .tab-btn.active {
   color: #121319;
   background: linear-gradient(135deg, #ecfeff, var(--accent-2));
-  box-shadow: 0 2px 4px rgba(64, 224, 208, 0.18);
+  box-shadow: 0 1px 2px rgba(64, 224, 208, 0.18);
 }
 
 .container-grid {
@@ -584,7 +584,7 @@ button {
 }
 
 .h-romaji {
-  font-size: 0.72rem;
+  font-size: 0.74rem;
   color: var(--muted-strong);
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -626,13 +626,13 @@ button {
 .p-huruf {
   margin: 0 0 10px;
   font-family: "Noto Sans JP", sans-serif;
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   font-weight: 800;
 }
 
 .p-desc {
   margin: 0;
-  font-size: 0.88rem;
+  font-size: 0.9rem;
 }
 
 .table-shell {
@@ -714,7 +714,7 @@ button {
 
 .search-field span {
   color: var(--muted);
-  font-size: 0.78rem;
+  font-size: 0.8rem;
 }
 
 .vocab-search {
@@ -743,7 +743,7 @@ button {
   background: rgba(255, 255, 255, 0.05);
   color: var(--text);
   border: 1px solid var(--line);
-  font-size: 0.88rem;
+  font-size: 0.9rem;
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -972,8 +972,8 @@ button {
 
 .mobile-dock .tab-btn.active {
   color: #0d0f14 !important;
-  background: linear-gradient(135deg, #ecfeff 0%, var(--accent-2) 100%) !important;
-  box-shadow: 0 6px 16px rgba(183, 148, 244, 0.28);
+  background: linear-gradient(360deg, #ecfeff 0%, var(--accent-2) 100%) !important;
+  box-shadow: 0 4px 10px rgba(248, 248, 255, 0.28)
   transform: translateY(-1px);
 }
 
@@ -1252,7 +1252,7 @@ button {
 
   .jp-table {
     min-width: 560px;
-    font-size: 0.88rem;
+    font-size: 1rem;
   }
 }
 
@@ -1302,7 +1302,7 @@ button {
   }
 
   .section-heading h2 {
-    font-size: 1.55rem;
+    font-size: 1.6rem;
   }
 
   .subsection-head {
@@ -1331,7 +1331,7 @@ button {
   }
 
   .h-jp {
-    font-size: 1.02rem;
+    font-size: 1.12rem;
   }
 
   .h-romaji {

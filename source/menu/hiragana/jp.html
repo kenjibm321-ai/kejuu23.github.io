@@ -12,6 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Noto+Serif+JP:wght@500;700;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="huruf.css">
+  <link rel="stylesheet" href="fokusMode.css">
   <link rel="stylesheet" href="sketch.css">
   <link rel="stylesheet" href="asisten.css">
   <link rel="stylesheet" href="responsive.css">
@@ -22,7 +23,7 @@
 
     <header class="main-header" data-siluman="true">
       <div class="header-content">
-        <a href="#" class="logo">Kejuu<span>Kana</span></a>
+        <a href="#" class="logo">Kejuu</a>
 
         <div class="header-actions">
           <button id="btn-focus" class="btn-focus" type="button" title="Aktifkan mode fokus">
@@ -70,11 +71,11 @@
     <main class="main-stage">
       <section class="hero-panel">
         <div class="hero-copy">
-          <p class="eyebrow">Belajar Jepang interaktif</p>
-          <h1>Hiragana, Katakana, partikel, dan kamus dalam satu studio belajar.</h1>
+          <p class="eyebrow">START YOUR LANGUAGES FUTURE</p>
+          <h1>Japanese are the most LANGUAGES study, Lets make your insight today</h1></h1>
           <p class="hero-text">
-            Navigasi utama dibuat sederhana: 4 menu utama di kapsul bawah. Swipe ke atas untuk menu tambahan (Kuis, Asisten, Sketch).
-          </p>
+           Dimulai dari あいうえお hingga kosakata dan tata bahasa keseharian.
+Belajar sedikit demi sedikit, lalu cobalah gunakan dalam percakapan sehari-hari. </p>
 
           <div class="hero-pills">
             <button class="quick-pill" type="button" data-tab-jump="hiragana">
@@ -83,24 +84,24 @@
             </button>
             <button class="quick-pill" type="button" data-tab-jump="katakana">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h14v2H5zm2 4h10v2H7zm-2 4h14v2H5zm4 4h6v2H9z"></path></svg>
-              <span>Bandingkan Katakana</span>
+              <span>Latihan Katakana</span>
             </button>
             <button class="quick-pill" type="button" data-tab-jump="kosakata">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 2a8 8 0 1 0 5.29 14l4.35 4.35 1.41-1.41-4.35-4.35A8 8 0 0 0 10 2"></path></svg>
-              <span>Buka Kamus</span>
+              <span>Buka Kamus JLPT</span>
             </button>
             <button id="heroQuizGhostBtn" class="ghost-btn hero-secondary-btn" type="button">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M11 18h2v-2h-2zm1-16C6.48 2 2 5.58 2 10c0 2.38 1.31 4.47 3.3 5.93L4 22l5.43-2.71c.82.19 1.68.29 2.57.29 5.52 0 10-3.58 10-8s-4.48-8-10-8z"></path></svg>
-              <span>Main Kuis</span>
+              <span>Main KUIS</span>
             </button>
           </div>
         </div>
 
         <aside class="hero-aside">
           <div class="hero-card">
-            <span class="hero-card-label">Gaya antarmuka</span>
-            <strong>Native-like, cepat, dan halus</strong>
-            <p>Swipe, snap, dan animasi dibuat lebih “rasa mobile” untuk PWA.</p>
+            <span class="hero-card-label">dapatkan pengetahuan baru kamu</span>
+            <strong>Perjalanan dimulai dari sini.</strong>
+            <p>Cari daftar kosakata,latih kemampuan menulis, baca huruf dasar jepang di sini.</p>
           </div>
           <div class="hero-metrics">
             <div class="metric">
@@ -131,15 +132,12 @@
       </nav>
 
       <div class="container-grid">
-        <!-- SECTION: hiragana / partikel / katakana / sketch / kosakata
-             Section HTML diambil dari versi sebelumnya agar logic `huruf.js` tetap kompatibel. -->
-
         <!-- Hiragana -->
         <section id="hiragana" class="content-section active">
           <div class="section-heading">
             <p class="section-kicker">Pondasi baca</p>
             <h2>Hiragana</h2>
-            <p>Grid tetap konsisten supaya mata cepat mengenali pola baris dan bunyi.</p>
+            <p>Kenali fungsi dasar susunan gramatikal berurut.</p>
           </div>
 
           <div class="study-stack">
@@ -241,7 +239,7 @@
           <div class="section-heading">
             <p class="section-kicker">Pola visual sejajar</p>
             <h2>Katakana</h2>
-            <p>Posisi grid sengaja dijaga tetap senada dengan Hiragana supaya perpindahan latihan terasa natural.</p>
+            <p>Kenali perbedaan fungsi dan bentuk untuk kata serapan.</p>
           </div>
 
           <div class="study-stack">
@@ -555,11 +553,33 @@
       </div>
     </div>
   </div>
+<!-- ========== FOCUS MODE OVERLAY ========== -->
+<div id="focusModeOverlay" class="focus-mode-overlay" aria-hidden="true">
+  <div class="focus-mode-backdrop"></div>
+  <div class="focus-mode-content">
+    <button class="focus-mode-close" type="button" aria-label="Tutup focus mode">✕</button>
+
+    <div class="focus-mode-kana" id="focusKana">あ</div>
+    <div class="focus-mode-romaji" id="focusRomaji">a</div>
+
+    <div class="focus-mode-canvas-wrapper" id="focusCanvasWrapper">
+      <canvas id="focusCanvas"></canvas>
+    </div>
+
+    <p class="focus-mode-hint">Coret-coret untuk berlatih menulis</p>
+
+    <div class="focus-mode-actions">
+      <button id="focusZoomOut" class="focus-btn zoom-btn" type="button" aria-label="Perkecil">−</button>
+      <button id="focusClear" class="focus-btn" type="button">Reset</button>
+      <button id="focusCloseBtn" class="focus-btn primary" type="button">Tutup</button>
+      <button id="focusZoomIn" class="focus-btn zoom-btn" type="button" aria-label="Perbesar">+</button>
+    </div>
+  </div>
+</div>
 
   <!-- JS utama dari upload -->
   <script src="huruf.js"></script>
-
-  <!-- JS bottom sheet + AI (dibuat final di workspace) -->
   <script src="asisten.js"></script>
+  <script src="fokusMode.js" ></script>
 </body>
 </html>

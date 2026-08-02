@@ -525,9 +525,15 @@ function showToast(message) {
 function setupKanaInteractions() {
   document.querySelectorAll(".kana-card:not(.empty)").forEach((card) => {
     card.addEventListener("click", () => {
-      card.classList.add("active");
-      setTimeout(() => card.classList.remove("active"), 240);
-      showToast(`${card.dataset.kana} • ${card.dataset.romaji}`);
+      // Buka Focus Mode jika tersedia
+      if (window.kanaFocusMode) {
+        window.kanaFocusMode.open(card.dataset.kana, card.dataset.romaji);
+      } else {
+        // Fallback: efek aktif + toast seperti sebelumnya
+        card.classList.add("active");
+        setTimeout(() => card.classList.remove("active"), 240);
+        showToast(`${card.dataset.kana} • ${card.dataset.romaji}`);
+      }
     });
   });
 }
