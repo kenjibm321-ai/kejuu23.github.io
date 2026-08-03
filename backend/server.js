@@ -3,32 +3,32 @@ const pool = require("./db");
 
 const app = express();
 
-// Railway menyediakan PORT sendiri.
-// Kalau lokal dan PORT tidak tersedia, gunakan 3000.
+// Railway menyediakan PORT lewat environment variable.
+// Lokal akan fallback ke 3000.
 const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(express.json());
 
 
-// =========================
-// HOME
-// =========================
+// ===============================
+// HOME / HEALTH CHECK
+// ===============================
 
 app.get("/", (req, res) => {
-    res.send("Server Kejuu hidup 🔥");
+    res.status(200).send("Server Kejuu hidup 🔥");
 });
 
 
-// =========================
+// ===============================
 // TEST DATABASE
-// =========================
+// ===============================
 
 app.get("/api/test-db", async (req, res) => {
     try {
         const result = await pool.query("SELECT NOW()");
 
-        res.json({
+        res.status(200).json({
             success: true,
             database_time: result.rows[0].now
         });
@@ -44,9 +44,9 @@ app.get("/api/test-db", async (req, res) => {
 });
 
 
-// =========================
+// ===============================
 // GET USERS
-// =========================
+// ===============================
 
 app.get("/api/users", async (req, res) => {
     try {
@@ -54,7 +54,7 @@ app.get("/api/users", async (req, res) => {
             "SELECT * FROM users ORDER BY id DESC"
         );
 
-        res.json({
+        res.status(200).json({
             success: true,
             users: result.rows
         });
@@ -70,15 +70,15 @@ app.get("/api/users", async (req, res) => {
 });
 
 
-// =========================
+// ===============================
 // CREATE USER
-// =========================
+// ===============================
 
 app.post("/api/users", async (req, res) => {
     try {
         const { username } = req.body;
 
-        if (!username) {
+        if (!username || typeof username !== "string") {
             return res.status(400).json({
                 success: false,
                 message: "Username wajib diisi"
@@ -106,10 +106,12 @@ app.post("/api/users", async (req, res) => {
 });
 
 
-// =========================
+// ===============================
 // START SERVER
-// =========================
+// ===============================
 
-app.listen(PORT, () => {
+// 0.0.0.0 penting agar Railway dapat
+// mengakses server dari luar container.
+app.listen(PORT, "0.0.0.0", () => {
     console.log(`Server Kejuu berjalan di port ${PORT}`);
 });
