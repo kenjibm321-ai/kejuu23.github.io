@@ -3,16 +3,13 @@ const pool = require("./db");
 
 const app = express();
 
-// Railway menyediakan PORT lewat environment variable.
-// Lokal akan fallback ke 3000.
 const PORT = process.env.PORT || 3000;
 
-// Middleware
 app.use(express.json());
 
 
 // ===============================
-// HOME / HEALTH CHECK
+// HOME
 // ===============================
 
 app.get("/", (req, res) => {
@@ -34,11 +31,12 @@ app.get("/api/test-db", async (req, res) => {
         });
 
     } catch (error) {
-        console.error("Database error:", error);
+        console.error("DATABASE ERROR:", error);
 
         res.status(500).json({
             success: false,
-            message: "Database gagal terhubung"
+            message: "Database gagal terhubung",
+            error: error.message
         });
     }
 });
@@ -60,11 +58,12 @@ app.get("/api/users", async (req, res) => {
         });
 
     } catch (error) {
-        console.error("Get users error:", error);
+        console.error("GET USERS ERROR:", error);
 
         res.status(500).json({
             success: false,
-            message: "Gagal mengambil users"
+            message: "Gagal mengambil users",
+            error: error.message
         });
     }
 });
@@ -96,11 +95,12 @@ app.post("/api/users", async (req, res) => {
         });
 
     } catch (error) {
-        console.error("Create user error:", error);
+        console.error("CREATE USER ERROR:", error);
 
         res.status(500).json({
             success: false,
-            message: "Gagal membuat user"
+            message: "Gagal membuat user",
+            error: error.message
         });
     }
 });
@@ -110,8 +110,6 @@ app.post("/api/users", async (req, res) => {
 // START SERVER
 // ===============================
 
-// 0.0.0.0 penting agar Railway dapat
-// mengakses server dari luar container.
 app.listen(PORT, "0.0.0.0", () => {
     console.log(`Server Kejuu berjalan di port ${PORT}`);
 });
