@@ -2,7 +2,10 @@ const express = require("express");
 const pool = require("./db");
 
 const app = express();
-const PORT = 3000;
+
+// Railway menyediakan PORT sendiri.
+// Kalau lokal dan PORT tidak tersedia, gunakan 3000.
+const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(express.json());
@@ -31,11 +34,37 @@ app.get("/api/test-db", async (req, res) => {
         });
 
     } catch (error) {
-        console.error(error);
+        console.error("Database error:", error);
 
         res.status(500).json({
             success: false,
             message: "Database gagal terhubung"
+        });
+    }
+});
+
+
+// =========================
+// GET USERS
+// =========================
+
+app.get("/api/users", async (req, res) => {
+    try {
+        const result = await pool.query(
+            "SELECT * FROM users ORDER BY id DESC"
+        );
+
+        res.json({
+            success: true,
+            users: result.rows
+        });
+
+    } catch (error) {
+        console.error("Get users error:", error);
+
+        res.status(500).json({
+            success: false,
+            message: "Gagal mengambil users"
         });
     }
 });
@@ -67,7 +96,7 @@ app.post("/api/users", async (req, res) => {
         });
 
     } catch (error) {
-        console.error(error);
+        console.error("Create user error:", error);
 
         res.status(500).json({
             success: false,
@@ -78,35 +107,9 @@ app.post("/api/users", async (req, res) => {
 
 
 // =========================
-// GET USERS
-// =========================
-
-app.get("/api/users", async (req, res) => {
-    try {
-        const result = await pool.query(
-            "SELECT * FROM users ORDER BY id DESC"
-        );
-
-        res.json({
-            success: true,
-            users: result.rows
-        });
-
-    } catch (error) {
-        console.error(error);
-
-        res.status(500).json({
-            success: false,
-            message: "Gagal mengambil users"
-        });
-    }
-});
-
-
-// =========================
-// SERVER
+// START SERVER
 // =========================
 
 app.listen(PORT, () => {
-    console.log(`Server Kejuu berjalan di http://localhost:${PORT}`);
+    console.log(`Server Kejuu berjalan di port ${PORT}`);
 });
