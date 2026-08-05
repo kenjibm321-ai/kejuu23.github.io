@@ -69,7 +69,7 @@
 
 .sketch-script-tab.active {
   color: #111319;
-  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  background: linear-gradient(135deg, var(--accent), var(--accent-4));
   box-shadow: 0 12px 30px rgba(64, 224, 208, 0.18);
 }
 

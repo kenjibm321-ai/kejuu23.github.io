@@ -292,7 +292,7 @@ async function hydrateKanaData() {
   // Jika file JSON kana tersedia di server, uncomment blok try-catch di bawah.
   kanaState = buildDefaultKanaState();
 
-  /* -- uncomment jika hiragana.json & katakana.json sudah ada --
+/*-- migrasi array
   try {
     const [hiraganaResponse, katakanaResponse] = await Promise.all([
       fetch("hiragana.json"),
