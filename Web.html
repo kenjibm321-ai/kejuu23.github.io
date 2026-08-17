@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard &mdash; KEJUU Languages</title>
+  <meta name="description" content="Dashboard belajar bahasa Jepang, Inggris, Jerman, dan Korea.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="source/style.css">
+  <link rel="stylesheet" href="source/search/omni.css">
+  <link rel="stylesheet" href="dashboard.css">
+  <link rel="stylesheet" href="responsif.css">
+</head>
+<body>
+
+  <div class="dashboard-layout">
+    
+    <!-- ELEMEN KRUSIAL: Edge Trigger untuk mendeteksi hover sidebar di desktop dari dashboard.js -->
+    <div class="edge-trigger" id="edge-trigger" aria-hidden="true"></div>
+
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-brand">
+        <div class="brand-logo">K</div>
+        <div class="brand-text">
+          <h1>KEJUU</h1>
+          <span>Language Learning</span>
+        </div>
+      </div>
+      <nav class="sidebar-nav" id="sidebar-nav"></nav>
+      
+      <div class="sidebar-upgrade" id="sidebar-upgrade">
+        <div class="crown-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5 16L3 5l5.5 5L12 4l3.5 6L21 5l-2 11H5zm14 3c0 .6-.4 1-1 1H6c-.6 0-1-.4-1-1v-1h14v1z"/></svg>
+        </div>
+        <h4>Upgrade to Pro</h4>
+        <p>Unlock unlimited practice and more features.</p>
+        <button class="btn-upgrade">Upgrade Now</button>
+      </div>
+
+      <div class="sidebar-profile" id="sidebar-profile">
+        <img src="source/assets/avatar.png" alt="User Avatar">
+        <div class="profile-info">
+          <h4>User</h4>
+          <span>Level 1</span>
+        </div>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+      </div>
+    </aside>
+
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+    <main class="main-content">
+      <header class="topbar">
+        <div class="topbar-left">
+          <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+          </button>
+          <div class="search-bar">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input type="text" id="search-input" placeholder="Search lessons, vocabulary...">
+            <span class="shortcut">⌘K</span>
+          </div>
+        </div>
+        
+        <div class="topbar-right">
+          <!-- Tombol fitur ekstensi Omni & Chat AI -->
+          <button class="topbar-btn" id="btn-omni" aria-label="Omni Search">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </button>
+          <button class="topbar-btn" id="btn-chat-ai" aria-label="AI Chat">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a9 9 0 0 0-9 9v11l3-2 3 2 3-2 3 2 3-2 3 2V11a9 9 0 0 0-9-9zm5 11h-2v-2h2v2zm-6-2v2H9v-2h2z"/></svg>
+          </button>
+          <button class="topbar-btn" aria-label="Notifications">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+            <span class="badge" id="notif-badge">0</span>
+          </button>
+
+          <div class="topbar-user" id="topbar-user">
+            <img src="source/assets/avatar.png" alt="Avatar" id="topbar-avatar">
+            <div class="user-meta">
+              <h4 id="topbar-user-name">User</h4>
+              <span id="topbar-user-level">Level 1</span>
+            </div>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+        </div>
+      </header>
+
+      <div class="dashboard-content">
+        <section class="hero-banner">
+          <div class="hero-content">
+            <h2 id="hero-title">Welcome back! <span class="wave">👋</span></h2>
+            <p>Ready to continue your language learning journey today?</p>
+            <button class="btn-continue" id="btn-continue">
+              Continue Learning
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </button>
+          </div>
+          <div class="hero-quote">"Consistency is the key to mastering any language."</div>
+        </section>
+
+        <h3 class="section-title">Overview</h3>
+        <div class="stats-grid" id="stats-grid"></div>
+
+        <h3 class="section-title">Your Languages</h3>
+        <div class="lang-grid" id="lang-grid"></div>
+        <div class="bottom-grid">
+          <div class="panel">
+            <div class="panel-header">
+              <h3>Recent Activity</h3>
+              <a href="#" class="view-all">View all <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+            </div>
+            <div class="activity-list" id="activity-list"></div>
+          </div>
+
+          <div class="panel">
+            <div class="panel-header"><h3>Quick Actions</h3></div>
+            <div class="actions-grid" id="actions-grid"></div>
+          </div>
+
+          <div class="panel">
+            <div class="panel-header"><h3>Insights</h3></div>
+            <div class="insight-highlight" id="insight-highlight">
+              <div class="sparkle-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.2h7.6l-6 4.8 2.4 7.2-6-4.8-6 4.8 2.4-7.2-6-4.8h7.6z"/></svg>
+              </div>
+              <h4>Keep it up!</h4>
+              <p>Consistency is the key to language mastery.</p>
+            </div>
+            <div class="insight-list" id="insight-list"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Komponen Overlay Spesifik & Asisten Kejuu -->
+  <div class="assistant">
+    <div id="prank-badge" class="prank-badge hidden" style="background-color:#e74c3c;color:#fff;font-weight:bold;border-radius:5px;padding:2px 8px;font-size:0.8rem;">😈 Terhukum: <span id="prank-count">0</span>x</div>
+    <div id="bubble" class="bubble">Hai 👋</div>
+    <img src="source/aset/Kejuu.webp" id="assistant-img" class="assistant-img" alt="Ilustrasi Asisten Kejuu" style="width:120px;height:auto;" fetchpriority="high" decoding="async">
+  </div>
+
+  <div id="punishment-overlay" class="punishment-overlay">
+    <div class="punishment-box">
+      <h2 class="punishment-title">🚨 TERCYDUK! 🚨</h2>
+      <p style="color:#aaa;font-size:0.9rem;margin-bottom:20px;">Berani-beraninya noel asisten 2x! Sebagai hukuman, jawab soal random ini untuk membebaskan layar hahaha!</p>
+      <div id="punish-lang" style="font-size:2rem;margin-bottom:5px;">🌍</div>
+      <div id="punish-q" class="punishment-q">Memuat Kutukan...</div>
+      <div id="punish-opts" class="punishment-opts"></div>
+    </div>
+  </div>
+
+  <div id="omni-overlay" class="omni-overlay">
+    <div class="omni-container">
+      <div class="omni-header">
+        <input type="text" id="omni-input" class="omni-input" placeholder="Ketik kata di sini... (Misal: Makan, Minum dsb)" aria-label="Kolom input pencarian Omni">
+        <button id="omni-close" class="omni-close" aria-label="Tutup pencarian Omni">✖</button>
+      </div>
+      <div id="omni-results" class="omni-results">
+        <p class="empty-state">ketik kata yang kamu inginkan, setelahnya akan muncul multiple languages yang bisa dilatih..</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="ai-chat-overlay" class="omni-overlay">
+    <div class="omni-container" style="max-width:500px;height:80vh;display:flex;flex-direction:column;padding:0;overflow:hidden;background:#1e1e2f;">
+      <div style="background:#2d2d44;padding:15px 20px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #3f3f5a;">
+        <h3 style="margin:0;color:#00c6ff;display:flex;align-items:center;gap:8px;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a9 9 0 0 0-9 9v11l3-2 3 2 3-2 3 2 3-2 3 2V11a9 9 0 0 0-9-9zm5 11h-2v-2h2v2zm-6-2v2H9v-2h2z"/></svg>
+          Kejuu AI Tutor
+        </h3>
+        <button id="ai-chat-close" class="omni-close" aria-label="Tutup Chat" style="top:auto;right:auto;position:relative;">✖</button>
+      </div>
+      <div id="ai-lang-selector" style="padding:30px 20px;text-align:center;flex:1;overflow-y:auto;">
+        <p style="color:#dcdde1;margin-bottom:25px;font-size:1.1rem;">Hari ini mau latihan percakapan pakai bahasa apa, Komandan?</p>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:15px;">
+          <button class="btn-secondary ai-lang-btn" data-lang="jp" style="padding:15px;font-size:1.1rem;">🇯🇵 Jepang</button>
+          <button class="btn-secondary ai-lang-btn" data-lang="en" style="padding:15px;font-size:1.1rem;">🇬🇧 Inggris</button>
+          <button class="btn-secondary ai-lang-btn" data-lang="de" style="padding:15px;font-size:1.1rem;">🇩🇪 Jerman</button>
+          <button class="btn-secondary ai-lang-btn" data-lang="kr" style="padding:15px;font-size:1.1rem;">🇰🇷 Korea</button>
+        </div>
+      </div>
+      <div id="ai-chat-room" style="display:none;flex:1;flex-direction:column;overflow:hidden;">
+        <div id="ai-chat-history" style="flex:1;overflow-y:auto;padding:20px;display:flex;flex-direction:column;gap:15px;"></div>
+        <div id="ai-chat-options" style="padding:15px;background:#252538;border-top:1px solid #3f3f5a;display:flex;flex-direction:column;gap:10px;"></div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="core/utils.js"></script>
+  <script src="core/state.js"></script>
+  <script src="core/api.js"></script>
+  <script src="data/data.js"></script>
+  <script src="source/app.js"></script>
+  <script src="source/chat.js"></script>
+  <script src="source/search/omni.js"></script>
+  <script src="dashboard.js"></script>
+
+</body>
+</html>

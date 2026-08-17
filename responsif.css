@@ -1,0 +1,502 @@
+/* =================================================================
+   RESPONSIVE.CSS — Media Queries ONLY
+   All responsive behavior lives here. No styles outside @media blocks.
+   Mobile-first approach: base styles are mobile, enhance upward.
+   ================================================================= */
+
+/* ========================== TABLET & SMALL DESKTOP (max 1024px) ========================== */
+@media (max-width: 64rem) {
+  /* Sidebar collapses off-canvas */
+  .sidebar {
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+  }
+  .sidebar.open {
+    transform: translateX(0);
+  }
+
+  /* Main content fills full width */
+  .main-content {
+    margin-left: 0;
+  }
+
+  /* Show hamburger menu */
+  .menu-toggle {
+    display: flex;
+  }
+
+  /* Search bar shrinks */
+  .search-bar {
+    width: 15rem;
+  }
+
+  /* Hero quote hidden to save space */
+  .hero-quote {
+    display: none;
+  }
+  .hero-content {
+    max-width: 100%;
+  }
+
+  /* Stats: 3 columns */
+  .stats-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* Bottom grid: 2 columns */
+  .bottom-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* ========================== TABLET PORTRAIT (max 768px) ========================== */
+@media (max-width: 48rem) {
+  /* Topbar padding reduced */
+  .topbar {
+    padding: 0 1rem;
+    height: 3.5rem;
+  }
+
+  /* Hide search bar */
+  .search-bar {
+    display: none;
+  }
+
+  /* Hide user meta text in topbar */
+  .topbar-user .user-meta {
+    display: none;
+  }
+
+  /* Dashboard content padding reduced */
+  .dashboard-content {
+    padding: 1rem;
+  }
+
+  /* Hero banner padding reduced */
+  .hero-banner {
+    padding: 1.25rem;
+  }
+
+  /* Stats: 2 columns */
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+  }
+
+  .stat-card {
+    padding: 1rem;
+  }
+
+  .stat-value {
+    font-size: 1.2rem;
+  }
+
+  /* Language cards: single column */
+  .lang-grid {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .lang-card {
+    padding: 1rem;
+  }
+
+  /* Circular chart smaller */
+  .circular-chart {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .circular-chart svg {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .circular-chart .chart-text {
+    font-size: 0.75rem;
+  }
+
+  /* Bottom grid: single column */
+  .bottom-grid {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .panel {
+    padding: 1rem;
+  }
+
+  /* Quick actions: single column */
+  .actions-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Activity item text smaller */
+  .activity-meta h4 {
+    font-size: 0.8rem;
+  }
+
+  .activity-meta p {
+    font-size: 0.7rem;
+  }
+
+  /* Sidebar overlay visible when open */
+  .sidebar-overlay.active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+
+/* ========================== SMALL MOBILE (max 480px) ========================== */
+@media (max-width: 30rem) {
+  /* Stats: 2 columns but tighter */
+  .stats-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+  }
+
+  .stat-card {
+    padding: 0.75rem;
+  }
+
+  .stat-header {
+    margin-bottom: 0.5rem;
+  }
+
+  .stat-header .stat-icon {
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+
+  .stat-header .stat-icon svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  .stat-header span {
+    font-size: 0.7rem;
+  }
+
+  .stat-value {
+    font-size: 1.1rem;
+  }
+
+  .stat-sub {
+    font-size: 0.65rem;
+  }
+
+  /* Sparkline hidden on very small screens */
+  .sparkline-wrap {
+    display: none;
+  }
+
+  /* Language card header stacks */
+  .lang-card-header {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .lang-progress-wrap {
+    gap: 0.75rem;
+  }
+
+  .lang-details .detail-row {
+    font-size: 0.75rem;
+  }
+
+  /* Hero title smaller */
+  .hero-content h2 {
+    font-size: 1.1rem;
+  }
+
+  .hero-content p {
+    font-size: 0.8rem;
+  }
+
+  .btn-continue {
+    padding: 0.55rem 1rem;
+    font-size: 0.8rem;
+  }
+
+  /* Section title smaller */
+  .section-title {
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+  }
+
+  /* Topbar buttons smaller */
+  .topbar-btn {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .topbar-btn svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .topbar-user img {
+    width: 28px;
+    height: 28px;
+  }
+
+  /* Insight items stack */
+  .insight-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+
+  /* Panel padding reduced */
+  .panel {
+    padding: 0.875rem;
+  }
+
+  .panel-header h3 {
+    font-size: 0.85rem;
+  }
+
+  /* Action buttons full width always */
+  .action-btn {
+    padding: 0.75rem;
+  }
+
+  .action-btn h4 {
+    font-size: 0.75rem;
+  }
+
+  .action-btn p {
+    font-size: 0.65rem;
+  }
+
+  /* Activity item tighter */
+  .activity-item {
+    padding: 0.5rem;
+    gap: 0.5rem;
+  }
+
+  .activity-icon {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .activity-icon svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  /* Sidebar narrower when open */
+  .sidebar {
+    width: 16rem;
+  }
+
+  .sidebar-brand {
+    padding: 1rem;
+  }
+
+  .sidebar-nav {
+    padding: 0.75rem 0.5rem;
+  }
+
+  .nav-item {
+    padding: 0.6rem 0.75rem;
+    font-size: 0.85rem;
+  }
+
+  .nav-item svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .sidebar-upgrade {
+    margin: 0.75rem 0.5rem;
+    padding: 1rem;
+  }
+
+  .sidebar-profile {
+    padding: 0.75rem 0.5rem;
+  }
+}
+
+/* ========================== VERY SMALL MOBILE (max 360px) ========================== */
+@media (max-width: 22.5rem) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-content h2 {
+    font-size: 1rem;
+  }
+
+  .lang-progress-wrap {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .circular-chart {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .circular-chart svg {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+
+/* ========================== LARGE DESKTOP (min 1440px) ========================== */
+@media (min-width: 90rem) {
+  :root {
+    --content-max: 1600px;
+  }
+
+  .dashboard-content {
+    padding: 2rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .lang-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .bottom-grid {
+    grid-template-columns: 1.2fr 1fr 1fr;
+  }
+}
+
+/* ========================== ULTRAWIDE (min 1920px) ========================== */
+@media (min-width: 120rem) {
+  :root {
+    --content-max: 1800px;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+/* ========================== REDUCED MOTION ========================== */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .sidebar {
+    transition: none;
+  }
+
+  .sidebar-overlay {
+    transition: none;
+  }
+}
+
+/* ========================== LANDSCAPE MOBILE ========================== */
+@media (max-height: 30rem) and (orientation: landscape) {
+  .sidebar {
+    overflow-y: auto;
+  }
+
+  .sidebar-upgrade {
+    display: none;
+  }
+
+  .hero-banner {
+    padding: 1rem;
+  }
+
+  .hero-content h2 {
+    font-size: 1.1rem;
+  }
+}
+
+/* ========================== HOVER CAPABLE DEVICES ========================== */
+@media (hover: hover) and (pointer: fine) {
+  .nav-item:hover {
+    background: var(--bg-hover);
+  }
+
+  .stat-card:hover {
+    transform: translateY(-2px);
+  }
+
+  .lang-card:hover {
+    transform: translateY(-2px);
+  }
+
+  .action-btn:hover {
+    transform: translateY(-1px);
+  }
+}
+
+/* ========================== TOUCH DEVICES ========================== */
+@media (hover: none) and (pointer: coarse) {
+  .nav-item:active {
+    background: var(--bg-hover);
+  }
+
+  .stat-card:active {
+    transform: scale(0.98);
+  }
+
+  .lang-card:active {
+    transform: scale(0.98);
+  }
+
+  .action-btn:active {
+    transform: scale(0.98);
+  }
+
+  /* Larger touch targets */
+  .topbar-btn {
+    min-width: 2.5rem;
+    min-height: 2.5rem;
+  }
+
+  .nav-item {
+    min-height: 2.75rem;
+  }
+}
+
+/* ========================== PRINT ========================== */
+@media print {
+  .sidebar,
+  .topbar,
+  .menu-toggle,
+  .sidebar-overlay,
+  .hero-banner,
+  .btn-continue,
+  .btn-upgrade,
+  .lang-btn,
+  .action-btn,
+  .view-all {
+    display: none !important;
+  }
+
+  .main-content {
+    margin-left: 0;
+  }
+
+  .dashboard-content {
+    padding: 1rem;
+  }
+
+  .stat-card,
+  .lang-card,
+  .panel {
+    border: 1px solid #ccc;
+    break-inside: avoid;
+  }
+
+  body {
+    background: #fff;
+    color: #000;
+  }
+}
