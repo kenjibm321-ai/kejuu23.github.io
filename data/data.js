@@ -69,7 +69,7 @@ const DASHBOARD_DATA = {
       streak_days: 12,
       accent_color: "#3b82f6",
       accent_gradient: "linear-gradient(135deg, #3b82f6, #60a5fa)",
-      url: "source/menu/engslish/eng.html"
+      url: "source/menu/english/eng.html"
     },
     {
       id: "kr",

@@ -357,8 +357,8 @@ function setupSwipeListeners() {
   let touchStartX = 0;
   let touchCurrentX = 0;
   let isSwiping = false;
-  const SWIPE_THRESHOLD = 80; // px
-  const EDGE_ZONE = 40; // px from left edge to trigger open
+  const SWIPE_THRESHOLD = 100; // px
+  const EDGE_ZONE = 50; // px from left edge to trigger open
 
   document.addEventListener('touchstart', (e) => {
     touchStartX = e.touches[0].clientX;
