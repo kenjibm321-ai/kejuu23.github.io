@@ -235,29 +235,40 @@
   }
 
   function bindPrimaryTriggers(elements) {
-    elements.triggers.forEach(trigger => {
-      trigger.setAttribute('aria-haspopup', 'dialog');
-      trigger.setAttribute('aria-expanded', 'false');
+  elements.triggers.forEach(trigger => {
+    trigger.setAttribute('aria-haspopup', 'dialog');
+    trigger.setAttribute('aria-expanded', 'false');
 
-      trigger.addEventListener('click', event => {
-        event.preventDefault();
-        toggleSheet();
-      });
+    trigger.addEventListener('click', event => {
+      event.preventDefault();
+      toggleSheet();
     });
+  });
 
-    document.addEventListener('keydown', event => {
-      if (event.key === 'Escape') {
-        closeSheet();
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape') {
+      closeSheet();
+    }
+  });
+
+  elements.actions.forEach(button => {
+    button.addEventListener('click', event => {
+
+      /*
+       * Edit Profile ditangani oleh profileEdit.js.
+       * Jangan tutup sheet secara manual di sini,
+       * biarkan editor membuka dirinya sendiri.
+       */
+      if (
+        button.dataset.profileAction === 'edit'
+      ) {
+        return;
       }
-    });
 
-    elements.actions.forEach(button => {
-      button.addEventListener('click', () => {
-        closeSheet();
-      });
+      closeSheet();
     });
-  }
-
+  });
+}
   function bindOverlay(elements) {
     elements.overlay.addEventListener('click', closeSheet);
     elements.close.addEventListener('click', closeSheet);
