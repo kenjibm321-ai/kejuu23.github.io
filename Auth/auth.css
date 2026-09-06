@@ -1,0 +1,152 @@
+/* =================================================================
+   AUTH.CSS — Modal Login / Daftar
+   ================================================================= */
+
+.auth-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 160;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.auth-modal.is-open {
+  pointer-events: auto;
+}
+
+.auth-modal__overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(4, 6, 10, 0.6);
+  backdrop-filter: blur(2px);
+  opacity: 0;
+  transition: opacity 0.18s ease;
+}
+
+.auth-modal.is-open .auth-modal__overlay {
+  opacity: 1;
+}
+
+.auth-modal__card {
+  position: relative;
+  width: min(360px, calc(100vw - 2rem));
+  background: var(--bg-2, #11151e);
+  border: 1px solid var(--line-strong, rgba(255, 255, 255, 0.1));
+  border-radius: var(--radius-lg, 1.2rem);
+  box-shadow: var(--shadow, 0 1rem 3rem rgba(0, 0, 0, 0.35));
+  padding: 1.5rem;
+  transform: translateY(12px) scale(0.97);
+  opacity: 0;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.auth-modal.is-open .auth-modal__card {
+  transform: translateY(0) scale(1);
+  opacity: 1;
+}
+
+.auth-modal__close {
+  position: absolute;
+  top: 0.85rem;
+  right: 0.85rem;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: var(--text-muted, #6b7280);
+  background: transparent;
+  cursor: pointer;
+}
+
+.auth-modal__close:hover {
+  background: var(--bg-hover, rgba(255, 255, 255, 0.04));
+  color: var(--text, #f3f4f6);
+}
+
+.auth-modal__close svg { width: 16px; height: 16px; }
+
+.auth-modal__tabs {
+  display: flex;
+  gap: 0.4rem;
+  margin: 0.25rem 0 1.25rem;
+  background: var(--bg, #0b0e14);
+  border-radius: var(--radius-md, 0.85rem);
+  padding: 0.25rem;
+}
+
+.auth-modal__tab {
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-muted, #6b7280);
+  background: transparent;
+  border-radius: var(--radius-sm, 0.6rem);
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.auth-modal__tab.is-active {
+  background: var(--accent, #3b82f6);
+  color: #fff;
+}
+
+.auth-modal__form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.auth-modal__field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.auth-modal__field label {
+  font-size: 0.75rem;
+  color: var(--text-secondary, #9ca3af);
+  font-weight: 500;
+}
+
+.auth-modal__field input {
+  padding: 0.65rem 0.75rem;
+  background: var(--bg, #0b0e14);
+  border: 1px solid var(--line, rgba(255, 255, 255, 0.08));
+  border-radius: var(--radius-sm, 0.6rem);
+  color: var(--text, #f3f4f6);
+  font-size: 0.88rem;
+}
+
+.auth-modal__field input:focus {
+  outline: none;
+  border-color: var(--accent, #3b82f6);
+}
+
+.auth-modal__error {
+  font-size: 0.78rem;
+  color: #f87171;
+  background: rgba(248, 113, 113, 0.1);
+  border-radius: var(--radius-sm, 0.6rem);
+  padding: 0.5rem 0.65rem;
+  margin: 0;
+}
+
+.auth-modal__submit {
+  margin-top: 0.25rem;
+  padding: 0.7rem;
+  border-radius: var(--radius-sm, 0.6rem);
+  background: var(--accent, #3b82f6);
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.88rem;
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+}
+
+.auth-modal__submit:hover { opacity: 0.92; }
+.auth-modal__submit:disabled { opacity: 0.6; cursor: not-allowed; }

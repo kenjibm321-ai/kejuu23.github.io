@@ -1,9 +1,14 @@
 const express = require("express");
 const crypto = require("crypto");
+const jwt = require("jsonwebtoken");
 const pool = require("./db");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+
+// WAJIB diisi di Railway → Variables → JWT_SECRET (string acak yang panjang & rahasia)
+const JWT_SECRET = process.env.JWT_SECRET;
+const JWT_EXPIRES_IN = "7d";
 
 app.use(express.json());
 
@@ -13,7 +18,7 @@ app.use(express.json());
 
 app.use((req, res, next) => {
     res.header("Access-Control-Allow-Origin", "*");
-    res.header("Access-Control-Allow-Headers", "Content-Type");
+    res.header("Access-Control-Allow-Headers", "Content-Type, Authorization");
     res.header(
         "Access-Control-Allow-Methods",
         "GET, POST, PUT, PATCH, DELETE, OPTIONS"
@@ -56,6 +61,45 @@ function verifyPassword(password, storedHash) {
         );
     } catch {
         return false;
+    }
+}
+
+
+// =====================================================
+// JWT HELPERS
+// =====================================================
+
+function signToken(user) {
+    return jwt.sign(
+        { id: user.id, username: user.username },
+        JWT_SECRET,
+        { expiresIn: JWT_EXPIRES_IN }
+    );
+}
+
+/**
+ * Middleware WAJIB login. Pasang di route yang butuh data pribadi user.
+ * Token valid -> req.user = { id, username } (isi dari JWT payload).
+ */
+function requireAuth(req, res, next) {
+    const authHeader = req.headers.authorization || "";
+    const token = authHeader.startsWith("Bearer ") ? authHeader.slice(7) : null;
+
+    if (!token) {
+        return res.status(401).json({
+            success: false,
+            message: "Belum login. Sertakan token di header Authorization."
+        });
+    }
+
+    try {
+        req.user = jwt.verify(token, JWT_SECRET);
+        next();
+    } catch (error) {
+        return res.status(401).json({
+            success: false,
+            message: "Token tidak valid atau sudah kadaluarsa."
+        });
     }
 }
 
@@ -251,12 +295,15 @@ app.post("/api/auth/register", async (req, res) => {
         await client.query("COMMIT");
 
         // -------------------------
-        // RESPONSE
+        // TOKEN + RESPONSE
         // -------------------------
+
+        const token = signToken(user);
 
         res.status(201).json({
             success: true,
             message: "Registrasi berhasil",
+            token,
             user: {
                 id: user.id,
                 username: user.username,
@@ -340,12 +387,15 @@ app.post("/api/auth/login", async (req, res) => {
         }
 
         // -------------------------
-        // SUCCESS
+        // TOKEN + SUCCESS
         // -------------------------
+
+        const token = signToken(user);
 
         res.status(200).json({
             success: true,
             message: "Login berhasil",
+            token,
             user: {
                 id: user.id,
                 username: user.username,
@@ -370,9 +420,16 @@ app.post("/api/auth/login", async (req, res) => {
 // GET USER PROFILE
 // =====================================================
 
-app.get("/api/users/:id/profile", async (req, res) => {
+app.get("/api/users/:id/profile", requireAuth, async (req, res) => {
     try {
         const userId = req.params.id;
+
+        if (String(req.user.id) !== String(userId)) {
+            return res.status(403).json({
+                success: false,
+                message: "Tidak boleh mengakses profile user lain"
+            });
+        }
 
         const result = await pool.query(
             `
@@ -423,9 +480,16 @@ app.get("/api/users/:id/profile", async (req, res) => {
 // UPDATE USER PROFILE
 // =====================================================
 
-app.put("/api/users/:id/profile", async (req, res) => {
+app.put("/api/users/:id/profile", requireAuth, async (req, res) => {
     try {
         const userId = req.params.id;
+
+        if (String(req.user.id) !== String(userId)) {
+            return res.status(403).json({
+                success: false,
+                message: "Tidak boleh mengubah profile user lain"
+            });
+        }
 
         const {
             display_name,
@@ -482,8 +546,15 @@ app.put("/api/users/:id/profile", async (req, res) => {
 // GET USER
 // =====================================================
 
-app.get("/api/users/:id", async (req, res) => {
+app.get("/api/users/:id", requireAuth, async (req, res) => {
     try {
+        if (String(req.user.id) !== String(req.params.id)) {
+            return res.status(403).json({
+                success: false,
+                message: "Tidak boleh mengakses data user lain"
+            });
+        }
+
         const result = await pool.query(
             `
             SELECT
@@ -524,8 +595,51 @@ app.get("/api/users/:id", async (req, res) => {
 
 
 // =====================================================
+// GET LOGGED-IN USER (siapa saya, berdasarkan token)
+// =====================================================
+
+app.get("/api/auth/me", requireAuth, async (req, res) => {
+    try {
+        const result = await pool.query(
+            `
+            SELECT id, username, email, created_at, updated_at
+            FROM users
+            WHERE id = $1
+            `,
+            [req.user.id]
+        );
+
+        if (result.rows.length === 0) {
+            return res.status(404).json({
+                success: false,
+                message: "User tidak ditemukan"
+            });
+        }
+
+        res.status(200).json({
+            success: true,
+            user: result.rows[0]
+        });
+
+    } catch (error) {
+        console.error("GET ME ERROR:", error);
+
+        res.status(500).json({
+            success: false,
+            message: "Gagal mengambil data akun",
+            error: error.message
+        });
+    }
+});
+
+
+// =====================================================
 // START SERVER
 // =====================================================
+
+if (!JWT_SECRET) {
+    console.warn("⚠️  JWT_SECRET belum diset! Set env var JWT_SECRET di Railway sebelum deploy ke production.");
+}
 
 app.listen(PORT, "0.0.0.0", () => {
     console.log(`Server Kejuu berjalan di port ${PORT}`);

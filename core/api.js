@@ -16,6 +16,14 @@ async function apiFetch(endpoint, options = {}) {
     "Accept": "application/json",
   };
 
+  /* Tempelin token akun yang lagi login (kalau ada) supaya backend
+     bisa tahu siapa yang manggil. Kalau masih "Tamu" / belum login,
+     tidak ada token yang dikirim. */
+  const accessToken = await (window.KejuuAuth?.getAccessToken?.() ?? null);
+  if (accessToken) {
+    defaultHeaders["Authorization"] = `Bearer ${accessToken}`;
+  }
+
   const config = {
     ...options,
     headers: { ...defaultHeaders, ...options.headers },

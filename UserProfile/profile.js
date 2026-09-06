@@ -7,7 +7,11 @@
   };
 
   const selectors = {
-    desktopTriggers: ['#topbar-user', '#sidebar-profile'],
+    // Catatan: '#sidebar-profile' sengaja TIDAK dimasukkan di sini lagi.
+    // Baris profil di bawah sidebar sekarang dipakai khusus untuk
+    // popover "Ganti Akun" (lihat account-switcher.js). Panel profil
+    // lengkap ini tetap bisa dibuka lewat avatar di topbar.
+    desktopTriggers: ['#topbar-user'],
     desktopAvatar: ['#topbar-avatar', '#sidebar-profile img'],
     desktopName: ['#topbar-user-name', '#sidebar-profile .profile-info h4'],
     desktopLevel: ['#topbar-user-level', '#sidebar-profile .profile-info span'],
@@ -33,6 +37,46 @@
     bindSwipeToClose(elements);
     bindResponsiveReset(elements);
     bindMenuFeedback(elements);
+    bindProfileSync();
+  }
+
+  /* =========================================================
+     SYNC — dengarkan perubahan dari Edit Profile (Edit.js)
+     Tanpa ini, panel profil cuma nampilin data snapshot dari
+     saat halaman pertama kali dimuat (bug: data lama saat demo).
+     ========================================================= */
+  function bindProfileSync() {
+    document.addEventListener('kejuu:profile-updated', handleProfileUpdated);
+  }
+
+  function handleProfileUpdated(event) {
+    const { root } = state.elements;
+    if (!root) return;
+
+    const detail = event.detail || {};
+
+    // Prioritaskan data dari event (langsung dari form Edit Profile),
+    // fallback ke DOM topbar kalau field-nya tidak ada di detail.
+    const displayName = detail.displayName || getText(selectors.desktopName, 'User');
+    const avatar = detail.avatar || getImage(selectors.desktopAvatar, '');
+    const handle = detail.username
+      ? `@${detail.username}`
+      : `@${slugify(displayName) || 'kejuu.user'}`;
+    const email = inferEmail(displayName);
+
+    applyProfileFields({ displayName, avatar, handle, email });
+  }
+
+  function applyProfileFields({ displayName, avatar, handle, email }) {
+    const { nameEl, handleEl, emailEl, avatarImg } = state.elements;
+
+    if (nameEl) nameEl.textContent = displayName;
+    if (handleEl) handleEl.textContent = handle;
+    if (emailEl) emailEl.textContent = email;
+    if (avatarImg) {
+      avatarImg.src = avatar;
+      avatarImg.alt = displayName;
+    }
   }
 
   function getProfileData() {
@@ -225,6 +269,11 @@
       sheet: root.querySelector('[data-profile-sheet]'),
       close: root.querySelector('[data-profile-close]'),
       drag: root.querySelector('[data-profile-drag]'),
+      // ── Referensi node dinamis, dipakai untuk live-update tanpa reload ──
+      nameEl: root.querySelector('.profile-sheet__name'),
+      handleEl: root.querySelector('.profile-sheet__handle'),
+      emailEl: root.querySelector('.profile-sheet__email'),
+      avatarImg: root.querySelector('.profile-sheet__avatar'),
       triggers: getTriggerElements(),
       actions: root.querySelectorAll('[data-profile-action]'),
       items: root.querySelectorAll('[data-profile-item]'),

@@ -1,0 +1,150 @@
+/* =================================================================
+   ACCOUNT-SWITCHER.CSS — Popover "Ganti Akun"
+   Memakai variabel warna yang sama dengan dashboard.css (:root)
+   ================================================================= */
+
+.account-switcher {
+  position: fixed;
+  z-index: 130;
+  min-width: 220px;
+  max-width: 280px;
+
+  background: var(--bg-2, #11151e);
+  border: 1px solid var(--line-strong, rgba(255, 255, 255, 0.1));
+  border-radius: var(--radius-md, 0.85rem);
+  box-shadow: var(--shadow, 0 1rem 3rem rgba(0, 0, 0, 0.35));
+
+  padding: 0.5rem;
+  opacity: 0;
+  transform: translateY(6px) scale(0.98);
+  pointer-events: none;
+  transition: opacity 0.16s ease, transform 0.16s ease;
+}
+
+.account-switcher.is-open {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  pointer-events: auto;
+}
+
+.account-switcher__header {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--text-muted, #6b7280);
+  padding: 0.4rem 0.6rem 0.5rem;
+}
+
+.account-switcher__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.account-switcher__item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.5rem 0.6rem;
+  border-radius: var(--radius-sm, 0.6rem);
+  background: transparent;
+  color: var(--text, #f3f4f6);
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.account-switcher__item:hover {
+  background: var(--bg-hover, rgba(255, 255, 255, 0.04));
+}
+
+.account-switcher__item.is-active {
+  background: var(--bg-hover, rgba(255, 255, 255, 0.04));
+}
+
+.account-switcher__avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 2px solid var(--line-strong, rgba(255, 255, 255, 0.1));
+}
+
+.account-switcher__meta {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.25;
+}
+
+.account-switcher__meta strong {
+  font-size: 0.82rem;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.account-switcher__meta small {
+  font-size: 0.72rem;
+  color: var(--text-muted, #6b7280);
+}
+
+.account-switcher__check {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  color: var(--accent, #3b82f6);
+}
+
+.account-switcher__footer {
+  margin-top: 0.4rem;
+  padding-top: 0.4rem;
+  border-top: 1px solid var(--line, rgba(255, 255, 255, 0.06));
+}
+
+.account-switcher__add {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.6rem;
+  border-radius: var(--radius-sm, 0.6rem);
+  background: transparent;
+  color: var(--text-secondary, #9ca3af);
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.account-switcher__add:hover {
+  background: var(--bg-hover, rgba(255, 255, 255, 0.04));
+  color: var(--text, #f3f4f6);
+}
+
+.account-switcher__add svg {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+}
+
+/* Mobile: sedikit lebih lebar biar gampang di-tap */
+@media (max-width: 30rem) {
+  .account-switcher {
+    min-width: 200px;
+  }
+  .account-switcher__item,
+  .account-switcher__add {
+    padding: 0.6rem 0.65rem;
+  }
+}
