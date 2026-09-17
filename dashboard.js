@@ -1567,7 +1567,20 @@ if (typeof module !== 'undefined' && module.exports) {
         grid-template-columns: 1fr 1fr;
         gap: 8px;
       }
+.kejuu-notif-link > span:first-child {
+  width: 22px;
+  height: 22px;
+  flex: 0 0 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.kejuu-notif-link > span:first-child svg {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
       .kejuu-notif-link {
         display: flex;
         align-items: center;
